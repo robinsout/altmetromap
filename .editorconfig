@@ -1,0 +1,33 @@
+# http://editorconfig.org/
+#
+# NB: charset=cp1251 is only supported with our fork of SublimeEditorconfig
+# https://github.com/regru/editorconfig-sublime-1251
+
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = true
+charset = utf-8
+
+[{Makefile,config/deploy/makefiles/**}]
+indent_style = tab
+
+[*.{yaml,yml,md}]
+# two trailing spaces become <br> in markdown. and markdown may be used inside of yaml
+trim_trailing_whitespace = false
+
+[*.{pug,jade,coffee,styl}]
+indent_size = 2
+
+[root/informers/**]
+charset = cp1251
+
+[package.json]
+indent_size = 2
+
+[gitlab-ci.yml]
+indent_size = 2
