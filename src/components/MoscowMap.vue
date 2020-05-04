@@ -13,10 +13,8 @@
 </template>
 
 <script>
-
-import nGraph from 'ngraph.graph';
-import nPath from 'ngraph.path';
 import moscowGraph from '../mapsdata/moscow-graph';
+import pathFinder from '../utils/pathFinder';
 
 export default {
     name : 'MoscowMap',
@@ -27,44 +25,13 @@ export default {
         };
     },
 
-    computed : {
-        prepareGraph() {
-            const graph = nGraph();
-            const prepare = (node) => {
-                node.links.map( link => {
-                    const weight = link.time;
-
-                    graph.addLink(
-                        node.id,
-                        link.node_id,
-                        weight,
-                    );
-                });
-            };
-
-            moscowGraph().map(prepare);
-
-            return graph;
-        },
-    },
-
     mounted() {
-
-        const mapper = (pathNode) => moscowGraph().find(item => item.id === pathNode.id);
-        const { path, distance } = this.findPath();
-
-        console.log(path.map(mapper), distance);
+        console.log(this.findPath(moscowGraph(), 5, 50));
     },
 
     methods : {
         findPath() {
-            const pathFinder = nPath.aStar(this.prepareGraph, {
-                distance(fromNode, toNode, link) {
-                    return link.data;
-                },
-            });
-
-            return pathFinder.find(5, 50);
+            return pathFinder(moscowGraph(), 5, 50);
         },
     },
 };
