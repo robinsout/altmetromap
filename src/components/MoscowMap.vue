@@ -26,12 +26,12 @@ export default {
     },
 
     mounted() {
-        console.log(this.findPath(moscowGraph(), 5, 50));
+        console.log(this.findPath(moscowGraph, 5, 50));
     },
 
     methods : {
-        findPath() {
-            return pathFinder(moscowGraph(), 5, 50);
+        findPath(graph, fromNode, toNode) {
+            return pathFinder(graph, fromNode, toNode);
         },
     },
 };

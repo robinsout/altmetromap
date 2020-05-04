@@ -1,5 +1,5 @@
 /* eslint-disable no-magic-numbers */
-export default () => [
+export default [
     {
         'id'               : 1,
         'line'             : 1,
