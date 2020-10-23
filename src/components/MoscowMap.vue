@@ -26,62 +26,65 @@
           class="cls-2"
           cx="567.77"
           cy="572.74"
-          r="7.16"/>
+          r="7.42"/>
         <circle
           class="cls-2"
           cx="754.93"
           cy="457.58"
-          r="7.16"/>
+          r="7.42"/>
+        <!-- <station-mark
+          :stationData="moscowGraph[0]"
+          :coordinates="{ x : 754.93, y : 457.58 }" /> -->
         <circle
           class="cls-2"
           cx="1004.11"
           cy="477.99"
-          r="7.16"/>
+          r="7.42"/>
         <circle
           class="cls-2"
           cx="1148.64"
           cy="591.8"
-          r="7.16"/>
+          r="7.42"/>
         <circle
           class="cls-2"
           cx="1212.01"
           cy="716.64"
-          r="7.16"/>
+          r="7.42"/>
         <circle
           class="cls-2"
           cx="1193"
           cy="976.18"
-          r="7.16"/>
+          r="7.42"/>
         <circle
           class="cls-2"
           cx="1105.4"
           cy="1097.15"
-          r="7.16"/>
+          r="7.42"/>
         <circle
           class="cls-2"
           cx="870.88"
           cy="1196"
-          r="7.16"/>
+          r="7.42"/>
         <circle
           class="cls-2"
           cx="707.99"
           cy="1168.12"
-          r="7.16"/>
+          r="7.42"/>
         <circle
           class="cls-2"
           cx="538.24"
           cy="1029.63"
-          r="7.16"/>
+          r="7.42"/>
         <circle
           class="cls-2"
           cx="479.84"
           cy="880.27"
-          r="7.16"/>
+          r="7.42"/>
         <circle
           class="cls-2"
           cx="481.65"
           cy="749.13"
-          r="7.16"/>
+          r="7.42"/>
       </g>
       <g
         id="_7_line"
@@ -260,72 +263,72 @@
           class="cls-4"
           cx="227.98"
           cy="298.29"
-          r="7.16"/>
+          r="7.42"/>
         <circle
           class="cls-4"
           cx="228.31"
           cy="412.73"
-          r="7.16"/>
+          r="7.42"/>
         <circle
           class="cls-4"
           cx="227.98"
           cy="469.79"
-          r="7.16"/>
+          r="7.42"/>
         <circle
           class="cls-4"
           cx="313.93"
           cy="589.03"
-          r="7.16"/>
+          r="7.42"/>
         <circle
           class="cls-4"
           cx="502.86"
           cy="728.38"
-          r="7.16"/>
+          r="7.42"/>
         <circle
           class="cls-4"
           cx="394.16"
           cy="669.68"
-          r="7.16"/>
+          r="7.42"/>
         <circle
           class="cls-4"
           cx="742.97"
           cy="729.28"
-          r="7.16"/>
+          r="7.42"/>
         <circle
           class="cls-4"
           cx="943.19"
           cy="729.12"
-          r="7.16"/>
+          r="7.42"/>
         <circle
           class="cls-4"
           cx="1069.56"
           cy="813.94"
-          r="7.16"/>
+          r="7.42"/>
         <circle
           class="cls-4"
           cx="1211.64"
           cy="956.57"
-          r="7.16"/>
+          r="7.42"/>
         <circle
           class="cls-4"
           cx="1325.82"
           cy="1070.31"
-          r="7.16"/>
+          r="7.42"/>
         <circle
           class="cls-4"
           cx="1464.26"
           cy="1208.41"
-          r="7.16"/>
+          r="7.42"/>
         <circle
           class="cls-4"
           cx="1416.74"
           cy="1161.12"
-          r="7.16"/>
+          r="7.42"/>
         <circle
           class="cls-4"
           cx="1579.64"
           cy="1452.24"
-          r="7.16"/>
+          r="7.42"/>
       </g>
       <g
         id="_2_line"
@@ -608,42 +611,78 @@
           class="cls-9"
           d="M1205.47,344.1v37.78c.11,33.52-16,42.62-16,42.62l-59.36,59.36-75.64,75.64L1003,611c-58.53,50.3-52.59,59.13-52.7,77.12v62.63c0,59.87,3,51.13,26.54,74.73l95.39,95.39c28.06,19.6,25.73,77.67-.06,103.35-20.57,20.49-28.63,26.77-75.55,73.69-92.73,92.73-91,71.69-85.43,184.52,2.66,54.32-6.9,25.36,109,144.48,69.84,69.85,64.41,66.7,64.41,88.08v695.86"
           transform="translate(-234.39 -341.08)"/>
-        <polyline
+        <line
           class="cls-9"
-          points="850.17 1835.62 850.17 1835.62 860.94 1835.62"/>
-        <polyline
+          x1="850.17"
+          y1="1835.62"
+          x2="860.94"
+          y2="1835.62"/>
+        <line
           class="cls-9"
-          points="850.17 1783.97 850.17 1783.97 861.67 1783.97"/>
-        <polyline
+          x1="850.17"
+          y1="1783.97"
+          x2="861.67"
+          y2="1783.97"/>
+        <line
           class="cls-9"
-          points="850.17 1749.37 850.17 1749.37 860.94 1749.37"/>
-        <polyline
+          x1="850.17"
+          y1="1749.37"
+          x2="860.94"
+          y2="1749.37"/>
+        <line
           class="cls-9"
-          points="850.17 1715.13 850.17 1715.13 860.43 1715.13"/>
-        <polyline
+          x1="850.17"
+          y1="1715.13"
+          x2="859.86"
+          y2="1715.13"/>
+        <line
           class="cls-9"
-          points="850.17 1679.18 850.17 1679.18 859.86 1679.18"/>
-        <polyline
+          x1="850.17"
+          y1="1679.18"
+          x2="859.86"
+          y2="1679.18"/>
+        <line
           class="cls-9"
-          points="859.86 1562.15 859.86 1562.15 850.17 1562.15"/>
-        <polyline
+          x1="859.86"
+          y1="1562.15"
+          x2="850.17"
+          y2="1562.15"/>
+        <line
           class="cls-9"
-          points="850.17 1523.88 850.17 1523.88 858.43 1523.88"/>
-        <polyline
+          x1="850.17"
+          y1="1523.88"
+          x2="858.43"
+          y2="1523.88"/>
+        <line
           class="cls-9"
-          points="850.17 1298.47 850.17 1298.47 858.43 1298.47"/>
-        <polyline
+          x1="850.17"
+          y1="1298.47"
+          x2="858.43"
+          y2="1298.47"/>
+        <line
           class="cls-9"
-          points="785.76 1085.87 785.76 1085.87 778.23 1093.4"/>
-        <polyline
+          x1="785.76"
+          y1="1085.87"
+          x2="778.23"
+          y2="1093.4"/>
+        <line
           class="cls-9"
-          points="955.13 83.42 955.13 83.42 962.01 90.3"/>
-        <polyline
+          x1="955.13"
+          y1="83.42"
+          x2="962.01"
+          y2="90.3"/>
+        <line
           class="cls-9"
-          points="971.08 40.79 971.08 40.79 980.65 40.79"/>
-        <polyline
+          x1="971.08"
+          y1="40.79"
+          x2="980.65"
+          y2="40.79"/>
+        <line
           class="cls-9"
-          points="959.98 3.02 959.98 3.02 980.65 3.02"/>
+          x1="959.98"
+          y1="3.02"
+          x2="980.65"
+          y2="3.02"/>
         <circle
           class="cls-10"
           cx="897.14"
@@ -1276,7 +1315,7 @@
             class="cls-22"
             cx="228.69"
             cy="743.97"
-            r="6.13"/>
+            r="7.42"/>
           <path
             class="cls-18"
             d="M463.53,1077.64a7.42,7.42,0,1,0-1.21,14.8"
@@ -1291,7 +1330,7 @@
             class="cls-22"
             cx="313.7"
             cy="558.3"
-            r="6.13"/>
+            r="7.42"/>
           <path
             class="cls-18"
             d="M553.21,894a7.42,7.42,0,0,0-10.46,10.54"
@@ -1306,7 +1345,7 @@
             class="cls-22"
             cx="470.35"
             cy="443.26"
-            r="6.13"/>
+            r="7.42"/>
           <path
             class="cls-18"
             d="M712.17,784.32a7.43,7.43,0,0,0-14.85-.29"
@@ -1321,7 +1360,7 @@
             class="cls-22"
             cx="742.66"
             cy="407.62"
-            r="6.13"/>
+            r="7.42"/>
           <path
             class="cls-18"
             d="M982.23,743.38a7.42,7.42,0,0,0-10.6,10.4"
@@ -1478,32 +1517,46 @@
           r="7.42"/>
       </g>
     </svg>
-
-
-
   </div>
 </template>
 
 <script>
 import moscowGraph from '../mapsdata/moscow-graph';
 import pathFinder from '../utils/pathFinder';
+import stationMark from './StationMark.vue';
 
 export default {
     name : 'MoscowMap',
 
+    components : {
+        stationMark : stationMark,
+    },
+
     data() {
         return {
-            msg : 'Moscow Map',
+            msg         : 'Moscow Map',
+            moscowGraph : moscowGraph,
         };
     },
 
     mounted() {
         console.log(this.findPath(moscowGraph, 5, 50));
+        this.getStations();
     },
 
     methods : {
         findPath(graph, fromNode, toNode) {
             return pathFinder(graph, fromNode, toNode);
+        },
+
+        getStations() {
+            const circles = [].map.call(document.getElementsByTagName('circle'), circle => {
+                circle.setAttribute('visibility', 'hidden');
+
+                return;
+            });
+
+            console.log(circles);
         },
     },
 };
@@ -1530,7 +1583,6 @@ a {
 .station-name {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     font-size: 16px;
-
 }
 
 .cls-1, .cls-11, .cls-13, .cls-15, .cls-17, .cls-19, .cls-21, .cls-23, .cls-25, .cls-3, .cls-5, .cls-7, .cls-9 {
