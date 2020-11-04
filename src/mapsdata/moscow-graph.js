@@ -2,7 +2,7 @@
 export default [
     {
         'id'               : 1,
-        'line'             : 1,
+        'lineId'           : 1,
         'name_original'    : 'Бульвар Рокоссовского',
         'name_translit'    : 'Bulvar Rokossovskogo',
         'name_translation' : 'Bull w!ire Rock or s!olves cover',
