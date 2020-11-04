@@ -18,6 +18,8 @@
 </template>
 
 <script>
+import colorGetter from '../utils/colorGetter.js';
+
 export default {
     props : {
         stationData : {
@@ -27,6 +29,12 @@ export default {
         coordinates : {
             type     : Object,
             required : true,
+        },
+    },
+
+    methods : {
+        getColor( lineId ) {
+            return colorGetter(lineId);
         },
     },
 };
