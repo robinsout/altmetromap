@@ -1541,6 +1541,7 @@ export default {
 
     mounted() {
         console.log(this.findPath(moscowGraph, 5, 50));
+
         this.getStations();
     },
 
@@ -1550,13 +1551,81 @@ export default {
         },
 
         getStations() {
-            const circles = [].map.call(document.getElementsByTagName('circle'), circle => {
-                circle.setAttribute('visibility', 'hidden');
+            const circles = [].filter.call(document.getElementsByTagName('circle'), circle => {
+                const takeIt = circle.r.baseVal.valueAsString === '7.42';
 
-                return;
+                if (circle.r.baseVal.valueAsString === '7.42') {
+                    circle.addEventListener('click', this.addStation);
+
+                    // circle.setAttribute('visibility', 'hidden');
+                }
+
+                return takeIt;
             });
 
-            console.log(circles);
+            const lines = [].filter.call(document.getElementsByTagName('line'), line => {
+                const shortEnough = line.getTotalLength() < 25;
+
+                if (shortEnough) {
+                    line.addEventListener('click', this.addStation);
+
+                    // line.setAttribute('visibility', 'hidden');
+
+                    return true;
+                }
+
+                return false;
+            });
+
+            console.log('Circles : ', circles.length, 'Lines : ', lines.length);
+        },
+
+        addStation( event ) {
+
+            // event.srcElement.setAttribute('visibility', 'hidden');
+            event.srcElement.classList.add('added-station');
+            console.log('element:', event.target);
+
+            if (!localStorage.getItem('stations')) {
+                localStorage.setItem('stations', JSON.stringify([]));
+            }
+
+            const getId = () => {
+                const stations = JSON.parse(localStorage.getItem('stations'));
+
+                return stations.length > 0 ? stations[stations.length - 1].id + 1 : 1;
+            };
+
+            const addNewStation = ( newStation ) => {
+                const stations = JSON.parse(localStorage.getItem('stations'));
+
+                stations.push(newStation);
+                localStorage.setItem('stations', JSON.stringify(stations));
+            };
+
+            if (event.target.tagName === 'circle') {
+                addNewStation({
+                    id          : getId(),
+                    stationType : 'transfer',
+                    coondinates : {
+                        cx : event.target.cx.baseVal.valueAsString,
+                        cy : event.target.cy.baseVal.valueAsString,
+                    },
+                });
+            }
+
+            if (event.target.tagName === 'line') {
+                addNewStation({
+                    id          : getId(),
+                    stationType : 'nonTransfer',
+                    coondinates : {
+                        x1 : event.target.x1.baseVal.valueAsString,
+                        y1 : event.target.y1.baseVal.valueAsString,
+                        x2 : event.target.x1.baseVal.valueAsString,
+                        y2 : event.target.y1.baseVal.valueAsString,
+                    },
+                });
+            }
         },
     },
 };
@@ -1593,7 +1662,7 @@ fill: none;
 stroke: #8a4f35;
 }
 
-.cls-1, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-2, .cls-20, .cls-21, .cls-23, .cls-24, .cls-25, .cls-26, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+.cls-1, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-2, .cls-20, .cls-21, .cls-22, .cls-23, .cls-24, .cls-25, .cls-26, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
 stroke-miterlimit: 10;
 stroke-width: 5px;
 }
@@ -1610,12 +1679,8 @@ stroke: #8e489c;
 stroke: #48b85e;
 }
 
-.cls-7 {
+.cls-7, .cls-8 {
 stroke: #b4d344;
-}
-
-.cls-8 {
-stroke: #b4d343;
 }
 
 .cls-10, .cls-9 {
@@ -1626,23 +1691,15 @@ stroke: #a1a2a3;
 stroke: #f58220;
 }
 
-.cls-13 {
+.cls-13, .cls-14 {
 stroke: #da2128;
-}
-
-.cls-14 {
-stroke: #da2228;
 }
 
 .cls-15, .cls-16 {
 stroke: #0078bf;
 }
 
-.cls-17 {
-stroke: #fd0;
-}
-
-.cls-18, .cls-21 {
+.cls-17, .cls-18, .cls-21, .cls-22 {
 stroke: #fedd00;
 }
 
@@ -1656,5 +1713,9 @@ stroke: #0db0e6;
 
 .cls-25, .cls-26 {
 stroke: #acbfe3;
+}
+
+.added-station {
+    stroke : black;
 }
 </style>
