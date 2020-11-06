@@ -32,9 +32,6 @@
           cx="754.93"
           cy="457.58"
           r="7.42"/>
-        <!-- <station-mark
-          :stationData="moscowGraph[0]"
-          :coordinates="{ x : 754.93, y : 457.58 }" /> -->
         <circle
           class="cls-2"
           cx="1004.11"
@@ -1516,14 +1513,24 @@
           cy="1815.29"
           r="7.42"/>
       </g>
+      <g
+        id="_13_line"
+        data-name="13_line">
+        <station-mark
+          v-for="station in moscowRenderData"
+          :coordinates-and-type="station"
+          :stationData="getStationData(station.id)"
+          :key="station.id" />
+      </g>
     </svg>
   </div>
 </template>
 
 <script>
 import moscowGraph from '../mapsdata/moscow-graph';
+import moscowRenderData from '../mapsdata/render/moscow-render-data';
 import pathFinder from '../utils/pathFinder';
-import stationMark from './StationMark.vue';
+import stationMark from './station-mark/StationMark.vue';
 
 export default {
     name : 'MoscowMap',
@@ -1534,8 +1541,9 @@ export default {
 
     data() {
         return {
-            msg         : 'Moscow Map',
-            moscowGraph : moscowGraph,
+            msg              : 'Moscow Map',
+            moscowGraph      : moscowGraph,
+            moscowRenderData : moscowRenderData,
         };
     },
 
@@ -1548,6 +1556,16 @@ export default {
     methods : {
         findPath(graph, fromNode, toNode) {
             return pathFinder(graph, fromNode, toNode);
+        },
+
+        getStationData( stationId ) {
+            const station = moscowGraph.find( station => station.id === stationId);
+
+            if (!station) {
+                console.log('Has no pair:', stationId);
+            }
+
+            return station;
         },
 
         getStations() {
@@ -1584,7 +1602,6 @@ export default {
 
             // event.srcElement.setAttribute('visibility', 'hidden');
             event.srcElement.classList.add('added-station');
-            console.log('element:', event.target);
 
             if (!localStorage.getItem('stations')) {
                 localStorage.setItem('stations', JSON.stringify([]));
@@ -1621,8 +1638,8 @@ export default {
                     coondinates : {
                         x1 : event.target.x1.baseVal.valueAsString,
                         y1 : event.target.y1.baseVal.valueAsString,
-                        x2 : event.target.x1.baseVal.valueAsString,
-                        y2 : event.target.y1.baseVal.valueAsString,
+                        x2 : event.target.x2.baseVal.valueAsString,
+                        y2 : event.target.y2.baseVal.valueAsString,
                     },
                 });
             }

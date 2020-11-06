@@ -713,11 +713,25 @@ export default [
                 'time'    : 125,
             },
             {
-                'node_id' : 49,
-                'time'    : 355,
+                'node_id' : 48,
+                'time'    : 120,
             },
         ],
         'name_translit' : 'Elektrozavodskaya',
+    },
+    {
+        'id'    : 48,
+        'links' : [
+            {
+                'node_id' : 47,
+                'time'    : 120,
+            },
+            {
+                'node_id' : 49,
+                'time'    : 235,
+            },
+        ],
+        'name_translit' : 'Baumanskaya',
     },
     {
         'id'    : 49,
