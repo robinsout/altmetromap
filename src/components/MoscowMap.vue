@@ -1520,7 +1520,7 @@
           v-for="station in moscowRenderData"
           :coordinates-and-type="station"
           :stationData="getStationData(station.id)"
-          :key="station.id" />
+          :key="station.id"/>
       </g>
     </svg>
   </div>
