@@ -3,7 +3,7 @@ export default [
     {
         'id'          : 1,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1295.33',
             'cy' : '316.58',
         },
@@ -11,7 +11,7 @@ export default [
     {
         'id'          : 2,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1295.33',
             'cy' : '373.92',
         },
@@ -19,7 +19,7 @@ export default [
     {
         'id'          : 3,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '1281.86',
             'y1' : '430.36',
             'x2' : '1281.86',
@@ -29,7 +29,7 @@ export default [
     {
         'id'          : 4,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1232.97',
             'cy' : '479.9',
         },
@@ -37,7 +37,7 @@ export default [
     {
         'id'          : 5,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '1198.44',
             'y1' : '513.77',
             'x2' : '1198.44',
@@ -47,7 +47,7 @@ export default [
     {
         'id'          : 6,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1148.64',
             'cy' : '564.01',
         },
@@ -55,7 +55,7 @@ export default [
     {
         'id'          : 7,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '1096.89',
             'y1' : '615.32',
             'x2' : '1096.89',
@@ -65,7 +65,7 @@ export default [
     {
         'id'          : 8,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1050.82',
             'cy' : '661.26',
         },
@@ -73,7 +73,7 @@ export default [
     {
         'id'          : 9,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '954.82',
             'cy' : '757.19',
         },
@@ -81,7 +81,7 @@ export default [
     {
         'id'          : 10,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '860.23',
             'cy' : '851.76',
         },
@@ -89,7 +89,7 @@ export default [
     {
         'id'          : 11,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '735.92',
             'cy' : '975.68',
         },
@@ -97,7 +97,7 @@ export default [
     {
         'id'          : 12,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '654.09',
             'y1' : '1026.74',
             'x2' : '654.09',
@@ -107,7 +107,7 @@ export default [
     {
         'id'          : 13,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '538.62',
             'cy' : '1060.44',
         },
@@ -115,7 +115,7 @@ export default [
     {
         'id'          : 14,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '463.02',
             'y1' : '1134.97',
             'x2' : '463.02',
@@ -125,7 +125,7 @@ export default [
     {
         'id'          : 15,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '381.49',
             'cy' : '1217.73',
         },
@@ -133,7 +133,7 @@ export default [
     {
         'id'          : 16,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '363.3',
             'y1' : '1354.71',
             'x2' : '363.3',
@@ -143,7 +143,7 @@ export default [
     {
         'id'          : 17,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '363.3',
             'y1' : '1413.51',
             'x2' : '363.3',
@@ -153,7 +153,7 @@ export default [
     {
         'id'          : 18,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '364.07',
             'cy' : '1472.3',
         },
@@ -161,7 +161,7 @@ export default [
     {
         'id'          : 19,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '363.3',
             'y1' : '1531.27',
             'x2' : '363.3',
@@ -171,7 +171,7 @@ export default [
     {
         'id'          : 20,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '363.3',
             'y1' : '1574.64',
             'x2' : '363.3',
@@ -181,7 +181,7 @@ export default [
     {
         'id'          : 21,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '445.4',
             'y1' : '99.57',
             'x2' : '445.4',
@@ -191,7 +191,7 @@ export default [
     {
         'id'          : 22,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '445.47',
             'y1' : '139.05',
             'x2' : '445.47',
@@ -201,7 +201,7 @@ export default [
     {
         'id'          : 23,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '445.47',
             'cy' : '271.32',
         },
@@ -209,7 +209,7 @@ export default [
     {
         'id'          : 24,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '445.47',
             'y1' : '351.46',
             'x2' : '445.47',
@@ -219,7 +219,7 @@ export default [
     {
         'id'          : 25,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '445.47',
             'y1' : '383.92',
             'x2' : '445.47',
@@ -229,7 +229,7 @@ export default [
     {
         'id'          : 26,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '445.47',
             'cy' : '419.42',
         },
@@ -237,7 +237,7 @@ export default [
     {
         'id'          : 27,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '567.71',
             'cy' : '603.03',
         },
@@ -245,7 +245,7 @@ export default [
     {
         'id'          : 28,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '639.12',
             'y1' : '674.97',
             'x2' : '639.12',
@@ -255,7 +255,7 @@ export default [
     {
         'id'          : 29,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '723.9',
             'cy' : '760.47',
         },
@@ -263,7 +263,7 @@ export default [
     {
         'id'          : 30,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '870.27',
             'cy' : '880.3',
         },
@@ -271,7 +271,7 @@ export default [
     {
         'id'          : 31,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1023.75',
             'cy' : '1009.31',
         },
@@ -279,7 +279,7 @@ export default [
     {
         'id'          : 32,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1092.79',
             'cy' : '1123.45',
         },
@@ -287,7 +287,7 @@ export default [
     {
         'id'          : 33,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1092.79',
             'cy' : '1309.17',
         },
@@ -295,7 +295,7 @@ export default [
     {
         'id'          : 34,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '1092.77',
             'y1' : '1498.02',
             'x2' : '1092.77',
@@ -305,7 +305,7 @@ export default [
     {
         'id'          : 35,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1092.76',
             'cy' : '1579.85',
         },
@@ -313,7 +313,7 @@ export default [
     {
         'id'          : 36,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '1092.77',
             'y1' : '1630.23',
             'x2' : '1092.77',
@@ -323,7 +323,7 @@ export default [
     {
         'id'          : 37,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1092.77',
             'cy' : '1793.11',
         },
@@ -331,7 +331,7 @@ export default [
     {
         'id'          : 38,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '1092.77',
             'y1' : '1821.03',
             'x2' : '1092.77',
@@ -341,7 +341,7 @@ export default [
     {
         'id'          : 39,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '1202.33',
             'y1' : '1877.49',
             'x2' : '1202.33',
@@ -351,7 +351,7 @@ export default [
     {
         'id'          : 40,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1318.1',
             'cy' : '1878.75',
         },
@@ -359,7 +359,7 @@ export default [
     {
         'id'          : 41,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '1531.91',
             'y1' : '1868.26',
             'x2' : '1531.91',
@@ -369,7 +369,7 @@ export default [
     {
         'id'          : 42,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '1476.79',
             'y1' : '336.76',
             'x2' : '1476.79',
@@ -379,7 +379,7 @@ export default [
     {
         'id'          : 43,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '1488.13',
             'y1' : '400.02',
             'x2' : '1488.13',
@@ -389,7 +389,7 @@ export default [
     {
         'id'          : 44,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '1488.13',
             'y1' : '444.37',
             'x2' : '1488.13',
@@ -399,7 +399,7 @@ export default [
     {
         'id'          : 45,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1440.68',
             'cy' : '524.32',
         },
@@ -407,7 +407,7 @@ export default [
     {
         'id'          : 46,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '1362.2',
             'y1' : '603.46',
             'x2' : '1362.2',
@@ -417,7 +417,7 @@ export default [
     {
         'id'          : 47,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1325.64',
             'cy' : '639.43',
         },
@@ -425,7 +425,7 @@ export default [
     {
         'id'          : 48,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '1294.8',
             'y1' : '670.87',
             'x2' : '1294.8',
@@ -435,7 +435,7 @@ export default [
     {
         'id'          : 49,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1221.68',
             'cy' : '743.46',
         },
@@ -443,7 +443,7 @@ export default [
     {
         'id'          : 50,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '882.27',
             'cy' : '907.4',
         },
@@ -451,7 +451,7 @@ export default [
     {
         'id'          : 51,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '735.84',
             'cy' : '907.37',
         },
@@ -459,7 +459,7 @@ export default [
     {
         'id'          : 52,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '567.09',
             'y1' : '908.2',
             'x2' : '567.09',
@@ -469,7 +469,7 @@ export default [
     {
         'id'          : 53,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '433.13',
             'cy' : '908.2',
         },
@@ -477,7 +477,7 @@ export default [
     {
         'id'          : 54,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '140',
             'cy' : '1004.31',
         },
@@ -485,7 +485,7 @@ export default [
     {
         'id'          : 55,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '9.92',
             'cy' : '793.12',
         },
@@ -493,7 +493,7 @@ export default [
     {
         'id'          : 56,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '11.26',
             'cy' : '588.54',
         },
@@ -501,7 +501,7 @@ export default [
     {
         'id'          : 57,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '10.56',
             'y1' : '541.87',
             'x2' : '10.56',
@@ -511,7 +511,7 @@ export default [
     {
         'id'          : 58,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '10.56',
             'y1' : '497.34',
             'x2' : '10.56',
@@ -521,7 +521,7 @@ export default [
     {
         'id'          : 59,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '10.56',
             'y1' : '440.38',
             'x2' : '10.56',
@@ -531,7 +531,7 @@ export default [
     {
         'id'          : 60,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '10.56',
             'y1' : '392.21',
             'x2' : '10.56',
@@ -541,7 +541,7 @@ export default [
     {
         'id'          : 61,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '10.56',
             'cy' : '298.29',
         },
@@ -549,7 +549,7 @@ export default [
     {
         'id'          : 62,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '10.56',
             'y1' : '235.58',
             'x2' : '10.56',
@@ -559,7 +559,7 @@ export default [
     {
         'id'          : 63,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '0.51',
             'y1' : '178.27',
             'x2' : '0.51',
@@ -569,7 +569,7 @@ export default [
     {
         'id'          : 64,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '716.26',
             'cy' : '942.19',
         },
@@ -577,7 +577,7 @@ export default [
     {
         'id'          : 65,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '643.88',
             'y1' : '869.01',
             'x2' : '643.88',
@@ -587,7 +587,7 @@ export default [
     {
         'id'          : 66,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '567.06',
             'y1' : '854.53',
             'x2' : '567.06',
@@ -597,7 +597,7 @@ export default [
     {
         'id'          : 67,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '433.75',
             'cy' : '854.31',
         },
@@ -605,7 +605,7 @@ export default [
     {
         'id'          : 68,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '260.52',
             'cy' : '853.88',
         },
@@ -613,7 +613,7 @@ export default [
     {
         'id'          : 69,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '182.16',
             'cy' : '853.88',
         },
@@ -621,7 +621,7 @@ export default [
     {
         'id'          : 70,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '252.9',
             'y1' : '944.89',
             'x2' : '252.9',
@@ -631,7 +631,7 @@ export default [
     {
         'id'          : 71,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '201.04',
             'cy' : '944.94',
         },
@@ -639,7 +639,7 @@ export default [
     {
         'id'          : 72,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '34.08',
             'cy' : '750.41',
         },
@@ -647,7 +647,7 @@ export default [
     {
         'id'          : 73,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '34.23',
             'y1' : '720.94',
             'x2' : '34.23',
@@ -657,7 +657,7 @@ export default [
     {
         'id'          : 74,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '34.23',
             'y1' : '689.94',
             'x2' : '34.23',
@@ -667,7 +667,7 @@ export default [
     {
         'id'          : 75,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '34.23',
             'y1' : '657.37',
             'x2' : '34.23',
@@ -677,7 +677,7 @@ export default [
     {
         'id'          : 76,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '34.08',
             'cy' : '630.32',
         },
@@ -685,7 +685,7 @@ export default [
     {
         'id'          : 77,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '481.65',
             'cy' : '749.13',
         },
@@ -693,7 +693,7 @@ export default [
     {
         'id'          : 78,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '567.77',
             'cy' : '572.74',
         },
@@ -701,7 +701,7 @@ export default [
     {
         'id'          : 79,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '754.93',
             'cy' : '457.58',
         },
@@ -709,7 +709,7 @@ export default [
     {
         'id'          : 80,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1004.11',
             'cy' : '477.99',
         },
@@ -717,7 +717,7 @@ export default [
     {
         'id'          : 81,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1148.64',
             'cy' : '591.8',
         },
@@ -725,7 +725,7 @@ export default [
     {
         'id'          : 82,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1212.01',
             'cy' : '716.64',
         },
@@ -733,7 +733,7 @@ export default [
     {
         'id'          : 83,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1193',
             'cy' : '976.18',
         },
@@ -741,7 +741,7 @@ export default [
     {
         'id'          : 84,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1105.4',
             'cy' : '1097.15',
         },
@@ -749,7 +749,7 @@ export default [
     {
         'id'          : 85,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '870.88',
             'cy' : '1196',
         },
@@ -757,7 +757,7 @@ export default [
     {
         'id'          : 86,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '707.99',
             'cy' : '1168.12',
         },
@@ -765,7 +765,7 @@ export default [
     {
         'id'          : 87,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '538.24',
             'cy' : '1029.63',
         },
@@ -773,7 +773,7 @@ export default [
     {
         'id'          : 88,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '479.84',
             'cy' : '880.27',
         },
@@ -781,7 +781,7 @@ export default [
     {
         'id'          : 89,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '1092.27',
             'y1' : '73.05',
             'x2' : '1092.27',
@@ -791,7 +791,7 @@ export default [
     {
         'id'          : 90,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '1102.77',
             'y1' : '115.26',
             'x2' : '1102.77',
@@ -801,7 +801,7 @@ export default [
     {
         'id'          : 91,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '1102.77',
             'y1' : '156.93',
             'x2' : '1102.77',
@@ -811,7 +811,7 @@ export default [
     {
         'id'          : 92,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1102.76',
             'cy' : '197.01',
         },
@@ -819,7 +819,7 @@ export default [
     {
         'id'          : 93,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1102.76',
             'cy' : '272.89',
         },
@@ -827,7 +827,7 @@ export default [
     {
         'id'          : 94,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '1102.77',
             'y1' : '320.45',
             'x2' : '1102.77',
@@ -837,7 +837,7 @@ export default [
     {
         'id'          : 95,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1057.02',
             'cy' : '395.52',
         },
@@ -845,7 +845,7 @@ export default [
     {
         'id'          : 96,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1004.16',
             'cy' : '447.99',
         },
@@ -853,7 +853,7 @@ export default [
     {
         'id'          : 97,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '959.36',
             'y1' : '553.56',
             'x2' : '959.36',
@@ -863,7 +863,7 @@ export default [
     {
         'id'          : 98,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1015.84',
             'cy' : '660.93',
         },
@@ -871,7 +871,7 @@ export default [
     {
         'id'          : 99,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1039.25',
             'cy' : '813.94',
         },
@@ -879,7 +879,7 @@ export default [
     {
         'id'          : 100,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '989.24',
             'cy' : '1024.64',
         },
@@ -887,7 +887,7 @@ export default [
     {
         'id'          : 101,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '709.1',
             'cy' : '1198.55',
         },
@@ -895,7 +895,7 @@ export default [
     {
         'id'          : 102,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '653.69',
             'y1' : '1253.06',
             'x2' : '653.69',
@@ -905,7 +905,7 @@ export default [
     {
         'id'          : 103,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '607.86',
             'cy' : '1377.76',
         },
@@ -913,7 +913,7 @@ export default [
     {
         'id'          : 104,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '607.65',
             'y1' : '1460.48',
             'x2' : '607.65',
@@ -923,7 +923,7 @@ export default [
     {
         'id'          : 105,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '607.86',
             'y1' : '1501.95',
             'x2' : '607.86',
@@ -933,7 +933,7 @@ export default [
     {
         'id'          : 106,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '607.65',
             'y1' : '1543.5',
             'x2' : '607.65',
@@ -943,7 +943,7 @@ export default [
     {
         'id'          : 107,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '607.86',
             'cy' : '1582.03',
         },
@@ -951,7 +951,7 @@ export default [
     {
         'id'          : 108,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '607.65',
             'y1' : '1630.25',
             'x2' : '607.65',
@@ -961,7 +961,7 @@ export default [
     {
         'id'          : 109,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '607.65',
             'y1' : '1668.62',
             'x2' : '607.65',
@@ -971,7 +971,7 @@ export default [
     {
         'id'          : 110,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '607.65',
             'y1' : '1708.18',
             'x2' : '607.65',
@@ -981,7 +981,7 @@ export default [
     {
         'id'          : 111,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '607.65',
             'y1' : '1746.61',
             'x2' : '607.65',
@@ -991,7 +991,7 @@ export default [
     {
         'id'          : 112,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '608.3',
             'cy' : '1797.81',
         },
@@ -999,7 +999,7 @@ export default [
     {
         'id'          : 113,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '220.75',
             'y1' : '177.36',
             'x2' : '220.75',
@@ -1009,7 +1009,7 @@ export default [
     {
         'id'          : 114,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '227.98',
             'y1' : '216.74',
             'x2' : '227.98',
@@ -1019,7 +1019,7 @@ export default [
     {
         'id'          : 115,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '227.98',
             'cy' : '298.29',
         },
@@ -1027,7 +1027,7 @@ export default [
     {
         'id'          : 116,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '227.98',
             'y1' : '357.78',
             'x2' : '227.98',
@@ -1037,7 +1037,7 @@ export default [
     {
         'id'          : 117,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '228.31',
             'cy' : '412.73',
         },
@@ -1045,7 +1045,7 @@ export default [
     {
         'id'          : 118,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '227.98',
             'cy' : '469.79',
         },
@@ -1053,7 +1053,7 @@ export default [
     {
         'id'          : 119,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '313.93',
             'cy' : '589.03',
         },
@@ -1061,7 +1061,7 @@ export default [
     {
         'id'          : 120,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '394.16',
             'cy' : '669.68',
         },
@@ -1069,7 +1069,7 @@ export default [
     {
         'id'          : 121,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '445.28',
             'y1' : '719.28',
             'x2' : '445.28',
@@ -1079,7 +1079,7 @@ export default [
     {
         'id'          : 122,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '502.86',
             'cy' : '728.38',
         },
@@ -1087,7 +1087,7 @@ export default [
     {
         'id'          : 123,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '742.97',
             'cy' : '729.28',
         },
@@ -1095,7 +1095,7 @@ export default [
     {
         'id'          : 124,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '943.19',
             'cy' : '729.12',
         },
@@ -1103,7 +1103,7 @@ export default [
     {
         'id'          : 125,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1069.56',
             'cy' : '813.94',
         },
@@ -1111,7 +1111,7 @@ export default [
     {
         'id'          : 126,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1211.64',
             'cy' : '956.57',
         },
@@ -1119,7 +1119,7 @@ export default [
     {
         'id'          : 127,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1325.82',
             'cy' : '1070.31',
         },
@@ -1127,7 +1127,7 @@ export default [
     {
         'id'          : 128,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1416.74',
             'cy' : '1161.12',
         },
@@ -1135,7 +1135,7 @@ export default [
     {
         'id'          : 129,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1464.26',
             'cy' : '1208.41',
         },
@@ -1143,7 +1143,7 @@ export default [
     {
         'id'          : 130,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '1561.18',
             'y1' : '1305.55',
             'x2' : '1561.18',
@@ -1153,7 +1153,7 @@ export default [
     {
         'id'          : 131,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '1578.97',
             'y1' : '1356.16',
             'x2' : '1578.97',
@@ -1163,7 +1163,7 @@ export default [
     {
         'id'          : 132,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '1578.97',
             'y1' : '1411.99',
             'x2' : '1578.97',
@@ -1173,7 +1173,7 @@ export default [
     {
         'id'          : 133,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1579.64',
             'cy' : '1452.24',
         },
@@ -1181,7 +1181,7 @@ export default [
     {
         'id'          : 134,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '1578.97',
             'y1' : '1511.16',
             'x2' : '1578.97',
@@ -1191,7 +1191,7 @@ export default [
     {
         'id'          : 197,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '1571.95',
             'y1' : '1569.42',
             'x2' : '1571.95',
@@ -1201,7 +1201,7 @@ export default [
     {
         'id'          : 135,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '1573.06',
             'y1' : '630.49',
             'x2' : '1573.06',
@@ -1211,7 +1211,7 @@ export default [
     {
         'id'          : 136,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '1548.38',
             'y1' : '668.36',
             'x2' : '1548.38',
@@ -1221,7 +1221,7 @@ export default [
     {
         'id'          : 137,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '1519.33',
             'y1' : '697.41',
             'x2' : '1519.33',
@@ -1231,7 +1231,7 @@ export default [
     {
         'id'          : 138,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1465.71',
             'cy' : '751.27',
         },
@@ -1239,7 +1239,7 @@ export default [
     {
         'id'          : 139,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1428.2',
             'cy' : '788.13',
         },
@@ -1247,7 +1247,7 @@ export default [
     {
         'id'          : 140,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1316.1',
             'cy' : '901.08',
         },
@@ -1255,7 +1255,7 @@ export default [
     {
         'id'          : 141,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1226.73',
             'cy' : '990.95',
         },
@@ -1263,7 +1263,7 @@ export default [
     {
         'id'          : 142,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1009.4',
             'cy' : '1045.54',
         },
@@ -1271,7 +1271,7 @@ export default [
     {
         'id'          : 143,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '959.98',
             'y1' : '3.02',
             'x2' : '959.98',
@@ -1281,7 +1281,7 @@ export default [
     {
         'id'          : 144,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '971.08',
             'y1' : '40.79',
             'x2' : '971.08',
@@ -1291,7 +1291,7 @@ export default [
     {
         'id'          : 145,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '955.13',
             'y1' : '83.42',
             'x2' : '955.13',
@@ -1301,7 +1301,7 @@ export default [
     {
         'id'          : 146,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '897.14',
             'cy' : '142.45',
         },
@@ -1309,7 +1309,7 @@ export default [
     {
         'id'          : 147,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '820.56',
             'cy' : '219.85',
         },
@@ -1317,7 +1317,7 @@ export default [
     {
         'id'          : 148,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '769.44',
             'cy' : '269.61',
         },
@@ -1325,7 +1325,7 @@ export default [
     {
         'id'          : 149,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '715.66',
             'cy' : '347.08',
         },
@@ -1333,7 +1333,7 @@ export default [
     {
         'id'          : 150,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '715.66',
             'cy' : '410.67',
         },
@@ -1341,7 +1341,7 @@ export default [
     {
         'id'          : 151,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '744.05',
             'cy' : '486.13',
         },
@@ -1349,7 +1349,7 @@ export default [
     {
         'id'          : 152,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '838.73',
             'cy' : '580.95',
         },
@@ -1357,7 +1357,7 @@ export default [
     {
         'id'          : 153,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '760.3',
             'cy' : '759.33',
         },
@@ -1365,7 +1365,7 @@ export default [
     {
         'id'          : 154,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '676.8',
             'cy' : '941.38',
         },
@@ -1373,7 +1373,7 @@ export default [
     {
         'id'          : 155,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '785.76',
             'y1' : '1085.87',
             'x2' : '785.76',
@@ -1383,7 +1383,7 @@ export default [
     {
         'id'          : 156,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '850.59',
             'cy' : '1173.55',
         },
@@ -1391,7 +1391,7 @@ export default [
     {
         'id'          : 157,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '850.17',
             'y1' : '1298.47',
             'x2' : '850.17',
@@ -1401,7 +1401,7 @@ export default [
     {
         'id'          : 158,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '850.17',
             'cy' : '1472.72',
         },
@@ -1409,7 +1409,7 @@ export default [
     {
         'id'          : 159,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '850.17',
             'y1' : '1523.88',
             'x2' : '850.17',
@@ -1419,7 +1419,7 @@ export default [
     {
         'id'          : 160,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '859.86',
             'y1' : '1562.15',
             'x2' : '859.86',
@@ -1429,7 +1429,7 @@ export default [
     {
         'id'          : 161,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '850.17',
             'cy' : '1622.22',
         },
@@ -1437,7 +1437,7 @@ export default [
     {
         'id'          : 162,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '850.17',
             'y1' : '1679.18',
             'x2' : '850.17',
@@ -1447,7 +1447,7 @@ export default [
     {
         'id'          : 163,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '850.17',
             'y1' : '1715.13',
             'x2' : '850.17',
@@ -1457,7 +1457,7 @@ export default [
     {
         'id'          : 164,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '850.17',
             'y1' : '1749.37',
             'x2' : '850.17',
@@ -1467,7 +1467,7 @@ export default [
     {
         'id'          : 165,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '850.17',
             'y1' : '1783.97',
             'x2' : '850.17',
@@ -1477,7 +1477,7 @@ export default [
     {
         'id'          : 166,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '850.17',
             'y1' : '1835.62',
             'x2' : '850.17',
@@ -1487,7 +1487,7 @@ export default [
     {
         'id'          : 167,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '850.17',
             'cy' : '1868.15',
         },
@@ -1495,7 +1495,7 @@ export default [
     {
         'id'          : 168,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '626.42',
             'cy' : '1815.29',
         },
@@ -1503,7 +1503,7 @@ export default [
     {
         'id'          : 169,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '718.84',
             'y1' : '1814.97',
             'x2' : '718.84',
@@ -1513,7 +1513,7 @@ export default [
     {
         'id'          : 170,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '822.41',
             'cy' : '1869.2',
         },
@@ -1521,7 +1521,7 @@ export default [
     {
         'id'          : 171,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '706.62',
             'y1' : '1953.55',
             'x2' : '706.62',
@@ -1531,7 +1531,7 @@ export default [
     {
         'id'          : 172,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '598.47',
             'y1' : '1953.55',
             'x2' : '598.47',
@@ -1541,7 +1541,7 @@ export default [
     {
         'id'          : 173,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '487.61',
             'y1' : '1953.55',
             'x2' : '487.61',
@@ -1551,7 +1551,7 @@ export default [
     {
         'id'          : 174,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '381.82',
             'y1' : '1964.19',
             'x2' : '381.82',
@@ -1561,7 +1561,7 @@ export default [
     {
         'id'          : 175,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '866.19',
             'cy' : '349.99',
         },
@@ -1569,7 +1569,7 @@ export default [
     {
         'id'          : 176,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '866.5',
             'y1' : '401.55',
             'x2' : '866.5',
@@ -1579,7 +1579,7 @@ export default [
     {
         'id'          : 177,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '866.14',
             'cy' : '568.44',
         },
@@ -1587,7 +1587,7 @@ export default [
     {
         'id'          : 178,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1032.78',
             'cy' : '630.45',
         },
@@ -1595,7 +1595,7 @@ export default [
     {
         'id'          : 179,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1183.59',
             'cy' : '744.97',
         },
@@ -1603,7 +1603,7 @@ export default [
     {
         'id'          : 180,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1315.03',
             'cy' : '873.7',
         },
@@ -1611,7 +1611,7 @@ export default [
     {
         'id'          : 181,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1335.86',
             'cy' : '1094.05',
         },
@@ -1619,7 +1619,7 @@ export default [
     {
         'id'          : 182,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1337.27',
             'cy' : '1196.13',
         },
@@ -1627,7 +1627,7 @@ export default [
     {
         'id'          : 183,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1337.27',
             'cy' : '1299.09',
         },
@@ -1635,7 +1635,7 @@ export default [
     {
         'id'          : 184,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1337.27',
             'cy' : '1482.34',
         },
@@ -1643,7 +1643,7 @@ export default [
     {
         'id'          : 185,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '1337.27',
             'y1' : '1572.19',
             'x2' : '1337.27',
@@ -1653,7 +1653,7 @@ export default [
     {
         'id'          : 186,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '1337.27',
             'y1' : '1620.19',
             'x2' : '1337.27',
@@ -1663,7 +1663,7 @@ export default [
     {
         'id'          : 187,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '1337.27',
             'y1' : '1669.02',
             'x2' : '1337.27',
@@ -1673,7 +1673,7 @@ export default [
     {
         'id'          : 188,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '1337.27',
             'y1' : '1717.98',
             'x2' : '1337.27',
@@ -1683,7 +1683,7 @@ export default [
     {
         'id'          : 189,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '1345.69',
             'y1' : '1769.85',
             'x2' : '1345.69',
@@ -1693,7 +1693,7 @@ export default [
     {
         'id'          : 190,
         'stationType' : 'nonTransfer',
-        'coondinates' : {
+        'coordinates' : {
             'x1' : '1345.69',
             'y1' : '1810.49',
             'x2' : '1345.69',
@@ -1703,7 +1703,7 @@ export default [
     {
         'id'          : 191,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '1336.95',
             'cy' : '1859.61',
         },
@@ -1711,7 +1711,7 @@ export default [
     {
         'id'          : 195,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '260.67',
             'cy' : '826.66',
         },
@@ -1719,7 +1719,7 @@ export default [
     {
         'id'          : 196,
         'stationType' : 'transfer',
-        'coondinates' : {
+        'coordinates' : {
             'cx' : '119.56',
             'cy' : '1023.72',
         },
