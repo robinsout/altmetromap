@@ -1548,15 +1548,15 @@ export default {
     },
 
     mounted() {
-        console.log(this.findPath(moscowGraph, 5, 50));
+        console.log(this.pathFinder(moscowGraph, 5, 50));
 
         this.getStations();
     },
 
     methods : {
-        findPath(graph, fromNode, toNode) {
-            return pathFinder(graph, fromNode, toNode);
-        },
+
+        // Поиск кратчайшего маршрута в графе метро: (graph, startNode, destinationNode)
+        pathFinder,
 
         getStationData( stationId ) {
             const station = moscowGraph.find( station => station.id === stationId);
