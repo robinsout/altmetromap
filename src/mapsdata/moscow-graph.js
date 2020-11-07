@@ -314,6 +314,86 @@ export default [
         'name_translit' : 'Troparyovo',
     },
     {
+        'id'    : 199,
+        'links' : [
+            {
+                'node_id' : 20,
+                'time'    : 180,
+            },
+            {
+                'node_id' : 200,
+                'time'    : 180,
+            },
+        ],
+        'name_translit' : 'Rumyantsevo',
+    },
+    {
+        'id'    : 200,
+        'links' : [
+            {
+                'node_id' : 199,
+                'time'    : 180,
+            },
+            {
+                'node_id' : 201,
+                'time'    : 240,
+            },
+        ],
+        'name_translit' : 'Salaryevo',
+    },
+    {
+        'id'    : 201,
+        'links' : [
+            {
+                'node_id' : 200,
+                'time'    : 240,
+            },
+            {
+                'node_id' : 202,
+                'time'    : 240,
+            },
+        ],
+        'name_translit' : 'Filatov Lug',
+    },
+    {
+        'id'    : 202,
+        'links' : [
+            {
+                'node_id' : 201,
+                'time'    : 240,
+            },
+            {
+                'node_id' : 203,
+                'time'    : 240,
+            },
+        ],
+        'name_translit' : 'Prokshino',
+    },
+    {
+        'id'    : 203,
+        'links' : [
+            {
+                'node_id' : 202,
+                'time'    : 240,
+            },
+            {
+                'node_id' : 204,
+                'time'    : 120,
+            },
+        ],
+        'name_translit' : 'Olkhovaya',
+    },
+    {
+        'id'    : 204,
+        'links' : [
+            {
+                'node_id' : 203,
+                'time'    : 120,
+            },
+        ],
+        'name_translit' : 'Kommunarka',
+    },
+    {
         'id'    : 21,
         'links' : [
             {
@@ -517,18 +597,32 @@ export default [
                 'time'    : 215,
             },
             {
-                'node_id' : 34,
-                'time'    : 270,
+                'node_id' : 198,
+                'time'    : 180,
             },
         ],
         'name_translit' : 'Avtozavodskaya',
     },
     {
-        'id'    : 34,
+        'id'    : 198,
         'links' : [
             {
                 'node_id' : 33,
-                'time'    : 265,
+                'time'    : 180,
+            },
+            {
+                'node_id' : 34,
+                'time'    : 120,
+            },
+        ],
+        'name_translit' : 'Tehnopark',
+    },
+    {
+        'id'    : 34,
+        'links' : [
+            {
+                'node_id' : 198,
+                'time'    : 120,
             },
             {
                 'node_id' : 35,
