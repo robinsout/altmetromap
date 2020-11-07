@@ -896,29 +896,20 @@ export default [{
     'id'          : 114,
     'stationType' : 'nonTransfer',
     'coordinates' : {
-        'x1' : '220.75',
-        'y1' : '177.36',
-        'x2' : '234.87',
-        'y2' : '177.36',
-    },
-},{
-    'id'          : 115,
-    'stationType' : 'nonTransfer',
-    'coordinates' : {
         'x1' : '227.98',
         'y1' : '216.74',
         'x2' : '234.87',
         'y2' : '216.74',
     },
 },{
-    'id'          : 116,
+    'id'          : 115,
     'stationType' : 'transfer',
     'coordinates' : {
         'cx' : '227.98',
         'cy' : '298.29',
     },
 },{
-    'id'          : 117,
+    'id'          : 116,
     'stationType' : 'nonTransfer',
     'coordinates' : {
         'x1' : '227.98',
@@ -927,35 +918,35 @@ export default [{
         'y2' : '357.78',
     },
 },{
-    'id'          : 118,
+    'id'          : 117,
     'stationType' : 'transfer',
     'coordinates' : {
         'cx' : '228.31',
         'cy' : '412.73',
     },
 },{
-    'id'          : 119,
+    'id'          : 118,
     'stationType' : 'transfer',
     'coordinates' : {
         'cx' : '227.98',
         'cy' : '469.79',
     },
 },{
-    'id'          : 120,
+    'id'          : 119,
     'stationType' : 'transfer',
     'coordinates' : {
         'cx' : '313.93',
         'cy' : '589.03',
     },
 },{
-    'id'          : 121,
+    'id'          : 120,
     'stationType' : 'transfer',
     'coordinates' : {
         'cx' : '394.16',
         'cy' : '669.68',
     },
 },{
-    'id'          : 122,
+    'id'          : 121,
     'stationType' : 'nonTransfer',
     'coordinates' : {
         'x1' : '445.28',
@@ -964,63 +955,63 @@ export default [{
         'y2' : '724.36',
     },
 },{
-    'id'          : 123,
+    'id'          : 122,
     'stationType' : 'transfer',
     'coordinates' : {
         'cx' : '502.86',
         'cy' : '728.38',
     },
 },{
-    'id'          : 124,
+    'id'          : 123,
     'stationType' : 'transfer',
     'coordinates' : {
         'cx' : '742.97',
         'cy' : '729.28',
     },
 },{
-    'id'          : 125,
+    'id'          : 124,
     'stationType' : 'transfer',
     'coordinates' : {
         'cx' : '943.19',
         'cy' : '729.12',
     },
 },{
-    'id'          : 126,
+    'id'          : 125,
     'stationType' : 'transfer',
     'coordinates' : {
         'cx' : '1069.56',
         'cy' : '813.94',
     },
 },{
-    'id'          : 127,
+    'id'          : 126,
     'stationType' : 'transfer',
     'coordinates' : {
         'cx' : '1211.64',
         'cy' : '956.57',
     },
 },{
-    'id'          : 128,
+    'id'          : 127,
     'stationType' : 'transfer',
     'coordinates' : {
         'cx' : '1325.82',
         'cy' : '1070.31',
     },
 },{
-    'id'          : 129,
+    'id'          : 128,
     'stationType' : 'transfer',
     'coordinates' : {
         'cx' : '1416.74',
         'cy' : '1161.12',
     },
 },{
-    'id'          : 130,
+    'id'          : 129,
     'stationType' : 'transfer',
     'coordinates' : {
         'cx' : '1464.26',
         'cy' : '1208.41',
     },
 },{
-    'id'          : 131,
+    'id'          : 130,
     'stationType' : 'nonTransfer',
     'coordinates' : {
         'x1' : '1561.18',
@@ -1029,13 +1020,22 @@ export default [{
         'y2' : '1300.72',
     },
 },{
-    'id'          : 132,
+    'id'          : 131,
     'stationType' : 'nonTransfer',
     'coordinates' : {
         'x1' : '1578.97',
         'y1' : '1356.16',
         'x2' : '1584.85',
         'y2' : '1356.16',
+    },
+},{
+    'id'          : 132,
+    'stationType' : 'nonTransfer',
+    'coordinates' : {
+        'x1' : '1578.97',
+        'y1' : '1411.99',
+        'x2' : '1584.85',
+        'y2' : '1411.99',
     },
 },{
     'id'          : 133,
