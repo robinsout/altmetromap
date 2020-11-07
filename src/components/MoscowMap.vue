@@ -13,7 +13,7 @@
 
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 1589.29 1964.19">
+      viewBox="-200 -50 1989.29 2104.19">
       <g
         id="_5_line"
         data-name="5_line">
