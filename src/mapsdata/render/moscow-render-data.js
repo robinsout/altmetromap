@@ -1650,4 +1650,23 @@ export default [{
         'x2' : '673.32',
         'y2' : '2.5',
     },
+}, {
+    'id'          : 211,
+    'stationType' : 'nonTransfer',
+    'coordinates' : {
+        'x1' : '445.4',
+        'y1' : '60.37',
+        'x2' : '455.91',
+        'y2' : '60.37',
+    },
+},
+{
+    'id'          : 212,
+    'stationType' : 'nonTransfer',
+    'coordinates' : {
+        'x1' : '434.91',
+        'y1' : '2.5',
+        'x2' : '455.91',
+        'y2' : '2.5',
+    },
 }];
