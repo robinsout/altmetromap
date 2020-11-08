@@ -1597,4 +1597,57 @@ export default [{
         'x2' : '373.97',
         'y2' : '1858.5',
     },
+},{
+    'id'          : 205,
+    'stationType' : 'nonTransfer',
+    'coordinates' : {
+        'x1' : '866.5',
+        'y1' : '309.27',
+        'x2' : '876.57',
+        'y2' : '309.27',
+    },
+},
+{
+    'id'          : 206,
+    'stationType' : 'transfer',
+    'coordinates' : {
+        'cx' : '844.41',
+        'cy' : '270.59',
+    },
+},
+{
+    'id'          : 207,
+    'stationType' : 'transfer',
+    'coordinates' : {
+        'cx' : '820.26',
+        'cy' : '246.35',
+    },
+},
+{
+    'id'          : 208,
+    'stationType' : 'transfer',
+    'coordinates' : {
+        'cx' : '755.5',
+        'cy' : '181.61',
+    },
+},
+{
+    'id'          : 209,
+    'stationType' : 'nonTransfer',
+    'coordinates' : {
+        'x1' : '663.13',
+        'y1' : '45.17',
+        'x2' : '673.32',
+        'y2' : '45.17',
+    },
+},
+{
+    'id'          : 210,
+    'stationType' : 'nonTransfer',
+    'coordinates' : {
+        'x1' : '652.32',
+        'y1' : '2.5',
+        'x2' : '673.32',
+        'y2' : '2.5',
+    },
 }];
