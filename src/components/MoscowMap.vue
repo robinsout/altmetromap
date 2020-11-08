@@ -1562,7 +1562,7 @@ export default {
             const station = moscowGraph.find( station => station.id === stationId);
 
             if (!station) {
-                console.log('Has no pair:', stationId);
+                console.log('Has no pair, exists only in graph:', stationId);
             }
 
             return station;
@@ -1624,7 +1624,7 @@ export default {
                 addNewStation({
                     id          : getId(),
                     stationType : 'transfer',
-                    coondinates : {
+                    coordinates : {
                         cx : event.target.cx.baseVal.valueAsString,
                         cy : event.target.cy.baseVal.valueAsString,
                     },
@@ -1635,7 +1635,7 @@ export default {
                 addNewStation({
                     id          : getId(),
                     stationType : 'nonTransfer',
-                    coondinates : {
+                    coordinates : {
                         x1 : event.target.x1.baseVal.valueAsString,
                         y1 : event.target.y1.baseVal.valueAsString,
                         x2 : event.target.x2.baseVal.valueAsString,
