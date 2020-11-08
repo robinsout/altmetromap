@@ -3137,4 +3137,88 @@ export default [
         ],
         'name_translit' : 'Kotelniki',
     },
+    {
+        'id'    : 205,
+        'links' : [
+            {
+                'node_id' : 175,
+                'time'    : 180,
+            },
+            {
+                'node_id' : 206,
+                'time'    : 180,
+            },
+        ],
+        'name_translit' : 'Butyrskaya',
+    },
+    {
+        'id'    : 206,
+        'links' : [
+            {
+                'node_id' : 205,
+                'time'    : 180,
+            },
+            {
+                'node_id' : 207,
+                'time'    : 180,
+            },
+        ],
+        'name_translit' : 'Fonvizinskaya',
+    },
+    {
+        'id'    : 207,
+        'links' : [
+            {
+                'node_id' : 206,
+                'time'    : 180,
+            },
+            {
+                'node_id' : 208,
+                'time'    : 120,
+            },
+            {
+                'node_id' : 147,
+                'time'    : 60,
+            },
+        ],
+        'name_translit' : 'Petrovsko-Razumovskaya',
+    },
+    {
+        'id'    : 208,
+        'links' : [
+            {
+                'node_id' : 207,
+                'time'    : 120,
+            },
+            {
+                'node_id' : 209,
+                'time'    : 120,
+            },
+        ],
+        'name_translit' : 'Okruzhnaya',
+    },
+    {
+        'id'    : 209,
+        'links' : [
+            {
+                'node_id' : 208,
+                'time'    : 120,
+            },
+            {
+                'node_id' : 210,
+                'time'    : 180,
+            },
+        ],
+        'name_translit' : 'Verhnie Likhobory',
+    },
+    {
+        'id'    : 210,
+        'links' : [
+            {
+                'node_id' : 209,
+                'time'    : 180,
+            },
+        ],
+        'name_translit' : 'Seligerskaya',
+    },
 ];
