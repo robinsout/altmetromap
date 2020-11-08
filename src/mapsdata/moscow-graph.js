@@ -3290,6 +3290,7 @@ export default [
             },
         ],
         'name_translit' : 'Petrovskiy Park',
+        'lineId'        : '8a',
     },
     {
         'id'    : 215,
@@ -3308,6 +3309,7 @@ export default [
             },
         ],
         'name_translit' : 'CSKA',
+        'lineId'        : '8a',
     },
     {
         'id'    : 216,
@@ -3330,6 +3332,7 @@ export default [
             },
         ],
         'name_translit' : 'Khoroshyovskaya',
+        'lineId'        : '8a',
     },
     {
         'id'    : 217,
@@ -3348,6 +3351,7 @@ export default [
             },
         ],
         'name_translit' : 'Shelepikha',
+        'lineId'        : '8a',
     },
     {
         'id'    : 218,
@@ -3362,6 +3366,7 @@ export default [
             },
         ],
         'name_translit' : 'Minskaya',
+        'lineId'        : '8a',
     },
     {
         'id'    : 219,
@@ -3376,6 +3381,7 @@ export default [
             },
         ],
         'name_translit' : 'Lomonosovskiy prospekt',
+        'lineId'        : '8a',
     },
     {
         'id'    : 220,
@@ -3390,6 +3396,7 @@ export default [
             },
         ],
         'name_translit' : 'Ramenki',
+        'lineId'        : '8a',
     },
     {
         'id'    : 221,
@@ -3404,6 +3411,7 @@ export default [
             },
         ],
         'name_translit' : 'Michurinskiy prospekt',
+        'lineId'        : '8a',
     },
     {
         'id'    : 222,
@@ -3418,6 +3426,7 @@ export default [
             },
         ],
         'name_translit' : 'Ozernaya',
+        'lineId'        : '8a',
     },
     {
         'id'    : 223,
@@ -3432,6 +3441,7 @@ export default [
             },
         ],
         'name_translit' : 'Govorovo',
+        'lineId'        : '8a',
     },
     {
         'id'    : 224,
@@ -3446,6 +3456,7 @@ export default [
             },
         ],
         'name_translit' : 'Solntsevo',
+        'lineId'        : '8a',
     },
     {
         'id'    : 225,
@@ -3460,6 +3471,7 @@ export default [
             },
         ],
         'name_translit' : 'Borovskoye shosse',
+        'lineId'        : '8a',
     },
     {
         'id'    : 226,
@@ -3474,6 +3486,7 @@ export default [
             },
         ],
         'name_translit' : 'Novoperedelkino',
+        'lineId'        : '8a',
     },
     {
         'id'    : 227,
@@ -3484,6 +3497,7 @@ export default [
             },
         ],
         'name_translit' : 'Rasskazovka',
+        'lineId'        : '8a',
     },
     {
         'id'    : 228,
