@@ -2,7 +2,7 @@
 export default [
     {
         'id'               : 1,
-        'lineId'           : 1,
+        'lineId'           : '1',
         'name_original'    : 'Бульвар Рокоссовского',
         'name_translit'    : 'Bulvar Rokossovskogo',
         'name_translation' : 'Bull w!ire Rock or s!olves cover',
@@ -941,7 +941,7 @@ export default [
                 'time'    : 325,
             },
             {
-                'node_id' : 195,
+                'node_id' : 196,
                 'time'    : 120,
             },
         ],
@@ -1157,7 +1157,7 @@ export default [
                 'time'    : 145,
             },
             {
-                'node_id' : 196,
+                'node_id' : 195,
                 'time'    : 180,
             },
         ],
@@ -2426,6 +2426,7 @@ export default [
             },
         ],
         'name_translit' : 'Savyolovskaya',
+        'lineId'        : '9',
     },
     {
         'id'    : 151,
@@ -3103,12 +3104,12 @@ export default [
         'id'    : 195,
         'links' : [
             {
-                'node_id' : 196,
-                'time'    : 505,
+                'node_id' : 68,
+                'time'    : 180,
             },
             {
-                'node_id' : 54,
-                'time'    : 120,
+                'node_id' : 232,
+                'time'    : 180,
             },
         ],
         'name_translit' : 'Delovoy Center',
@@ -3117,11 +3118,15 @@ export default [
         'id'    : 196,
         'links' : [
             {
-                'node_id' : 195,
-                'time'    : 505,
+                'node_id' : 54,
+                'time'    : 120,
             },
             {
-                'node_id' : 68,
+                'node_id' : 217,
+                'time'    : 300,
+            },
+            {
+                'node_id' : 218,
                 'time'    : 180,
             },
         ],
@@ -3244,5 +3249,343 @@ export default [
             },
         ],
         'name_translit' : 'Khovrino',
+    },
+    {
+        'id'    : 213,
+        'links' : [
+            {
+                'node_id' : 228,
+                'time'    : 60,
+            },
+            {
+                'node_id' : 150,
+                'time'    : 180,
+            },
+            {
+                'node_id' : 214,
+                'time'    : 240,
+            },
+        ],
+        'name_translit' : 'Savyolovskaya',
+        'lineId'        : '8a',
+    },
+    {
+        'id'    : 214,
+        'links' : [
+            {
+                'node_id' : 229,
+                'time'    : 60,
+            },
+            {
+                'node_id' : 26,
+                'time'    : 360,
+            },
+            {
+                'node_id' : 213,
+                'time'    : 240,
+            },
+            {
+                'node_id' : 215,
+                'time'    : 120,
+            },
+        ],
+        'name_translit' : 'Petrovskiy Park',
+    },
+    {
+        'id'    : 215,
+        'links' : [
+            {
+                'node_id' : 230,
+                'time'    : 60,
+            },
+            {
+                'node_id' : 214,
+                'time'    : 120,
+            },
+            {
+                'node_id' : 216,
+                'time'    : 120,
+            },
+        ],
+        'name_translit' : 'CSKA',
+    },
+    {
+        'id'    : 216,
+        'links' : [
+            {
+                'node_id' : 231,
+                'time'    : 60,
+            },
+            {
+                'node_id' : 215,
+                'time'    : 120,
+            },
+            {
+                'node_id' : 217,
+                'time'    : 300,
+            },
+            {
+                'node_id' : 119,
+                'time'    : 180,
+            },
+        ],
+        'name_translit' : 'Khoroshyovskaya',
+    },
+    {
+        'id'    : 217,
+        'links' : [
+            {
+                'node_id' : 232,
+                'time'    : 60,
+            },
+            {
+                'node_id' : 216,
+                'time'    : 300,
+            },
+            {
+                'node_id' : 218,
+                'time'    : 300,
+            },
+        ],
+        'name_translit' : 'Shelepikha',
+    },
+    {
+        'id'    : 218,
+        'links' : [
+            {
+                'node_id' : 196,
+                'time'    : 180,
+            },
+            {
+                'node_id' : 219,
+                'time'    : 240,
+            },
+        ],
+        'name_translit' : 'Minskaya',
+    },
+    {
+        'id'    : 219,
+        'links' : [
+            {
+                'node_id' : 220,
+                'time'    : 120,
+            },
+            {
+                'node_id' : 218,
+                'time'    : 240,
+            },
+        ],
+        'name_translit' : 'Lomonosovskiy prospekt',
+    },
+    {
+        'id'    : 220,
+        'links' : [
+            {
+                'node_id' : 221,
+                'time'    : 180,
+            },
+            {
+                'node_id' : 219,
+                'time'    : 120,
+            },
+        ],
+        'name_translit' : 'Ramenki',
+    },
+    {
+        'id'    : 221,
+        'links' : [
+            {
+                'node_id' : 222,
+                'time'    : 240,
+            },
+            {
+                'node_id' : 220,
+                'time'    : 180,
+            },
+        ],
+        'name_translit' : 'Michurinskiy prospekt',
+    },
+    {
+        'id'    : 222,
+        'links' : [
+            {
+                'node_id' : 221,
+                'time'    : 240,
+            },
+            {
+                'node_id' : 223,
+                'time'    : 180,
+            },
+        ],
+        'name_translit' : 'Ozernaya',
+    },
+    {
+        'id'    : 223,
+        'links' : [
+            {
+                'node_id' : 222,
+                'time'    : 180,
+            },
+            {
+                'node_id' : 224,
+                'time'    : 180,
+            },
+        ],
+        'name_translit' : 'Govorovo',
+    },
+    {
+        'id'    : 224,
+        'links' : [
+            {
+                'node_id' : 223,
+                'time'    : 180,
+            },
+            {
+                'node_id' : 225,
+                'time'    : 180,
+            },
+        ],
+        'name_translit' : 'Solntsevo',
+    },
+    {
+        'id'    : 225,
+        'links' : [
+            {
+                'node_id' : 224,
+                'time'    : 180,
+            },
+            {
+                'node_id' : 226,
+                'time'    : 120,
+            },
+        ],
+        'name_translit' : 'Borovskoye shosse',
+    },
+    {
+        'id'    : 226,
+        'links' : [
+            {
+                'node_id' : 225,
+                'time'    : 120,
+            },
+            {
+                'node_id' : 227,
+                'time'    : 120,
+            },
+        ],
+        'name_translit' : 'Novoperedelkino',
+    },
+    {
+        'id'    : 227,
+        'links' : [
+            {
+                'node_id' : 226,
+                'time'    : 120,
+            },
+        ],
+        'name_translit' : 'Rasskazovka',
+    },
+    {
+        'id'    : 228,
+        'links' : [
+            {
+                'node_id' : 229,
+                'time'    : 240,
+            },
+            {
+                'node_id' : 150,
+                'time'    : 180,
+            },
+            {
+                'node_id' : 213,
+                'time'    : 60,
+            },
+        ],
+        'name_translit' : 'Savyolovskaya',
+        'lineId'        : '11',
+    },
+    {
+        'id'    : 229,
+        'links' : [
+            {
+                'node_id' : 214,
+                'time'    : 60,
+            },
+            {
+                'node_id' : 26,
+                'time'    : 360,
+            },
+            {
+                'node_id' : 228,
+                'time'    : 240,
+            },
+            {
+                'node_id' : 230,
+                'time'    : 120,
+            },
+        ],
+        'name_translit' : 'Petrovskiy Park',
+        'lineId'        : '11',
+    },
+    {
+        'id'    : 230,
+        'links' : [
+            {
+                'node_id' : 215,
+                'time'    : 60,
+            },
+            {
+                'node_id' : 229,
+                'time'    : 120,
+            },
+            {
+                'node_id' : 231,
+                'time'    : 120,
+            },
+        ],
+        'name_translit' : 'CSKA',
+        'lineId'        : '11',
+    },
+    {
+        'id'    : 231,
+        'links' : [
+            {
+                'node_id' : 216,
+                'time'    : 60,
+            },
+            {
+                'node_id' : 230,
+                'time'    : 120,
+            },
+            {
+                'node_id' : 232,
+                'time'    : 300,
+            },
+            {
+                'node_id' : 119,
+                'time'    : 180,
+            },
+        ],
+        'name_translit' : 'Khoroshyovskaya',
+        'lineId'        : '11',
+    },
+    {
+        'id'    : 232,
+        'links' : [
+            {
+                'node_id' : 217,
+                'time'    : 60,
+            },
+            {
+                'node_id' : 231,
+                'time'    : 300,
+            },
+            {
+                'node_id' : 195,
+                'time'    : 180,
+            },
+        ],
+        'name_translit' : 'Shelepikha',
+        'lineId'        : '11',
     },
 ];
