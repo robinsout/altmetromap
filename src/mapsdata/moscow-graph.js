@@ -3209,7 +3209,7 @@ export default [
                 'time'    : 180,
             },
         ],
-        'name_translit' : 'Verhnie Likhobory',
+        'name_translit' : 'Verkhnie Likhobory',
     },
     {
         'id'    : 210,
@@ -3220,5 +3220,29 @@ export default [
             },
         ],
         'name_translit' : 'Seligerskaya',
+    },
+    {
+        'id'    : 211,
+        'links' : [
+            {
+                'node_id' : 212,
+                'time'    : 120,
+            },
+            {
+                'node_id' : 21,
+                'time'    : 120,
+            },
+        ],
+        'name_translit' : 'Belomorskaya',
+    },
+    {
+        'id'    : 212,
+        'links' : [
+            {
+                'node_id' : 211,
+                'time'    : 120,
+            },
+        ],
+        'name_translit' : 'Khovrino',
     },
 ];
