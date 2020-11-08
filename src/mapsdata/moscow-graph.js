@@ -28,6 +28,7 @@ export default [
             },
         ],
         'name_translit' : 'Cherkizovskaya',
+        'name_original' : 'Черкизовская',
     },
     {
         'id'    : 3,
@@ -42,6 +43,7 @@ export default [
             },
         ],
         'name_translit' : 'Preobrazhenskaya Ploschad',
+        'name_original' : 'Преображенская площадь',
     },
     {
         'id'    : 4,
@@ -56,6 +58,7 @@ export default [
             },
         ],
         'name_translit' : 'Sokolniki',
+        'name_original' : 'Сокольники',
     },
     {
         'id'    : 5,
@@ -70,6 +73,7 @@ export default [
             },
         ],
         'name_translit' : 'Krasnoselskaya',
+        'name_original' : 'Красносельская',
     },
     {
         'id'    : 6,
@@ -88,6 +92,7 @@ export default [
             },
         ],
         'name_translit' : 'Komsomolskaya',
+        'name_original' : 'Комсомольская',
     },
     {
         'id'    : 7,
@@ -102,6 +107,7 @@ export default [
             },
         ],
         'name_translit' : 'Krasnye Vorota',
+        'name_original' : 'Красные ворота',
     },
     {
         'id'    : 8,
@@ -124,6 +130,7 @@ export default [
             },
         ],
         'name_translit' : 'Chistye Prudy',
+        'name_original' : 'Чистые пруды',
     },
     {
         'id'    : 9,
@@ -142,6 +149,7 @@ export default [
             },
         ],
         'name_translit' : 'Lubyanka',
+        'name_original' : 'Лубянка',
     },
     {
         'id'    : 10,
@@ -160,6 +168,7 @@ export default [
             },
         ],
         'name_translit' : 'Ohotny Ryad',
+        'name_original' : 'Охотный ряд',
     },
     {
         'id'    : 11,
@@ -186,6 +195,7 @@ export default [
             },
         ],
         'name_translit' : 'Biblioteka imeni Lenina',
+        'name_original' : 'Библиотека им. Ленина',
     },
     {
         'id'    : 12,
@@ -200,6 +210,7 @@ export default [
             },
         ],
         'name_translit' : 'Kropotkinskaya',
+        'name_original' : 'Кропоткинская',
     },
     {
         'id'    : 13,
@@ -218,6 +229,7 @@ export default [
             },
         ],
         'name_translit' : 'Park Kultury',
+        'name_original' : 'Парк культуры',
     },
     {
         'id'    : 14,
@@ -232,6 +244,7 @@ export default [
             },
         ],
         'name_translit' : 'Frunzenskaya',
+        'name_original' : 'Фрузенская',
     },
     {
         'id'    : 15,
@@ -246,6 +259,7 @@ export default [
             },
         ],
         'name_translit' : 'Sportivnaya',
+        'name_original' : 'Спортивная',
     },
     {
         'id'    : 16,
@@ -260,6 +274,7 @@ export default [
             },
         ],
         'name_translit' : 'Vorobyevy Gory',
+        'name_original' : 'Воробьевы горы',
     },
     {
         'id'    : 17,
@@ -274,6 +289,7 @@ export default [
             },
         ],
         'name_translit' : 'Universitet',
+        'name_original' : 'Университет',
     },
     {
         'id'    : 18,
@@ -288,6 +304,7 @@ export default [
             },
         ],
         'name_translit' : 'Prospekt Vernadskogo',
+        'name_original' : 'Проспект Вернадского',
     },
     {
         'id'    : 19,
@@ -302,6 +319,7 @@ export default [
             },
         ],
         'name_translit' : 'Yugo-Zapadnaya',
+        'name_original' : 'Юго-Западная',
     },
     {
         'id'    : 20,
@@ -312,6 +330,7 @@ export default [
             },
         ],
         'name_translit' : 'Troparyovo',
+        'name_original' : 'Тропарёво',
     },
     {
         'id'    : 199,
@@ -326,6 +345,7 @@ export default [
             },
         ],
         'name_translit' : 'Rumyantsevo',
+        'name_original' : 'Румянцево',
     },
     {
         'id'    : 200,
@@ -340,6 +360,7 @@ export default [
             },
         ],
         'name_translit' : 'Salaryevo',
+        'name_original' : 'Саларьево',
     },
     {
         'id'    : 201,
@@ -354,6 +375,7 @@ export default [
             },
         ],
         'name_translit' : 'Filatov Lug',
+        'name_original' : 'Филатов луг',
     },
     {
         'id'    : 202,
@@ -368,6 +390,7 @@ export default [
             },
         ],
         'name_translit' : 'Prokshino',
+        'name_original' : 'Прокшино',
     },
     {
         'id'    : 203,
@@ -382,6 +405,7 @@ export default [
             },
         ],
         'name_translit' : 'Olkhovaya',
+        'name_original' : 'Ольховая',
     },
     {
         'id'    : 204,
@@ -392,6 +416,7 @@ export default [
             },
         ],
         'name_translit' : 'Kommunarka',
+        'name_original' : 'Коммунарка',
     },
     {
         'id'    : 21,
@@ -402,6 +427,7 @@ export default [
             },
         ],
         'name_translit' : 'Rechnoy Vokzal',
+        'name_original' : 'Речной вокзал',
     },
     {
         'id'    : 22,
@@ -416,6 +442,7 @@ export default [
             },
         ],
         'name_translit' : 'Vodny Station',
+        'name_original' : 'Водный стадион',
     },
     {
         'id'    : 23,
@@ -430,6 +457,7 @@ export default [
             },
         ],
         'name_translit' : 'Voykovskaya',
+        'name_original' : 'Войковская',
     },
     {
         'id'    : 24,
@@ -444,6 +472,7 @@ export default [
             },
         ],
         'name_translit' : 'Sokol',
+        'name_original' : 'Сокол',
     },
     {
         'id'    : 25,
@@ -458,6 +487,7 @@ export default [
             },
         ],
         'name_translit' : 'Aeroport',
+        'name_original' : 'Аэропорт',
     },
     {
         'id'    : 26,
@@ -472,6 +502,7 @@ export default [
             },
         ],
         'name_translit' : 'Dinamo',
+        'name_original' : 'Динамо',
     },
     {
         'id'    : 27,
@@ -490,6 +521,7 @@ export default [
             },
         ],
         'name_translit' : 'Belorusskaya',
+        'name_original' : 'Белорусская',
     },
     {
         'id'    : 28,
@@ -504,6 +536,7 @@ export default [
             },
         ],
         'name_translit' : 'Mayakovskaya',
+        'name_original' : 'Маяковская',
     },
     {
         'id'    : 29,
@@ -526,6 +559,7 @@ export default [
             },
         ],
         'name_translit' : 'Tverskaya',
+        'name_original' : 'Тверская',
     },
     {
         'id'    : 30,
@@ -548,6 +582,7 @@ export default [
             },
         ],
         'name_translit' : 'Teatralnaya',
+        'name_original' : 'Театральная',
     },
     {
         'id'    : 31,
@@ -570,6 +605,7 @@ export default [
             },
         ],
         'name_translit' : 'Novokuznetskaya',
+        'name_original' : 'Новокузнецкая',
     },
     {
         'id'    : 32,
@@ -588,6 +624,7 @@ export default [
             },
         ],
         'name_translit' : 'Paveletskaya',
+        'name_original' : 'Павелецкая',
     },
     {
         'id'    : 33,
@@ -602,6 +639,7 @@ export default [
             },
         ],
         'name_translit' : 'Avtozavodskaya',
+        'name_original' : 'Автозаводская',
     },
     {
         'id'    : 198,
@@ -616,6 +654,7 @@ export default [
             },
         ],
         'name_translit' : 'Tehnopark',
+        'name_original' : 'Технопарк',
     },
     {
         'id'    : 34,
@@ -630,6 +669,7 @@ export default [
             },
         ],
         'name_translit' : 'Kolomenskaya',
+        'name_original' : 'Коломенская',
     },
     {
         'id'    : 35,
@@ -648,6 +688,7 @@ export default [
             },
         ],
         'name_translit' : 'Kashirskaya',
+        'name_original' : 'Каширская',
     },
     {
         'id'    : 36,
@@ -662,6 +703,7 @@ export default [
             },
         ],
         'name_translit' : 'Kantemirovskaya',
+        'name_original' : 'Кантемировская',
     },
     {
         'id'    : 37,
@@ -676,6 +718,7 @@ export default [
             },
         ],
         'name_translit' : 'Tsaritsyno',
+        'name_original' : 'Царицыно',
     },
     {
         'id'    : 38,
@@ -690,6 +733,7 @@ export default [
             },
         ],
         'name_translit' : 'Orehovo',
+        'name_original' : 'Орехово',
     },
     {
         'id'    : 39,
@@ -704,6 +748,7 @@ export default [
             },
         ],
         'name_translit' : 'Domodedovskaya',
+        'name_original' : 'Домодедовская',
     },
     {
         'id'    : 40,
@@ -722,6 +767,7 @@ export default [
             },
         ],
         'name_translit' : 'Krasnogvardeyskaya',
+        'name_original' : 'Красногвардейская',
     },
     {
         'id'    : 41,
@@ -732,6 +778,7 @@ export default [
             },
         ],
         'name_translit' : 'Alma-Atinskaya',
+        'name_original' : 'Алма-Атинская',
     },
     {
         'id'    : 42,
@@ -742,6 +789,7 @@ export default [
             },
         ],
         'name_translit' : 'Shyolkovskaya',
+        'name_original' : 'Щёлковская',
     },
     {
         'id'    : 43,
@@ -756,6 +804,7 @@ export default [
             },
         ],
         'name_translit' : 'Pervomayskaya',
+        'name_original' : 'Первомайская',
     },
     {
         'id'    : 44,
@@ -770,6 +819,7 @@ export default [
             },
         ],
         'name_translit' : 'Izmaylovskaya',
+        'name_original' : 'Измайловская',
     },
     {
         'id'    : 45,
@@ -784,6 +834,7 @@ export default [
             },
         ],
         'name_translit' : 'Partizanskaya',
+        'name_original' : 'Партизанская',
     },
     {
         'id'    : 46,
@@ -798,6 +849,7 @@ export default [
             },
         ],
         'name_translit' : 'Semyonovskaya',
+        'name_original' : 'Семёновская',
     },
     {
         'id'    : 47,
@@ -812,6 +864,7 @@ export default [
             },
         ],
         'name_translit' : 'Elektrozavodskaya',
+        'name_original' : 'Электрозаводская',
     },
     {
         'id'    : 48,
@@ -826,6 +879,7 @@ export default [
             },
         ],
         'name_translit' : 'Baumanskaya',
+        'name_original' : 'Бауманская',
     },
     {
         'id'    : 49,
@@ -848,6 +902,7 @@ export default [
             },
         ],
         'name_translit' : 'Kurskaya',
+        'name_original' : 'Курская',
     },
     {
         'id'    : 50,
@@ -866,6 +921,7 @@ export default [
             },
         ],
         'name_translit' : 'Ploschad Revolycii',
+        'name_original' : 'Площадь революции',
     },
     {
         'id'    : 51,
@@ -892,6 +948,8 @@ export default [
             },
         ],
         'name_translit' : 'Arbatskaya',
+        'name_original' : 'Арбатская',
+        'lineId'        : '3',
     },
     {
         'id'    : 52,
@@ -906,6 +964,8 @@ export default [
             },
         ],
         'name_translit' : 'Smolenskaya',
+        'name_original' : 'Смоленская',
+        'lineId'        : '3',
     },
     {
         'id'    : 53,
@@ -928,6 +988,8 @@ export default [
             },
         ],
         'name_translit' : 'Kievskaya',
+        'name_original' : 'Киевская',
+        'lineId'        : '3',
     },
     {
         'id'    : 54,
@@ -946,6 +1008,8 @@ export default [
             },
         ],
         'name_translit' : 'Park Pobedy',
+        'name_original' : 'Парк Победы',
+        'lineId'        : '3',
     },
     {
         'id'    : 55,
@@ -960,6 +1024,7 @@ export default [
             },
         ],
         'name_translit' : 'Slavyansky Bulvar',
+        'name_original' : 'Славянский бульвар',
     },
     {
         'id'    : 56,
@@ -978,6 +1043,8 @@ export default [
             },
         ],
         'name_translit' : 'Kuntsevskaya',
+        'name_original' : 'Кунцевская',
+        'lineId'        : '3',
     },
     {
         'id'    : 57,
@@ -992,6 +1059,7 @@ export default [
             },
         ],
         'name_translit' : 'Molodezhnaya',
+        'name_original' : 'Молодежная',
     },
     {
         'id'    : 58,
@@ -1006,6 +1074,7 @@ export default [
             },
         ],
         'name_translit' : 'Krylatskoye',
+        'name_original' : 'Крылатское',
     },
     {
         'id'    : 59,
@@ -1020,6 +1089,7 @@ export default [
             },
         ],
         'name_translit' : 'Strogino',
+        'name_original' : 'Строгино',
     },
     {
         'id'    : 60,
@@ -1034,6 +1104,7 @@ export default [
             },
         ],
         'name_translit' : 'Myakinino',
+        'name_original' : 'Мякинино',
     },
     {
         'id'    : 61,
@@ -1048,6 +1119,7 @@ export default [
             },
         ],
         'name_translit' : 'Volokolamskaya',
+        'name_original' : 'Волоколамская',
     },
     {
         'id'    : 62,
@@ -1062,6 +1134,7 @@ export default [
             },
         ],
         'name_translit' : 'Mitino',
+        'name_original' : 'Митино',
     },
     {
         'id'    : 63,
@@ -1072,6 +1145,7 @@ export default [
             },
         ],
         'name_translit' : 'Pyatnitskoye Shosse',
+        'name_original' : 'Пятницкое шоссе',
     },
     {
         'id'    : 64,
@@ -1090,6 +1164,7 @@ export default [
             },
         ],
         'name_translit' : 'Aleksandrovsky Sad',
+        'name_original' : 'Александровский сад',
     },
     {
         'id'    : 65,
@@ -1103,7 +1178,9 @@ export default [
                 'time'    : 125,
             },
         ],
-        'name_translit' : 'Arbatskaya-2',
+        'name_translit' : 'Arbatskaya',
+        'name_original' : 'Арбатская',
+        'lineId'        : '4',
     },
     {
         'id'    : 66,
@@ -1117,7 +1194,9 @@ export default [
                 'time'    : 140,
             },
         ],
-        'name_translit' : 'Smolenskaya-2',
+        'name_translit' : 'Smolenskaya',
+        'name_original' : 'Смоленская',
+        'lineId'        : '4',
     },
     {
         'id'    : 67,
@@ -1144,6 +1223,8 @@ export default [
             },
         ],
         'name_translit' : 'Kievskaya',
+        'name_original' : 'Киевская',
+        'lineId'        : '4',
     },
     {
         'id'    : 68,
@@ -1162,6 +1243,7 @@ export default [
             },
         ],
         'name_translit' : 'Vystavochnaya',
+        'name_original' : 'Выставочная',
     },
     {
         'id'    : 69,
@@ -1172,6 +1254,7 @@ export default [
             },
         ],
         'name_translit' : 'Mezhdunarodnaya',
+        'name_original' : 'Международная',
     },
     {
         'id'    : 70,
@@ -1186,6 +1269,7 @@ export default [
             },
         ],
         'name_translit' : 'Studencheskaya',
+        'name_original' : 'Стеденческая',
     },
     {
         'id'    : 71,
@@ -1200,6 +1284,7 @@ export default [
             },
         ],
         'name_translit' : 'Kutuzovskaya',
+        'name_original' : 'Кутузовская',
     },
     {
         'id'    : 72,
@@ -1214,6 +1299,7 @@ export default [
             },
         ],
         'name_translit' : 'Fili',
+        'name_original' : 'Фили',
     },
     {
         'id'    : 73,
@@ -1228,6 +1314,7 @@ export default [
             },
         ],
         'name_translit' : 'Bagrationovskaya',
+        'name_original' : 'Багратионовская',
     },
     {
         'id'    : 74,
@@ -1242,6 +1329,7 @@ export default [
             },
         ],
         'name_translit' : 'Filyovsky Park',
+        'name_original' : 'Филёвский парк',
     },
     {
         'id'    : 75,
@@ -1256,6 +1344,7 @@ export default [
             },
         ],
         'name_translit' : 'Pionerskaya',
+        'name_original' : 'Пионерская',
     },
     {
         'id'    : 76,
@@ -1270,6 +1359,8 @@ export default [
             },
         ],
         'name_translit' : 'Kuntsevskaya',
+        'name_original' : 'Кунцевская',
+        'lineId'        : '4',
     },
     {
         'id'    : 77,
@@ -1288,6 +1379,7 @@ export default [
             },
         ],
         'name_translit' : 'Krasnopresnenskaya',
+        'name_original' : 'Краснопресненская',
     },
     {
         'id'    : 78,
@@ -1306,6 +1398,7 @@ export default [
             },
         ],
         'name_translit' : 'Belorusskaya',
+        'name_original' : 'Белорусская',
     },
     {
         'id'    : 79,
@@ -1324,6 +1417,7 @@ export default [
             },
         ],
         'name_translit' : 'Novoslobodskaya',
+        'name_original' : 'Новослободская',
     },
     {
         'id'    : 80,
@@ -1342,6 +1436,7 @@ export default [
             },
         ],
         'name_translit' : 'Prospekt Mira',
+        'name_original' : 'Проспект Мира',
     },
     {
         'id'    : 81,
@@ -1360,6 +1455,8 @@ export default [
             },
         ],
         'name_translit' : 'Komsomolskaya',
+        'name_original' : 'Комсомольская',
+        'lineId'        : '5',
     },
     {
         'id'    : 82,
@@ -1382,6 +1479,7 @@ export default [
             },
         ],
         'name_translit' : 'Kurskaya',
+        'name_original' : 'Курская',
     },
     {
         'id'    : 83,
@@ -1404,6 +1502,7 @@ export default [
             },
         ],
         'name_translit' : 'Taganskaya',
+        'name_original' : 'Таганская',
     },
     {
         'id'    : 84,
@@ -1422,6 +1521,7 @@ export default [
             },
         ],
         'name_translit' : 'Paveletskaya',
+        'name_original' : 'Павелецкая',
     },
     {
         'id'    : 85,
@@ -1440,6 +1540,7 @@ export default [
             },
         ],
         'name_translit' : 'Dobryninskaya',
+        'name_original' : 'Добрынинская',
     },
     {
         'id'    : 86,
@@ -1458,6 +1559,7 @@ export default [
             },
         ],
         'name_translit' : 'Oktyabrskaya',
+        'name_original' : 'Октябрьская',
     },
     {
         'id'    : 87,
@@ -1476,6 +1578,7 @@ export default [
             },
         ],
         'name_translit' : 'Park Kultury',
+        'name_original' : 'Парк культуры',
     },
     {
         'id'    : 88,
@@ -1498,6 +1601,7 @@ export default [
             },
         ],
         'name_translit' : 'Kievskaya',
+        'name_original' : 'Киевская',
     },
     {
         'id'    : 89,
@@ -1508,6 +1612,7 @@ export default [
             },
         ],
         'name_translit' : 'Medvedkovo',
+        'name_original' : 'Медведково',
     },
     {
         'id'    : 90,
@@ -1522,6 +1627,7 @@ export default [
             },
         ],
         'name_translit' : 'Babushkinskaya',
+        'name_original' : 'Бабушкинская',
     },
     {
         'id'    : 91,
@@ -1536,6 +1642,7 @@ export default [
             },
         ],
         'name_translit' : 'Sviblovo',
+        'name_original' : 'Свиблово',
     },
     {
         'id'    : 92,
@@ -1550,6 +1657,7 @@ export default [
             },
         ],
         'name_translit' : 'Botanichesky Sad',
+        'name_original' : 'Ботанический сад',
     },
     {
         'id'    : 93,
@@ -1564,6 +1672,7 @@ export default [
             },
         ],
         'name_translit' : 'VDNHa',
+        'name_original' : 'ВДНХ',
     },
     {
         'id'    : 94,
@@ -1578,6 +1687,7 @@ export default [
             },
         ],
         'name_translit' : 'Alekseevskaya',
+        'name_original' : 'Алексеевская',
     },
     {
         'id'    : 95,
@@ -1592,6 +1702,7 @@ export default [
             },
         ],
         'name_translit' : 'Rizhskaya',
+        'name_original' : 'Рижская',
     },
     {
         'id'    : 96,
@@ -1610,6 +1721,7 @@ export default [
             },
         ],
         'name_translit' : 'Prospekt Mira',
+        'name_original' : 'Проспект Мира',
     },
     {
         'id'    : 97,
@@ -1624,6 +1736,7 @@ export default [
             },
         ],
         'name_translit' : 'Suharevskaya',
+        'name_original' : 'Сухаревская',
     },
     {
         'id'    : 98,
@@ -1646,6 +1759,7 @@ export default [
             },
         ],
         'name_translit' : 'Turgenyevskaya',
+        'name_original' : 'Тургеневская',
     },
     {
         'id'    : 99,
@@ -1664,6 +1778,7 @@ export default [
             },
         ],
         'name_translit' : 'Kitay-Gorod',
+        'name_original' : 'Китай-город',
     },
     {
         'id'    : 100,
@@ -1686,6 +1801,7 @@ export default [
             },
         ],
         'name_translit' : 'Tretyakovskaya',
+        'name_original' : 'Третьяковская',
     },
     {
         'id'    : 101,
@@ -1704,6 +1820,7 @@ export default [
             },
         ],
         'name_translit' : 'Oktyabrskaya',
+        'name_original' : 'Октябрьская',
     },
     {
         'id'    : 102,
@@ -1718,6 +1835,7 @@ export default [
             },
         ],
         'name_translit' : 'Shabolovskaya',
+        'name_original' : 'Шаболовская',
     },
     {
         'id'    : 103,
@@ -1732,6 +1850,7 @@ export default [
             },
         ],
         'name_translit' : 'Leninsky Prospekt',
+        'name_original' : 'Ленинский проспект',
     },
     {
         'id'    : 104,
@@ -1746,6 +1865,7 @@ export default [
             },
         ],
         'name_translit' : 'Akademicheskaya',
+        'name_original' : 'Академическая',
     },
     {
         'id'    : 105,
@@ -1760,6 +1880,7 @@ export default [
             },
         ],
         'name_translit' : 'Profsoyuznaya',
+        'name_original' : 'Профсоюзная',
     },
     {
         'id'    : 106,
@@ -1774,6 +1895,7 @@ export default [
             },
         ],
         'name_translit' : 'Novye Cheremushki',
+        'name_original' : 'Новые Черёмушки',
     },
     {
         'id'    : 107,
@@ -1788,6 +1910,7 @@ export default [
             },
         ],
         'name_translit' : 'Kaluzhskaya',
+        'name_original' : 'Калужская',
     },
     {
         'id'    : 108,
@@ -1802,6 +1925,7 @@ export default [
             },
         ],
         'name_translit' : 'Belyaevo',
+        'name_original' : 'Беляево',
     },
     {
         'id'    : 109,
@@ -1816,6 +1940,7 @@ export default [
             },
         ],
         'name_translit' : 'Konkovo',
+        'name_original' : 'Коньково',
     },
     {
         'id'    : 110,
@@ -1830,6 +1955,7 @@ export default [
             },
         ],
         'name_translit' : 'Tyoply Stan',
+        'name_original' : 'Тёплый стан',
     },
     {
         'id'    : 111,
@@ -1844,6 +1970,7 @@ export default [
             },
         ],
         'name_translit' : 'Yasenevo',
+        'name_original' : 'Ясенево',
     },
     {
         'id'    : 112,
@@ -1858,6 +1985,7 @@ export default [
             },
         ],
         'name_translit' : 'Novoyasenevskaya',
+        'name_original' : 'Новоясеневская',
     },
     {
         'id'    : 113,
@@ -1868,6 +1996,7 @@ export default [
             },
         ],
         'name_translit' : 'Planernaya',
+        'name_original' : 'Планерная',
     },
     {
         'id'    : 114,
@@ -1882,6 +2011,7 @@ export default [
             },
         ],
         'name_translit' : 'Skhodnenskaya',
+        'name_original' : 'Сходненская',
     },
     {
         'id'    : 115,
@@ -1896,6 +2026,7 @@ export default [
             },
         ],
         'name_translit' : 'Tushinskaya',
+        'name_original' : 'Тушинская',
     },
     {
         'id'    : 116,
@@ -1910,6 +2041,7 @@ export default [
             },
         ],
         'name_translit' : 'Spartak',
+        'name_original' : 'Спартак',
     },
     {
         'id'    : 117,
@@ -1924,6 +2056,7 @@ export default [
             },
         ],
         'name_translit' : 'Schukinskaya',
+        'name_original' : 'Щукинская',
     },
     {
         'id'    : 118,
@@ -1938,6 +2071,7 @@ export default [
             },
         ],
         'name_translit' : 'Oktyabrskoe Pole',
+        'name_original' : 'Октябрьское поле',
     },
     {
         'id'    : 119,
@@ -1952,6 +2086,7 @@ export default [
             },
         ],
         'name_translit' : 'Polezhaevskaya',
+        'name_original' : 'Полежаевская',
     },
     {
         'id'    : 120,
@@ -1966,6 +2101,7 @@ export default [
             },
         ],
         'name_translit' : 'Begovaya',
+        'name_original' : 'Беговая',
     },
     {
         'id'    : 121,
@@ -1980,6 +2116,7 @@ export default [
             },
         ],
         'name_translit' : 'Ulitsa 1905 goda',
+        'name_original' : 'Улица 1905 года',
     },
     {
         'id'    : 122,
@@ -1998,6 +2135,7 @@ export default [
             },
         ],
         'name_translit' : 'Barrikandaya',
+        'name_original' : 'Баррикадная',
     },
     {
         'id'    : 123,
@@ -2020,6 +2158,7 @@ export default [
             },
         ],
         'name_translit' : 'Pushkinskaya',
+        'name_original' : 'Пушкинская',
     },
     {
         'id'    : 124,
@@ -2038,6 +2177,7 @@ export default [
             },
         ],
         'name_translit' : 'Kuznetsky Most',
+        'name_original' : 'Кузнецкий мост',
     },
     {
         'id'    : 125,
@@ -2056,6 +2196,7 @@ export default [
             },
         ],
         'name_translit' : 'Kitay-Gorod',
+        'name_original' : 'Китай-город',
     },
     {
         'id'    : 126,
@@ -2078,6 +2219,7 @@ export default [
             },
         ],
         'name_translit' : 'Taganskaya',
+        'name_original' : 'Таганская',
     },
     {
         'id'    : 127,
@@ -2096,6 +2238,7 @@ export default [
             },
         ],
         'name_translit' : 'Proletarskaya',
+        'name_original' : 'Пролетарская',
     },
     {
         'id'    : 128,
@@ -2110,6 +2253,7 @@ export default [
             },
         ],
         'name_translit' : 'Volgogradsky Prospekt',
+        'name_original' : 'Волгоградский проспект',
     },
     {
         'id'    : 129,
@@ -2124,6 +2268,7 @@ export default [
             },
         ],
         'name_translit' : 'Tekstilschiki',
+        'name_original' : 'Текстильщики',
     },
     {
         'id'    : 130,
@@ -2138,6 +2283,7 @@ export default [
             },
         ],
         'name_translit' : 'Kuzminki',
+        'name_original' : 'Кузьминки',
     },
     {
         'id'    : 131,
@@ -2152,6 +2298,7 @@ export default [
             },
         ],
         'name_translit' : 'Ryazansky Prospekt',
+        'name_original' : 'Рязанский проспект',
     },
     {
         'id'    : 132,
@@ -2166,6 +2313,7 @@ export default [
             },
         ],
         'name_translit' : 'Vyhino',
+        'name_original' : 'Выхино',
     },
     {
         'id'    : 133,
@@ -2180,6 +2328,7 @@ export default [
             },
         ],
         'name_translit' : 'Lermontovsky Prospekt',
+        'name_original' : 'Лермонтовский проспект',
     },
     {
         'id'    : 134,
@@ -2194,6 +2343,7 @@ export default [
             },
         ],
         'name_translit' : 'Zhulebino',
+        'name_original' : 'Жулебино',
     },
     {
         'id'    : 135,
@@ -2204,6 +2354,7 @@ export default [
             },
         ],
         'name_translit' : 'Novokosino',
+        'name_original' : 'Новокосино',
     },
     {
         'id'    : 136,
@@ -2218,6 +2369,7 @@ export default [
             },
         ],
         'name_translit' : 'Novogireevo',
+        'name_original' : 'Новогиреево',
     },
     {
         'id'    : 137,
@@ -2232,6 +2384,7 @@ export default [
             },
         ],
         'name_translit' : 'Perovo',
+        'name_original' : 'Перово',
     },
     {
         'id'    : 138,
@@ -2246,6 +2399,7 @@ export default [
             },
         ],
         'name_translit' : 'Shosse Entuziastov',
+        'name_original' : 'Шоссе Энтузиастов',
     },
     {
         'id'    : 139,
@@ -2260,6 +2414,7 @@ export default [
             },
         ],
         'name_translit' : 'Aviamotornaya',
+        'name_original' : 'Авиамоторная',
     },
     {
         'id'    : 140,
@@ -2278,6 +2433,7 @@ export default [
             },
         ],
         'name_translit' : 'Ploschad Ilyicha',
+        'name_original' : 'Площадь Ильича',
     },
     {
         'id'    : 141,
@@ -2300,6 +2456,7 @@ export default [
             },
         ],
         'name_translit' : 'Marksistskaya',
+        'name_original' : 'Марксистская',
     },
     {
         'id'    : 142,
@@ -2318,6 +2475,7 @@ export default [
             },
         ],
         'name_translit' : 'Tretyakovskaya',
+        'name_original' : 'Третьяковская',
     },
     {
         'id'    : 143,
@@ -2328,6 +2486,7 @@ export default [
             },
         ],
         'name_translit' : 'Altufyevo',
+        'name_original' : 'Алтуфьево',
     },
     {
         'id'    : 144,
@@ -2342,6 +2501,7 @@ export default [
             },
         ],
         'name_translit' : 'Bibirevo',
+        'name_original' : 'Бибирево',
     },
     {
         'id'    : 145,
@@ -2356,6 +2516,7 @@ export default [
             },
         ],
         'name_translit' : 'Otradnoe',
+        'name_original' : 'Отрадное',
     },
     {
         'id'    : 146,
@@ -2370,6 +2531,7 @@ export default [
             },
         ],
         'name_translit' : 'Vladykino',
+        'name_original' : 'Владыкино',
     },
     {
         'id'    : 147,
@@ -2384,6 +2546,7 @@ export default [
             },
         ],
         'name_translit' : 'Petrovsko-Razumovskaya',
+        'name_original' : 'Петровско-Разумовская',
     },
     {
         'id'    : 148,
@@ -2398,6 +2561,7 @@ export default [
             },
         ],
         'name_translit' : 'Timiryazevskaya',
+        'name_original' : 'Тимирязевская',
     },
     {
         'id'    : 149,
@@ -2412,6 +2576,7 @@ export default [
             },
         ],
         'name_translit' : 'Dmitrovskaya',
+        'name_original' : 'Дмитровская',
     },
     {
         'id'    : 150,
@@ -2426,6 +2591,7 @@ export default [
             },
         ],
         'name_translit' : 'Savyolovskaya',
+        'name_original' : 'Савёловская',
         'lineId'        : '9',
     },
     {
@@ -2445,6 +2611,7 @@ export default [
             },
         ],
         'name_translit' : 'Mendeleevskaya',
+        'name_original' : 'Менделеевская',
     },
     {
         'id'    : 152,
@@ -2463,6 +2630,7 @@ export default [
             },
         ],
         'name_translit' : 'Tvetnoy bulvar',
+        'name_original' : 'Цветной бульвар',
     },
     {
         'id'    : 153,
@@ -2484,7 +2652,8 @@ export default [
                 'time'    : 240,
             },
         ],
-        'name_translit' : 'Chehovskaya',
+        'name_translit' : 'Chekhovskaya',
+        'name_original' : 'Чеховская',
     },
     {
         'id'    : 154,
@@ -2507,6 +2676,7 @@ export default [
             },
         ],
         'name_translit' : 'Borovitskaya',
+        'name_original' : 'Боровицкая',
     },
     {
         'id'    : 155,
@@ -2525,6 +2695,7 @@ export default [
             },
         ],
         'name_translit' : 'Polyanka',
+        'name_original' : 'Полянка',
     },
     {
         'id'    : 156,
@@ -2539,6 +2710,7 @@ export default [
             },
         ],
         'name_translit' : 'Serpuhovskaya',
+        'name_original' : 'Серпуховская',
     },
     {
         'id'    : 157,
@@ -2553,6 +2725,7 @@ export default [
             },
         ],
         'name_translit' : 'Tulskaya',
+        'name_original' : 'Тульская',
     },
     {
         'id'    : 158,
@@ -2567,6 +2740,7 @@ export default [
             },
         ],
         'name_translit' : 'Nagatinskaya',
+        'name_original' : 'Нагатинская',
     },
     {
         'id'    : 159,
@@ -2581,6 +2755,7 @@ export default [
             },
         ],
         'name_translit' : 'Nagornaya',
+        'name_original' : 'Нагорная',
     },
     {
         'id'    : 160,
@@ -2595,6 +2770,7 @@ export default [
             },
         ],
         'name_translit' : 'Nahimovsky Prospekt',
+        'name_original' : 'Нахимовский проспект',
     },
     {
         'id'    : 161,
@@ -2613,6 +2789,7 @@ export default [
             },
         ],
         'name_translit' : 'Sevastopolskaya',
+        'name_original' : 'Севастопольская',
     },
     {
         'id'    : 162,
@@ -2627,6 +2804,7 @@ export default [
             },
         ],
         'name_translit' : 'Chertanoskaya',
+        'name_original' : 'Чертановская',
     },
     {
         'id'    : 163,
@@ -2641,6 +2819,7 @@ export default [
             },
         ],
         'name_translit' : 'Yuzhnaya',
+        'name_original' : 'Южная',
     },
     {
         'id'    : 164,
@@ -2655,6 +2834,7 @@ export default [
             },
         ],
         'name_translit' : 'Prazhskaya',
+        'name_original' : 'Пражская',
     },
     {
         'id'    : 165,
@@ -2669,6 +2849,7 @@ export default [
             },
         ],
         'name_translit' : 'Ulitsa Akademika Yangelya',
+        'name_original' : 'Улица Академика Янгеля',
     },
     {
         'id'    : 166,
@@ -2683,6 +2864,7 @@ export default [
             },
         ],
         'name_translit' : 'Annino',
+        'name_original' : 'Аннино',
     },
     {
         'id'    : 167,
@@ -2697,6 +2879,7 @@ export default [
             },
         ],
         'name_translit' : 'Bulvar Dmitriya Donskogo',
+        'name_original' : 'Бульвар Дмитрия Донского',
     },
     {
         'id'    : 168,
@@ -2711,6 +2894,7 @@ export default [
             },
         ],
         'name_translit' : 'Bitsevsky Park',
+        'name_original' : 'Битцевский парк',
     },
     {
         'id'    : 169,
@@ -2725,6 +2909,7 @@ export default [
             },
         ],
         'name_translit' : 'Lesoparkovaya',
+        'name_original' : 'Лесопарковая',
     },
     {
         'id'    : 170,
@@ -2743,6 +2928,7 @@ export default [
             },
         ],
         'name_translit' : 'Ulitsa Starokachslovskaya',
+        'name_original' : 'Улица Старокачаловская',
     },
     {
         'id'    : 171,
@@ -2757,6 +2943,7 @@ export default [
             },
         ],
         'name_translit' : 'Ulitsa Skobelevskaya',
+        'name_original' : 'Улица Скобелевская',
     },
     {
         'id'    : 172,
@@ -2771,6 +2958,7 @@ export default [
             },
         ],
         'name_translit' : 'Bulvar Admirala Ushakova',
+        'name_original' : 'Бульвар адмирала Ушакова',
     },
     {
         'id'    : 173,
@@ -2785,6 +2973,7 @@ export default [
             },
         ],
         'name_translit' : 'Ulitsa Gorchakova',
+        'name_original' : 'Улица Горчакова',
     },
     {
         'id'    : 174,
@@ -2795,6 +2984,7 @@ export default [
             },
         ],
         'name_translit' : 'Buninskaya Alleya',
+        'name_original' : 'Бунинская аллея',
     },
     {
         'id'    : 175,
@@ -2805,6 +2995,7 @@ export default [
             },
         ],
         'name_translit' : 'Mariina Roscha',
+        'name_original' : 'Марьина роща',
     },
     {
         'id'    : 176,
@@ -2819,6 +3010,7 @@ export default [
             },
         ],
         'name_translit' : 'Dostoyevskaya',
+        'name_original' : 'Достоевская',
     },
     {
         'id'    : 177,
@@ -2837,6 +3029,7 @@ export default [
             },
         ],
         'name_translit' : 'Trubnaya',
+        'name_original' : 'Трубная',
     },
     {
         'id'    : 178,
@@ -2859,6 +3052,7 @@ export default [
             },
         ],
         'name_translit' : 'Sretensky bulvar',
+        'name_original' : 'Сретенский бульвар',
     },
     {
         'id'    : 179,
@@ -2881,6 +3075,7 @@ export default [
             },
         ],
         'name_translit' : 'Chkalovskaya',
+        'name_original' : 'Чкаловская',
     },
     {
         'id'    : 180,
@@ -2899,6 +3094,7 @@ export default [
             },
         ],
         'name_translit' : 'Rimskaya',
+        'name_original' : 'Римская',
     },
     {
         'id'    : 181,
@@ -2917,6 +3113,7 @@ export default [
             },
         ],
         'name_translit' : 'Krestyanskaya Zastava',
+        'name_original' : 'Крестьянская застава',
     },
     {
         'id'    : 182,
@@ -2931,6 +3128,7 @@ export default [
             },
         ],
         'name_translit' : 'Dubrovka',
+        'name_original' : 'Дубровка',
     },
     {
         'id'    : 183,
@@ -2945,6 +3143,7 @@ export default [
             },
         ],
         'name_translit' : 'Kozhuhovskaya',
+        'name_original' : 'Кожуховская',
     },
     {
         'id'    : 184,
@@ -2959,6 +3158,7 @@ export default [
             },
         ],
         'name_translit' : 'Pechatniki',
+        'name_original' : 'Печатники',
     },
     {
         'id'    : 185,
@@ -2973,6 +3173,7 @@ export default [
             },
         ],
         'name_translit' : 'Volzhskaya',
+        'name_original' : 'Волжская',
     },
     {
         'id'    : 186,
@@ -2987,6 +3188,7 @@ export default [
             },
         ],
         'name_translit' : 'Lyublino',
+        'name_original' : 'Люблино',
     },
     {
         'id'    : 187,
@@ -3001,6 +3203,7 @@ export default [
             },
         ],
         'name_translit' : 'Bratislavskaya',
+        'name_original' : 'Братиславская',
     },
     {
         'id'    : 188,
@@ -3015,6 +3218,7 @@ export default [
             },
         ],
         'name_translit' : 'Marino',
+        'name_original' : 'Марьино',
     },
     {
         'id'    : 189,
@@ -3029,6 +3233,7 @@ export default [
             },
         ],
         'name_translit' : 'Borisovo',
+        'name_original' : 'Борисово',
     },
     {
         'id'    : 190,
@@ -3043,6 +3248,7 @@ export default [
             },
         ],
         'name_translit' : 'Shipilovskaya',
+        'name_original' : 'Шипиловская',
     },
     {
         'id'    : 191,
@@ -3057,6 +3263,7 @@ export default [
             },
         ],
         'name_translit' : 'Zyablikovo',
+        'name_original' : 'Зябликово',
     },
     {
         'id'    : 192,
@@ -3071,6 +3278,7 @@ export default [
             },
         ],
         'name_translit' : 'Kashirskaya',
+        'name_original' : 'Каширская',
     },
     {
         'id'    : 193,
@@ -3085,6 +3293,7 @@ export default [
             },
         ],
         'name_translit' : 'Varshavskaya',
+        'name_original' : 'Варшавская',
     },
     {
         'id'    : 194,
@@ -3099,6 +3308,7 @@ export default [
             },
         ],
         'name_translit' : 'Kahovskaya',
+        'name_original' : 'Каховская',
     },
     {
         'id'    : 195,
@@ -3113,6 +3323,7 @@ export default [
             },
         ],
         'name_translit' : 'Delovoy Center',
+        'name_original' : 'Деловой центр',
     },
     {
         'id'    : 196,
@@ -3131,6 +3342,7 @@ export default [
             },
         ],
         'name_translit' : 'Park Pobedy',
+        'name_original' : 'Парк Победы',
     },
     {
         'id'    : 197,
@@ -3141,6 +3353,7 @@ export default [
             },
         ],
         'name_translit' : 'Kotelniki',
+        'name_original' : 'Котельники',
     },
     {
         'id'    : 205,
@@ -3155,6 +3368,7 @@ export default [
             },
         ],
         'name_translit' : 'Butyrskaya',
+        'name_original' : 'Бутырская',
     },
     {
         'id'    : 206,
@@ -3169,6 +3383,7 @@ export default [
             },
         ],
         'name_translit' : 'Fonvizinskaya',
+        'name_original' : 'Фонвизинская',
     },
     {
         'id'    : 207,
@@ -3187,6 +3402,7 @@ export default [
             },
         ],
         'name_translit' : 'Petrovsko-Razumovskaya',
+        'name_original' : 'Петровско-Разумовская',
     },
     {
         'id'    : 208,
@@ -3201,6 +3417,7 @@ export default [
             },
         ],
         'name_translit' : 'Okruzhnaya',
+        'name_original' : 'Окружная',
     },
     {
         'id'    : 209,
@@ -3215,6 +3432,7 @@ export default [
             },
         ],
         'name_translit' : 'Verkhnie Likhobory',
+        'name_original' : 'Верхние Лихоборы',
     },
     {
         'id'    : 210,
@@ -3225,6 +3443,7 @@ export default [
             },
         ],
         'name_translit' : 'Seligerskaya',
+        'name_original' : 'Селигерская',
     },
     {
         'id'    : 211,
@@ -3239,6 +3458,7 @@ export default [
             },
         ],
         'name_translit' : 'Belomorskaya',
+        'name_original' : 'Беломорская',
     },
     {
         'id'    : 212,
@@ -3249,6 +3469,7 @@ export default [
             },
         ],
         'name_translit' : 'Khovrino',
+        'name_original' : 'Ховрино',
     },
     {
         'id'    : 213,
@@ -3267,6 +3488,7 @@ export default [
             },
         ],
         'name_translit' : 'Savyolovskaya',
+        'name_original' : 'Савёловская',
         'lineId'        : '8a',
     },
     {
@@ -3290,6 +3512,7 @@ export default [
             },
         ],
         'name_translit' : 'Petrovskiy Park',
+        'name_original' : 'Петровский парк',
         'lineId'        : '8a',
     },
     {
@@ -3309,6 +3532,7 @@ export default [
             },
         ],
         'name_translit' : 'CSKA',
+        'name_original' : 'ЦСКА',
         'lineId'        : '8a',
     },
     {
@@ -3332,6 +3556,7 @@ export default [
             },
         ],
         'name_translit' : 'Khoroshyovskaya',
+        'name_original' : 'Хорошёвская',
         'lineId'        : '8a',
     },
     {
@@ -3351,6 +3576,7 @@ export default [
             },
         ],
         'name_translit' : 'Shelepikha',
+        'name_original' : 'Шелепиха',
         'lineId'        : '8a',
     },
     {
@@ -3366,6 +3592,7 @@ export default [
             },
         ],
         'name_translit' : 'Minskaya',
+        'name_original' : 'Минская',
         'lineId'        : '8a',
     },
     {
@@ -3381,6 +3608,7 @@ export default [
             },
         ],
         'name_translit' : 'Lomonosovskiy prospekt',
+        'name_original' : 'Лермонтовский проспект',
         'lineId'        : '8a',
     },
     {
@@ -3396,6 +3624,7 @@ export default [
             },
         ],
         'name_translit' : 'Ramenki',
+        'name_original' : 'Раменки',
         'lineId'        : '8a',
     },
     {
@@ -3411,6 +3640,7 @@ export default [
             },
         ],
         'name_translit' : 'Michurinskiy prospekt',
+        'name_original' : 'Мичуринский проспект',
         'lineId'        : '8a',
     },
     {
@@ -3426,6 +3656,7 @@ export default [
             },
         ],
         'name_translit' : 'Ozernaya',
+        'name_original' : 'Озерная',
         'lineId'        : '8a',
     },
     {
@@ -3441,6 +3672,7 @@ export default [
             },
         ],
         'name_translit' : 'Govorovo',
+        'name_original' : 'Говорово',
         'lineId'        : '8a',
     },
     {
@@ -3456,6 +3688,7 @@ export default [
             },
         ],
         'name_translit' : 'Solntsevo',
+        'name_original' : 'Солнцево',
         'lineId'        : '8a',
     },
     {
@@ -3471,6 +3704,7 @@ export default [
             },
         ],
         'name_translit' : 'Borovskoye shosse',
+        'name_original' : 'Боровское шоссе',
         'lineId'        : '8a',
     },
     {
@@ -3486,6 +3720,7 @@ export default [
             },
         ],
         'name_translit' : 'Novoperedelkino',
+        'name_original' : 'Новопеределкино',
         'lineId'        : '8a',
     },
     {
@@ -3497,6 +3732,7 @@ export default [
             },
         ],
         'name_translit' : 'Rasskazovka',
+        'name_original' : 'Рассказовка',
         'lineId'        : '8a',
     },
     {
@@ -3516,6 +3752,7 @@ export default [
             },
         ],
         'name_translit' : 'Savyolovskaya',
+        'name_original' : 'Савёловская',
         'lineId'        : '11',
     },
     {
@@ -3539,6 +3776,7 @@ export default [
             },
         ],
         'name_translit' : 'Petrovskiy Park',
+        'name_original' : 'Петровский парк',
         'lineId'        : '11',
     },
     {
@@ -3558,6 +3796,7 @@ export default [
             },
         ],
         'name_translit' : 'CSKA',
+        'name_original' : 'ЦСКА',
         'lineId'        : '11',
     },
     {
@@ -3581,6 +3820,7 @@ export default [
             },
         ],
         'name_translit' : 'Khoroshyovskaya',
+        'name_original' : 'Хорошёвская',
         'lineId'        : '11',
     },
     {
@@ -3600,6 +3840,7 @@ export default [
             },
         ],
         'name_translit' : 'Shelepikha',
+        'name_original' : 'Шелепиха',
         'lineId'        : '11',
     },
 ];
