@@ -5,7 +5,8 @@
       :y1="y1"
       :x2="x2"
       :y2="y2"
-      class="cls-22"/>
+      :stroke="'green'"
+      class="cl-22"/>
     <text
       :x="x2 + 20"
       :y="y2 + 18"
@@ -17,19 +18,19 @@
 export default {
     props : {
         x1 : {
-            type     : String,
+            type     : Number,
             required : true,
         },
         y1 : {
-            type     : String,
+            type     : Number,
             required : true,
         },
         x2 : {
-            type     : String,
+            type     : Number,
             required : true,
         },
         y2 : {
-            type     : String,
+            type     : Number,
             required : true,
         },
         name : {
@@ -46,8 +47,7 @@ export default {
     font-size: 16px;
 }
 
-.cls-22 {
-    stroke: red;
+.cl-22 {
     stroke-miterlimit: 10;
     stroke-width: 5px;
     fill: none;

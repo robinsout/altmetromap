@@ -3,8 +3,9 @@
     <circle
       :cx="cx"
       :cy="cy"
-      class="cls-2"
-      r="7.16"/>
+      :stroke="'green'"
+      class="cl-2"
+      r="8.3"/>
     <text
       :x="cx + 20"
       :y="cy + 18"
@@ -16,11 +17,11 @@
 export default {
     props : {
         cx : {
-            type     : String,
+            type     : Number,
             required : true,
         },
         cy : {
-            type     : String,
+            type     : Number,
             required : true,
         },
         name : {
@@ -37,10 +38,9 @@ export default {
     font-size: 16px;
 }
 
-.cls-2 {
-    stroke: red;
+.cl-2 {
     stroke-miterlimit: 10;
-    stroke-width: 5px;
+    stroke-width: 3px;
     fill: #fff;
 }
 </style>>

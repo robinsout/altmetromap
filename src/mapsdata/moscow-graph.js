@@ -16,8 +16,9 @@ export default [
         'under_construction' : false,
     },
     {
-        'id'    : 2,
-        'links' : [
+        'id'     : 2,
+        'lineId' : '1',
+        'links'  : [
             {
                 'node_id' : 1,
                 'time'    : 155,
@@ -31,8 +32,9 @@ export default [
         'name_original' : 'Черкизовская',
     },
     {
-        'id'    : 3,
-        'links' : [
+        'id'     : 3,
+        'lineId' : '1',
+        'links'  : [
             {
                 'node_id' : 2,
                 'time'    : 230,
@@ -46,8 +48,9 @@ export default [
         'name_original' : 'Преображенская площадь',
     },
     {
-        'id'    : 4,
-        'links' : [
+        'id'     : 4,
+        'lineId' : '1',
+        'links'  : [
             {
                 'node_id' : 3,
                 'time'    : 200,
@@ -61,8 +64,9 @@ export default [
         'name_original' : 'Сокольники',
     },
     {
-        'id'    : 5,
-        'links' : [
+        'id'     : 5,
+        'lineId' : '1',
+        'links'  : [
             {
                 'node_id' : 4,
                 'time'    : 115,
@@ -76,8 +80,9 @@ export default [
         'name_original' : 'Красносельская',
     },
     {
-        'id'    : 6,
-        'links' : [
+        'id'     : 6,
+        'lineId' : '1',
+        'links'  : [
             {
                 'node_id' : 5,
                 'time'    : 100,
@@ -95,8 +100,9 @@ export default [
         'name_original' : 'Комсомольская',
     },
     {
-        'id'    : 7,
-        'links' : [
+        'id'     : 7,
+        'lineId' : '1',
+        'links'  : [
             {
                 'node_id' : 6,
                 'time'    : 115,
@@ -110,8 +116,9 @@ export default [
         'name_original' : 'Красные ворота',
     },
     {
-        'id'    : 8,
-        'links' : [
+        'id'     : 8,
+        'lineId' : '1',
+        'links'  : [
             {
                 'node_id' : 7,
                 'time'    : 90,
@@ -133,8 +140,9 @@ export default [
         'name_original' : 'Чистые пруды',
     },
     {
-        'id'    : 9,
-        'links' : [
+        'id'     : 9,
+        'lineId' : '1',
+        'links'  : [
             {
                 'node_id' : 8,
                 'time'    : 115,
@@ -152,8 +160,9 @@ export default [
         'name_original' : 'Лубянка',
     },
     {
-        'id'    : 10,
-        'links' : [
+        'id'     : 10,
+        'lineId' : '1',
+        'links'  : [
             {
                 'node_id' : 9,
                 'time'    : 95,
@@ -171,8 +180,9 @@ export default [
         'name_original' : 'Охотный ряд',
     },
     {
-        'id'    : 11,
-        'links' : [
+        'id'     : 11,
+        'lineId' : '1',
+        'links'  : [
             {
                 'node_id' : 10,
                 'time'    : 100,
@@ -198,8 +208,9 @@ export default [
         'name_original' : 'Библиотека им. Ленина',
     },
     {
-        'id'    : 12,
-        'links' : [
+        'id'     : 12,
+        'lineId' : '1',
+        'links'  : [
             {
                 'node_id' : 11,
                 'time'    : 90,
@@ -213,8 +224,9 @@ export default [
         'name_original' : 'Кропоткинская',
     },
     {
-        'id'    : 13,
-        'links' : [
+        'id'     : 13,
+        'lineId' : '1',
+        'links'  : [
             {
                 'node_id' : 12,
                 'time'    : 125,
@@ -232,8 +244,9 @@ export default [
         'name_original' : 'Парк культуры',
     },
     {
-        'id'    : 14,
-        'links' : [
+        'id'     : 14,
+        'lineId' : '1',
+        'links'  : [
             {
                 'node_id' : 13,
                 'time'    : 140,
@@ -247,8 +260,9 @@ export default [
         'name_original' : 'Фрузенская',
     },
     {
-        'id'    : 15,
-        'links' : [
+        'id'     : 15,
+        'lineId' : '1',
+        'links'  : [
             {
                 'node_id' : 14,
                 'time'    : 100,
@@ -262,8 +276,9 @@ export default [
         'name_original' : 'Спортивная',
     },
     {
-        'id'    : 16,
-        'links' : [
+        'id'     : 16,
+        'lineId' : '1',
+        'links'  : [
             {
                 'node_id' : 15,
                 'time'    : 205,
@@ -277,8 +292,9 @@ export default [
         'name_original' : 'Воробьевы горы',
     },
     {
-        'id'    : 17,
-        'links' : [
+        'id'     : 17,
+        'lineId' : '1',
+        'links'  : [
             {
                 'node_id' : 16,
                 'time'    : 265,
@@ -292,8 +308,9 @@ export default [
         'name_original' : 'Университет',
     },
     {
-        'id'    : 18,
-        'links' : [
+        'id'     : 18,
+        'lineId' : '1',
+        'links'  : [
             {
                 'node_id' : 17,
                 'time'    : 175,
@@ -307,8 +324,9 @@ export default [
         'name_original' : 'Проспект Вернадского',
     },
     {
-        'id'    : 19,
-        'links' : [
+        'id'     : 19,
+        'lineId' : '1',
+        'links'  : [
             {
                 'node_id' : 18,
                 'time'    : 170,
@@ -322,8 +340,9 @@ export default [
         'name_original' : 'Юго-Западная',
     },
     {
-        'id'    : 20,
-        'links' : [
+        'id'     : 20,
+        'lineId' : '1',
+        'links'  : [
             {
                 'node_id' : 19,
                 'time'    : 175,
@@ -333,8 +352,9 @@ export default [
         'name_original' : 'Тропарёво',
     },
     {
-        'id'    : 199,
-        'links' : [
+        'id'     : 199,
+        'lineId' : '1',
+        'links'  : [
             {
                 'node_id' : 20,
                 'time'    : 180,
@@ -348,8 +368,9 @@ export default [
         'name_original' : 'Румянцево',
     },
     {
-        'id'    : 200,
-        'links' : [
+        'id'     : 200,
+        'lineId' : '1',
+        'links'  : [
             {
                 'node_id' : 199,
                 'time'    : 180,
@@ -363,8 +384,9 @@ export default [
         'name_original' : 'Саларьево',
     },
     {
-        'id'    : 201,
-        'links' : [
+        'id'     : 201,
+        'lineId' : '1',
+        'links'  : [
             {
                 'node_id' : 200,
                 'time'    : 240,
@@ -378,8 +400,9 @@ export default [
         'name_original' : 'Филатов луг',
     },
     {
-        'id'    : 202,
-        'links' : [
+        'id'     : 202,
+        'lineId' : '1',
+        'links'  : [
             {
                 'node_id' : 201,
                 'time'    : 240,
@@ -393,8 +416,9 @@ export default [
         'name_original' : 'Прокшино',
     },
     {
-        'id'    : 203,
-        'links' : [
+        'id'     : 203,
+        'lineId' : '1',
+        'links'  : [
             {
                 'node_id' : 202,
                 'time'    : 240,
@@ -408,8 +432,9 @@ export default [
         'name_original' : 'Ольховая',
     },
     {
-        'id'    : 204,
-        'links' : [
+        'id'     : 204,
+        'lineId' : '1',
+        'links'  : [
             {
                 'node_id' : 203,
                 'time'    : 120,
@@ -419,8 +444,9 @@ export default [
         'name_original' : 'Коммунарка',
     },
     {
-        'id'    : 21,
-        'links' : [
+        'id'     : 21,
+        'lineId' : '2',
+        'links'  : [
             {
                 'node_id' : 22,
                 'time'    : 140,
@@ -430,8 +456,9 @@ export default [
         'name_original' : 'Речной вокзал',
     },
     {
-        'id'    : 22,
-        'links' : [
+        'id'     : 22,
+        'lineId' : '2',
+        'links'  : [
             {
                 'node_id' : 21,
                 'time'    : 160,
@@ -445,8 +472,9 @@ export default [
         'name_original' : 'Водный стадион',
     },
     {
-        'id'    : 23,
-        'links' : [
+        'id'     : 23,
+        'lineId' : '2',
+        'links'  : [
             {
                 'node_id' : 22,
                 'time'    : 195,
@@ -460,8 +488,9 @@ export default [
         'name_original' : 'Войковская',
     },
     {
-        'id'    : 24,
-        'links' : [
+        'id'     : 24,
+        'lineId' : '2',
+        'links'  : [
             {
                 'node_id' : 23,
                 'time'    : 170,
@@ -475,8 +504,9 @@ export default [
         'name_original' : 'Сокол',
     },
     {
-        'id'    : 25,
-        'links' : [
+        'id'     : 25,
+        'lineId' : '2',
+        'links'  : [
             {
                 'node_id' : 24,
                 'time'    : 135,
@@ -490,8 +520,9 @@ export default [
         'name_original' : 'Аэропорт',
     },
     {
-        'id'    : 26,
-        'links' : [
+        'id'     : 26,
+        'lineId' : '2',
+        'links'  : [
             {
                 'node_id' : 25,
                 'time'    : 175,
@@ -505,8 +536,9 @@ export default [
         'name_original' : 'Динамо',
     },
     {
-        'id'    : 27,
-        'links' : [
+        'id'     : 27,
+        'lineId' : '2',
+        'links'  : [
             {
                 'node_id' : 26,
                 'time'    : 180,
@@ -524,8 +556,9 @@ export default [
         'name_original' : 'Белорусская',
     },
     {
-        'id'    : 28,
-        'links' : [
+        'id'     : 28,
+        'lineId' : '2',
+        'links'  : [
             {
                 'node_id' : 27,
                 'time'    : 115,
@@ -539,8 +572,9 @@ export default [
         'name_original' : 'Маяковская',
     },
     {
-        'id'    : 29,
-        'links' : [
+        'id'     : 29,
+        'lineId' : '2',
+        'links'  : [
             {
                 'node_id' : 28,
                 'time'    : 100,
@@ -562,8 +596,9 @@ export default [
         'name_original' : 'Тверская',
     },
     {
-        'id'    : 30,
-        'links' : [
+        'id'     : 30,
+        'lineId' : '2',
+        'links'  : [
             {
                 'node_id' : 29,
                 'time'    : 120,
@@ -585,8 +620,9 @@ export default [
         'name_original' : 'Театральная',
     },
     {
-        'id'    : 31,
-        'links' : [
+        'id'     : 31,
+        'lineId' : '2',
+        'links'  : [
             {
                 'node_id' : 30,
                 'time'    : 160,
@@ -608,8 +644,9 @@ export default [
         'name_original' : 'Новокузнецкая',
     },
     {
-        'id'    : 32,
-        'links' : [
+        'id'     : 32,
+        'lineId' : '2',
+        'links'  : [
             {
                 'node_id' : 31,
                 'time'    : 135,
@@ -627,8 +664,9 @@ export default [
         'name_original' : 'Павелецкая',
     },
     {
-        'id'    : 33,
-        'links' : [
+        'id'     : 33,
+        'lineId' : '2',
+        'links'  : [
             {
                 'node_id' : 32,
                 'time'    : 215,
@@ -642,8 +680,9 @@ export default [
         'name_original' : 'Автозаводская',
     },
     {
-        'id'    : 198,
-        'links' : [
+        'id'     : 198,
+        'lineId' : '2',
+        'links'  : [
             {
                 'node_id' : 33,
                 'time'    : 180,
@@ -657,8 +696,9 @@ export default [
         'name_original' : 'Технопарк',
     },
     {
-        'id'    : 34,
-        'links' : [
+        'id'     : 34,
+        'lineId' : '2',
+        'links'  : [
             {
                 'node_id' : 198,
                 'time'    : 120,
@@ -672,8 +712,9 @@ export default [
         'name_original' : 'Коломенская',
     },
     {
-        'id'    : 35,
-        'links' : [
+        'id'     : 35,
+        'lineId' : '2',
+        'links'  : [
             {
                 'node_id' : 34,
                 'time'    : 230,
@@ -691,8 +732,9 @@ export default [
         'name_original' : 'Каширская',
     },
     {
-        'id'    : 36,
-        'links' : [
+        'id'     : 36,
+        'lineId' : '2',
+        'links'  : [
             {
                 'node_id' : 35,
                 'time'    : 185,
@@ -706,8 +748,9 @@ export default [
         'name_original' : 'Кантемировская',
     },
     {
-        'id'    : 37,
-        'links' : [
+        'id'     : 37,
+        'lineId' : '2',
+        'links'  : [
             {
                 'node_id' : 36,
                 'time'    : 155,
@@ -721,8 +764,9 @@ export default [
         'name_original' : 'Царицыно',
     },
     {
-        'id'    : 38,
-        'links' : [
+        'id'     : 38,
+        'lineId' : '2',
+        'links'  : [
             {
                 'node_id' : 37,
                 'time'    : 185,
@@ -736,8 +780,9 @@ export default [
         'name_original' : 'Орехово',
     },
     {
-        'id'    : 39,
-        'links' : [
+        'id'     : 39,
+        'lineId' : '2',
+        'links'  : [
             {
                 'node_id' : 38,
                 'time'    : 150,
@@ -751,8 +796,9 @@ export default [
         'name_original' : 'Домодедовская',
     },
     {
-        'id'    : 40,
-        'links' : [
+        'id'     : 40,
+        'lineId' : '2',
+        'links'  : [
             {
                 'node_id' : 39,
                 'time'    : 150,
@@ -770,8 +816,9 @@ export default [
         'name_original' : 'Красногвардейская',
     },
     {
-        'id'    : 41,
-        'links' : [
+        'id'     : 41,
+        'lineId' : '2',
+        'links'  : [
             {
                 'node_id' : 40,
                 'time'    : 265,
@@ -781,8 +828,9 @@ export default [
         'name_original' : 'Алма-Атинская',
     },
     {
-        'id'    : 42,
-        'links' : [
+        'id'     : 42,
+        'lineId' : '3',
+        'links'  : [
             {
                 'node_id' : 43,
                 'time'    : 155,
@@ -792,8 +840,9 @@ export default [
         'name_original' : 'Щёлковская',
     },
     {
-        'id'    : 43,
-        'links' : [
+        'id'     : 43,
+        'lineId' : '3',
+        'links'  : [
             {
                 'node_id' : 42,
                 'time'    : 150,
@@ -807,8 +856,9 @@ export default [
         'name_original' : 'Первомайская',
     },
     {
-        'id'    : 44,
-        'links' : [
+        'id'     : 44,
+        'lineId' : '3',
+        'links'  : [
             {
                 'node_id' : 43,
                 'time'    : 200,
@@ -822,8 +872,9 @@ export default [
         'name_original' : 'Измайловская',
     },
     {
-        'id'    : 45,
-        'links' : [
+        'id'     : 45,
+        'lineId' : '3',
+        'links'  : [
             {
                 'node_id' : 44,
                 'time'    : 200,
@@ -837,8 +888,9 @@ export default [
         'name_original' : 'Партизанская',
     },
     {
-        'id'    : 46,
-        'links' : [
+        'id'     : 46,
+        'lineId' : '3',
+        'links'  : [
             {
                 'node_id' : 45,
                 'time'    : 165,
@@ -852,8 +904,9 @@ export default [
         'name_original' : 'Семёновская',
     },
     {
-        'id'    : 47,
-        'links' : [
+        'id'     : 47,
+        'lineId' : '3',
+        'links'  : [
             {
                 'node_id' : 46,
                 'time'    : 125,
@@ -867,8 +920,9 @@ export default [
         'name_original' : 'Электрозаводская',
     },
     {
-        'id'    : 48,
-        'links' : [
+        'id'     : 48,
+        'lineId' : '3',
+        'links'  : [
             {
                 'node_id' : 47,
                 'time'    : 120,
@@ -882,8 +936,9 @@ export default [
         'name_original' : 'Бауманская',
     },
     {
-        'id'    : 49,
-        'links' : [
+        'id'     : 49,
+        'lineId' : '3',
+        'links'  : [
             {
                 'node_id' : 47,
                 'time'    : 360,
@@ -905,8 +960,9 @@ export default [
         'name_original' : 'Курская',
     },
     {
-        'id'    : 50,
-        'links' : [
+        'id'     : 50,
+        'lineId' : '3',
+        'links'  : [
             {
                 'node_id' : 49,
                 'time'    : 190,
@@ -1047,8 +1103,9 @@ export default [
         'lineId'        : '3',
     },
     {
-        'id'    : 57,
-        'links' : [
+        'id'     : 57,
+        'lineId' : '3',
+        'links'  : [
             {
                 'node_id' : 56,
                 'time'    : 190,
@@ -1062,8 +1119,9 @@ export default [
         'name_original' : 'Молодежная',
     },
     {
-        'id'    : 58,
-        'links' : [
+        'id'     : 58,
+        'lineId' : '3',
+        'links'  : [
             {
                 'node_id' : 57,
                 'time'    : 195,
@@ -1077,8 +1135,9 @@ export default [
         'name_original' : 'Крылатское',
     },
     {
-        'id'    : 59,
-        'links' : [
+        'id'     : 59,
+        'lineId' : '3',
+        'links'  : [
             {
                 'node_id' : 58,
                 'time'    : 565,
@@ -1092,8 +1151,9 @@ export default [
         'name_original' : 'Строгино',
     },
     {
-        'id'    : 60,
-        'links' : [
+        'id'     : 60,
+        'lineId' : '3',
+        'links'  : [
             {
                 'node_id' : 59,
                 'time'    : 265,
@@ -1107,8 +1167,9 @@ export default [
         'name_original' : 'Мякинино',
     },
     {
-        'id'    : 61,
-        'links' : [
+        'id'     : 61,
+        'lineId' : '3',
+        'links'  : [
             {
                 'node_id' : 60,
                 'time'    : 205,
@@ -1122,8 +1183,9 @@ export default [
         'name_original' : 'Волоколамская',
     },
     {
-        'id'    : 62,
-        'links' : [
+        'id'     : 62,
+        'lineId' : '3',
+        'links'  : [
             {
                 'node_id' : 61,
                 'time'    : 205,
@@ -1137,8 +1199,9 @@ export default [
         'name_original' : 'Митино',
     },
     {
-        'id'    : 63,
-        'links' : [
+        'id'     : 63,
+        'lineId' : '3',
+        'links'  : [
             {
                 'node_id' : 62,
                 'time'    : 145,
@@ -1148,8 +1211,9 @@ export default [
         'name_original' : 'Пятницкое шоссе',
     },
     {
-        'id'    : 64,
-        'links' : [
+        'id'     : 64,
+        'lineId' : '4',
+        'links'  : [
             {
                 'node_id' : 65,
                 'time'    : 90,
@@ -1227,8 +1291,9 @@ export default [
         'lineId'        : '4',
     },
     {
-        'id'    : 68,
-        'links' : [
+        'id'     : 68,
+        'lineId' : '4',
+        'links'  : [
             {
                 'node_id' : 67,
                 'time'    : 445,
@@ -1246,8 +1311,9 @@ export default [
         'name_original' : 'Выставочная',
     },
     {
-        'id'    : 69,
-        'links' : [
+        'id'     : 69,
+        'lineId' : '4',
+        'links'  : [
             {
                 'node_id' : 68,
                 'time'    : 145,
@@ -1257,8 +1323,9 @@ export default [
         'name_original' : 'Международная',
     },
     {
-        'id'    : 70,
-        'links' : [
+        'id'     : 70,
+        'lineId' : '4',
+        'links'  : [
             {
                 'node_id' : 71,
                 'time'    : 125,
@@ -1272,8 +1339,9 @@ export default [
         'name_original' : 'Стеденческая',
     },
     {
-        'id'    : 71,
-        'links' : [
+        'id'     : 71,
+        'lineId' : '4',
+        'links'  : [
             {
                 'node_id' : 70,
                 'time'    : 120,
@@ -1287,8 +1355,9 @@ export default [
         'name_original' : 'Кутузовская',
     },
     {
-        'id'    : 72,
-        'links' : [
+        'id'     : 72,
+        'lineId' : '4',
+        'links'  : [
             {
                 'node_id' : 71,
                 'time'    : 155,
@@ -1302,8 +1371,9 @@ export default [
         'name_original' : 'Фили',
     },
     {
-        'id'    : 73,
-        'links' : [
+        'id'     : 73,
+        'lineId' : '4',
+        'links'  : [
             {
                 'node_id' : 72,
                 'time'    : 160,
@@ -1317,8 +1387,9 @@ export default [
         'name_original' : 'Багратионовская',
     },
     {
-        'id'    : 74,
-        'links' : [
+        'id'     : 74,
+        'lineId' : '4',
+        'links'  : [
             {
                 'node_id' : 73,
                 'time'    : 110,
@@ -1332,8 +1403,9 @@ export default [
         'name_original' : 'Филёвский парк',
     },
     {
-        'id'    : 75,
-        'links' : [
+        'id'     : 75,
+        'lineId' : '4',
+        'links'  : [
             {
                 'node_id' : 74,
                 'time'    : 115,
@@ -1347,8 +1419,9 @@ export default [
         'name_original' : 'Пионерская',
     },
     {
-        'id'    : 76,
-        'links' : [
+        'id'     : 76,
+        'lineId' : '4',
+        'links'  : [
             {
                 'node_id' : 75,
                 'time'    : 130,
@@ -1360,11 +1433,11 @@ export default [
         ],
         'name_translit' : 'Kuntsevskaya',
         'name_original' : 'Кунцевская',
-        'lineId'        : '4',
     },
     {
-        'id'    : 77,
-        'links' : [
+        'id'     : 77,
+        'lineId' : '5',
+        'links'  : [
             {
                 'node_id' : 78,
                 'time'    : 190,
@@ -1382,8 +1455,9 @@ export default [
         'name_original' : 'Краснопресненская',
     },
     {
-        'id'    : 78,
-        'links' : [
+        'id'     : 78,
+        'lineId' : '5',
+        'links'  : [
             {
                 'node_id' : 77,
                 'time'    : 195,
@@ -1401,8 +1475,9 @@ export default [
         'name_original' : 'Белорусская',
     },
     {
-        'id'    : 79,
-        'links' : [
+        'id'     : 79,
+        'lineId' : '5',
+        'links'  : [
             {
                 'node_id' : 78,
                 'time'    : 120,
@@ -1420,8 +1495,9 @@ export default [
         'name_original' : 'Новослободская',
     },
     {
-        'id'    : 80,
-        'links' : [
+        'id'     : 80,
+        'lineId' : '5',
+        'links'  : [
             {
                 'node_id' : 79,
                 'time'    : 150,
@@ -1459,8 +1535,9 @@ export default [
         'lineId'        : '5',
     },
     {
-        'id'    : 82,
-        'links' : [
+        'id'     : 82,
+        'lineId' : '5',
+        'links'  : [
             {
                 'node_id' : 81,
                 'time'    : 180,
@@ -1482,8 +1559,9 @@ export default [
         'name_original' : 'Курская',
     },
     {
-        'id'    : 83,
-        'links' : [
+        'id'     : 83,
+        'lineId' : '5',
+        'links'  : [
             {
                 'node_id' : 82,
                 'time'    : 160,
@@ -1505,8 +1583,9 @@ export default [
         'name_original' : 'Таганская',
     },
     {
-        'id'    : 84,
-        'links' : [
+        'id'     : 84,
+        'lineId' : '5',
+        'links'  : [
             {
                 'node_id' : 83,
                 'time'    : 135,
@@ -1524,8 +1603,9 @@ export default [
         'name_original' : 'Павелецкая',
     },
     {
-        'id'    : 85,
-        'links' : [
+        'id'     : 85,
+        'lineId' : '5',
+        'links'  : [
             {
                 'node_id' : 84,
                 'time'    : 110,
@@ -1543,8 +1623,9 @@ export default [
         'name_original' : 'Добрынинская',
     },
     {
-        'id'    : 86,
-        'links' : [
+        'id'     : 86,
+        'lineId' : '5',
+        'links'  : [
             {
                 'node_id' : 85,
                 'time'    : 115,
@@ -1562,8 +1643,9 @@ export default [
         'name_original' : 'Октябрьская',
     },
     {
-        'id'    : 87,
-        'links' : [
+        'id'     : 87,
+        'lineId' : '5',
+        'links'  : [
             {
                 'node_id' : 86,
                 'time'    : 125,
@@ -1581,8 +1663,9 @@ export default [
         'name_original' : 'Парк культуры',
     },
     {
-        'id'    : 88,
-        'links' : [
+        'id'     : 88,
+        'lineId' : '5',
+        'links'  : [
             {
                 'node_id' : 87,
                 'time'    : 170,
@@ -1604,8 +1687,9 @@ export default [
         'name_original' : 'Киевская',
     },
     {
-        'id'    : 89,
-        'links' : [
+        'id'     : 89,
+        'lineId' : '6',
+        'links'  : [
             {
                 'node_id' : 90,
                 'time'    : 170,
@@ -1615,8 +1699,9 @@ export default [
         'name_original' : 'Медведково',
     },
     {
-        'id'    : 90,
-        'links' : [
+        'id'     : 90,
+        'lineId' : '6',
+        'links'  : [
             {
                 'node_id' : 89,
                 'time'    : 160,
@@ -1630,8 +1715,9 @@ export default [
         'name_original' : 'Бабушкинская',
     },
     {
-        'id'    : 91,
-        'links' : [
+        'id'     : 91,
+        'lineId' : '6',
+        'links'  : [
             {
                 'node_id' : 90,
                 'time'    : 160,
@@ -1645,8 +1731,9 @@ export default [
         'name_original' : 'Свиблово',
     },
     {
-        'id'    : 92,
-        'links' : [
+        'id'     : 92,
+        'lineId' : '6',
+        'links'  : [
             {
                 'node_id' : 91,
                 'time'    : 135,
@@ -1660,8 +1747,9 @@ export default [
         'name_original' : 'Ботанический сад',
     },
     {
-        'id'    : 93,
-        'links' : [
+        'id'     : 93,
+        'lineId' : '6',
+        'links'  : [
             {
                 'node_id' : 92,
                 'time'    : 200,
@@ -1675,8 +1763,9 @@ export default [
         'name_original' : 'ВДНХ',
     },
     {
-        'id'    : 94,
-        'links' : [
+        'id'     : 94,
+        'lineId' : '6',
+        'links'  : [
             {
                 'node_id' : 93,
                 'time'    : 135,
@@ -1690,8 +1779,9 @@ export default [
         'name_original' : 'Алексеевская',
     },
     {
-        'id'    : 95,
-        'links' : [
+        'id'     : 95,
+        'lineId' : '6',
+        'links'  : [
             {
                 'node_id' : 94,
                 'time'    : 140,
@@ -1705,8 +1795,9 @@ export default [
         'name_original' : 'Рижская',
     },
     {
-        'id'    : 96,
-        'links' : [
+        'id'     : 96,
+        'lineId' : '6',
+        'links'  : [
             {
                 'node_id' : 95,
                 'time'    : 130,
@@ -1724,8 +1815,9 @@ export default [
         'name_original' : 'Проспект Мира',
     },
     {
-        'id'    : 97,
-        'links' : [
+        'id'     : 97,
+        'lineId' : '6',
+        'links'  : [
             {
                 'node_id' : 96,
                 'time'    : 110,
@@ -1739,8 +1831,9 @@ export default [
         'name_original' : 'Сухаревская',
     },
     {
-        'id'    : 98,
-        'links' : [
+        'id'     : 98,
+        'lineId' : '6',
+        'links'  : [
             {
                 'node_id' : 97,
                 'time'    : 100,
@@ -1762,8 +1855,9 @@ export default [
         'name_original' : 'Тургеневская',
     },
     {
-        'id'    : 99,
-        'links' : [
+        'id'     : 99,
+        'lineId' : '6',
+        'links'  : [
             {
                 'node_id' : 98,
                 'time'    : 120,
@@ -1781,8 +1875,9 @@ export default [
         'name_original' : 'Китай-город',
     },
     {
-        'id'    : 100,
-        'links' : [
+        'id'     : 100,
+        'lineId' : '6',
+        'links'  : [
             {
                 'node_id' : 99,
                 'time'    : 165,
@@ -1804,8 +1899,9 @@ export default [
         'name_original' : 'Третьяковская',
     },
     {
-        'id'    : 101,
-        'links' : [
+        'id'     : 101,
+        'lineId' : '6',
+        'links'  : [
             {
                 'node_id' : 100,
                 'time'    : 150,
@@ -1823,8 +1919,9 @@ export default [
         'name_original' : 'Октябрьская',
     },
     {
-        'id'    : 102,
-        'links' : [
+        'id'     : 102,
+        'lineId' : '6',
+        'links'  : [
             {
                 'node_id' : 101,
                 'time'    : 125,
@@ -1838,8 +1935,9 @@ export default [
         'name_original' : 'Шаболовская',
     },
     {
-        'id'    : 103,
-        'links' : [
+        'id'     : 103,
+        'lineId' : '6',
+        'links'  : [
             {
                 'node_id' : 102,
                 'time'    : 175,
@@ -1853,8 +1951,9 @@ export default [
         'name_original' : 'Ленинский проспект',
     },
     {
-        'id'    : 104,
-        'links' : [
+        'id'     : 104,
+        'lineId' : '6',
+        'links'  : [
             {
                 'node_id' : 103,
                 'time'    : 195,
@@ -1868,8 +1967,9 @@ export default [
         'name_original' : 'Академическая',
     },
     {
-        'id'    : 105,
-        'links' : [
+        'id'     : 105,
+        'lineId' : '6',
+        'links'  : [
             {
                 'node_id' : 104,
                 'time'    : 130,
@@ -1883,8 +1983,9 @@ export default [
         'name_original' : 'Профсоюзная',
     },
     {
-        'id'    : 106,
-        'links' : [
+        'id'     : 106,
+        'lineId' : '6',
+        'links'  : [
             {
                 'node_id' : 105,
                 'time'    : 110,
@@ -1898,8 +1999,9 @@ export default [
         'name_original' : 'Новые Черёмушки',
     },
     {
-        'id'    : 107,
-        'links' : [
+        'id'     : 107,
+        'lineId' : '6',
+        'links'  : [
             {
                 'node_id' : 106,
                 'time'    : 145,
@@ -1913,8 +2015,9 @@ export default [
         'name_original' : 'Калужская',
     },
     {
-        'id'    : 108,
-        'links' : [
+        'id'     : 108,
+        'lineId' : '6',
+        'links'  : [
             {
                 'node_id' : 107,
                 'time'    : 175,
@@ -1928,8 +2031,9 @@ export default [
         'name_original' : 'Беляево',
     },
     {
-        'id'    : 109,
-        'links' : [
+        'id'     : 109,
+        'lineId' : '6',
+        'links'  : [
             {
                 'node_id' : 108,
                 'time'    : 115,
@@ -1943,8 +2047,9 @@ export default [
         'name_original' : 'Коньково',
     },
     {
-        'id'    : 110,
-        'links' : [
+        'id'     : 110,
+        'lineId' : '6',
+        'links'  : [
             {
                 'node_id' : 109,
                 'time'    : 155,
@@ -1958,8 +2063,9 @@ export default [
         'name_original' : 'Тёплый стан',
     },
     {
-        'id'    : 111,
-        'links' : [
+        'id'     : 111,
+        'lineId' : '6',
+        'links'  : [
             {
                 'node_id' : 110,
                 'time'    : 180,
@@ -1973,8 +2079,9 @@ export default [
         'name_original' : 'Ясенево',
     },
     {
-        'id'    : 112,
-        'links' : [
+        'id'     : 112,
+        'lineId' : '6',
+        'links'  : [
             {
                 'node_id' : 111,
                 'time'    : 150,
@@ -1988,8 +2095,9 @@ export default [
         'name_original' : 'Новоясеневская',
     },
     {
-        'id'    : 113,
-        'links' : [
+        'id'     : 113,
+        'lineId' : '7',
+        'links'  : [
             {
                 'node_id' : 114,
                 'time'    : 115,
@@ -1999,8 +2107,9 @@ export default [
         'name_original' : 'Планерная',
     },
     {
-        'id'    : 114,
-        'links' : [
+        'id'     : 114,
+        'lineId' : '7',
+        'links'  : [
             {
                 'node_id' : 113,
                 'time'    : 130,
@@ -2014,8 +2123,9 @@ export default [
         'name_original' : 'Сходненская',
     },
     {
-        'id'    : 115,
-        'links' : [
+        'id'     : 115,
+        'lineId' : '7',
+        'links'  : [
             {
                 'node_id' : 114,
                 'time'    : 210,
@@ -2029,8 +2139,9 @@ export default [
         'name_original' : 'Тушинская',
     },
     {
-        'id'    : 116,
-        'links' : [
+        'id'     : 116,
+        'lineId' : '7',
+        'links'  : [
             {
                 'node_id' : 115,
                 'time'    : 145,
@@ -2044,8 +2155,9 @@ export default [
         'name_original' : 'Спартак',
     },
     {
-        'id'    : 117,
-        'links' : [
+        'id'     : 117,
+        'lineId' : '7',
+        'links'  : [
             {
                 'node_id' : 116,
                 'time'    : 205,
@@ -2059,8 +2171,9 @@ export default [
         'name_original' : 'Щукинская',
     },
     {
-        'id'    : 118,
-        'links' : [
+        'id'     : 118,
+        'lineId' : '7',
+        'links'  : [
             {
                 'node_id' : 117,
                 'time'    : 200,
@@ -2074,8 +2187,9 @@ export default [
         'name_original' : 'Октябрьское поле',
     },
     {
-        'id'    : 119,
-        'links' : [
+        'id'     : 119,
+        'lineId' : '7',
+        'links'  : [
             {
                 'node_id' : 118,
                 'time'    : 210,
@@ -2089,8 +2203,9 @@ export default [
         'name_original' : 'Полежаевская',
     },
     {
-        'id'    : 120,
-        'links' : [
+        'id'     : 120,
+        'lineId' : '7',
+        'links'  : [
             {
                 'node_id' : 119,
                 'time'    : 155,
@@ -2104,8 +2219,9 @@ export default [
         'name_original' : 'Беговая',
     },
     {
-        'id'    : 121,
-        'links' : [
+        'id'     : 121,
+        'lineId' : '7',
+        'links'  : [
             {
                 'node_id' : 120,
                 'time'    : 135,
@@ -2119,8 +2235,9 @@ export default [
         'name_original' : 'Улица 1905 года',
     },
     {
-        'id'    : 122,
-        'links' : [
+        'id'     : 122,
+        'lineId' : '7',
+        'links'  : [
             {
                 'node_id' : 121,
                 'time'    : 130,
@@ -2138,8 +2255,9 @@ export default [
         'name_original' : 'Баррикадная',
     },
     {
-        'id'    : 123,
-        'links' : [
+        'id'     : 123,
+        'lineId' : '7',
+        'links'  : [
             {
                 'node_id' : 122,
                 'time'    : 165,
@@ -2161,8 +2279,9 @@ export default [
         'name_original' : 'Пушкинская',
     },
     {
-        'id'    : 124,
-        'links' : [
+        'id'     : 124,
+        'lineId' : '7',
+        'links'  : [
             {
                 'node_id' : 123,
                 'time'    : 115,
@@ -2180,8 +2299,9 @@ export default [
         'name_original' : 'Кузнецкий мост',
     },
     {
-        'id'    : 125,
-        'links' : [
+        'id'     : 125,
+        'lineId' : '7',
+        'links'  : [
             {
                 'node_id' : 124,
                 'time'    : 105,
@@ -2199,8 +2319,9 @@ export default [
         'name_original' : 'Китай-город',
     },
     {
-        'id'    : 126,
-        'links' : [
+        'id'     : 126,
+        'lineId' : '7',
+        'links'  : [
             {
                 'node_id' : 125,
                 'time'    : 175,
@@ -2222,8 +2343,9 @@ export default [
         'name_original' : 'Таганская',
     },
     {
-        'id'    : 127,
-        'links' : [
+        'id'     : 127,
+        'lineId' : '7',
+        'links'  : [
             {
                 'node_id' : 126,
                 'time'    : 135,
@@ -2241,8 +2363,9 @@ export default [
         'name_original' : 'Пролетарская',
     },
     {
-        'id'    : 128,
-        'links' : [
+        'id'     : 128,
+        'lineId' : '7',
+        'links'  : [
             {
                 'node_id' : 127,
                 'time'    : 145,
@@ -2256,8 +2379,9 @@ export default [
         'name_original' : 'Волгоградский проспект',
     },
     {
-        'id'    : 129,
-        'links' : [
+        'id'     : 129,
+        'lineId' : '7',
+        'links'  : [
             {
                 'node_id' : 128,
                 'time'    : 245,
@@ -2271,8 +2395,9 @@ export default [
         'name_original' : 'Текстильщики',
     },
     {
-        'id'    : 130,
-        'links' : [
+        'id'     : 130,
+        'lineId' : '7',
+        'links'  : [
             {
                 'node_id' : 129,
                 'time'    : 180,
@@ -2286,8 +2411,9 @@ export default [
         'name_original' : 'Кузьминки',
     },
     {
-        'id'    : 131,
-        'links' : [
+        'id'     : 131,
+        'lineId' : '7',
+        'links'  : [
             {
                 'node_id' : 130,
                 'time'    : 200,
@@ -2301,8 +2427,9 @@ export default [
         'name_original' : 'Рязанский проспект',
     },
     {
-        'id'    : 132,
-        'links' : [
+        'id'     : 132,
+        'lineId' : '7',
+        'links'  : [
             {
                 'node_id' : 131,
                 'time'    : 175,
@@ -2316,8 +2443,9 @@ export default [
         'name_original' : 'Выхино',
     },
     {
-        'id'    : 133,
-        'links' : [
+        'id'     : 133,
+        'lineId' : '7',
+        'links'  : [
             {
                 'node_id' : 132,
                 'time'    : 265,
@@ -2331,8 +2459,9 @@ export default [
         'name_original' : 'Лермонтовский проспект',
     },
     {
-        'id'    : 134,
-        'links' : [
+        'id'     : 134,
+        'lineId' : '7',
+        'links'  : [
             {
                 'node_id' : 133,
                 'time'    : 205,
@@ -2346,8 +2475,9 @@ export default [
         'name_original' : 'Жулебино',
     },
     {
-        'id'    : 135,
-        'links' : [
+        'id'     : 135,
+        'lineId' : '8',
+        'links'  : [
             {
                 'node_id' : 136,
                 'time'    : 265,
@@ -2357,8 +2487,9 @@ export default [
         'name_original' : 'Новокосино',
     },
     {
-        'id'    : 136,
-        'links' : [
+        'id'     : 136,
+        'lineId' : '8',
+        'links'  : [
             {
                 'node_id' : 135,
                 'time'    : 265,
@@ -2372,8 +2503,9 @@ export default [
         'name_original' : 'Новогиреево',
     },
     {
-        'id'    : 137,
-        'links' : [
+        'id'     : 137,
+        'lineId' : '8',
+        'links'  : [
             {
                 'node_id' : 136,
                 'time'    : 160,
@@ -2387,8 +2519,9 @@ export default [
         'name_original' : 'Перово',
     },
     {
-        'id'    : 138,
-        'links' : [
+        'id'     : 138,
+        'lineId' : '8',
+        'links'  : [
             {
                 'node_id' : 137,
                 'time'    : 230,
@@ -2402,8 +2535,9 @@ export default [
         'name_original' : 'Шоссе Энтузиастов',
     },
     {
-        'id'    : 139,
-        'links' : [
+        'id'     : 139,
+        'lineId' : '8',
+        'links'  : [
             {
                 'node_id' : 138,
                 'time'    : 160,
@@ -2417,8 +2551,9 @@ export default [
         'name_original' : 'Авиамоторная',
     },
     {
-        'id'    : 140,
-        'links' : [
+        'id'     : 140,
+        'lineId' : '8',
+        'links'  : [
             {
                 'node_id' : 139,
                 'time'    : 180,
@@ -2436,8 +2571,9 @@ export default [
         'name_original' : 'Площадь Ильича',
     },
     {
-        'id'    : 141,
-        'links' : [
+        'id'     : 141,
+        'lineId' : '8',
+        'links'  : [
             {
                 'node_id' : 140,
                 'time'    : 165,
@@ -2459,8 +2595,9 @@ export default [
         'name_original' : 'Марксистская',
     },
     {
-        'id'    : 142,
-        'links' : [
+        'id'     : 142,
+        'lineId' : '8',
+        'links'  : [
             {
                 'node_id' : 141,
                 'time'    : 150,
@@ -2478,8 +2615,9 @@ export default [
         'name_original' : 'Третьяковская',
     },
     {
-        'id'    : 143,
-        'links' : [
+        'id'     : 143,
+        'lineId' : '9',
+        'links'  : [
             {
                 'node_id' : 144,
                 'time'    : 180,
@@ -2489,8 +2627,9 @@ export default [
         'name_original' : 'Алтуфьево',
     },
     {
-        'id'    : 144,
-        'links' : [
+        'id'     : 144,
+        'lineId' : '9',
+        'links'  : [
             {
                 'node_id' : 143,
                 'time'    : 180,
@@ -2504,8 +2643,9 @@ export default [
         'name_original' : 'Бибирево',
     },
     {
-        'id'    : 145,
-        'links' : [
+        'id'     : 145,
+        'lineId' : '9',
+        'links'  : [
             {
                 'node_id' : 144,
                 'time'    : 195,
@@ -2519,8 +2659,9 @@ export default [
         'name_original' : 'Отрадное',
     },
     {
-        'id'    : 146,
-        'links' : [
+        'id'     : 146,
+        'lineId' : '9',
+        'links'  : [
             {
                 'node_id' : 145,
                 'time'    : 175,
@@ -2534,8 +2675,9 @@ export default [
         'name_original' : 'Владыкино',
     },
     {
-        'id'    : 147,
-        'links' : [
+        'id'     : 147,
+        'lineId' : '9',
+        'links'  : [
             {
                 'node_id' : 146,
                 'time'    : 150,
@@ -2549,8 +2691,9 @@ export default [
         'name_original' : 'Петровско-Разумовская',
     },
     {
-        'id'    : 148,
-        'links' : [
+        'id'     : 148,
+        'lineId' : '9',
+        'links'  : [
             {
                 'node_id' : 147,
                 'time'    : 190,
@@ -2564,8 +2707,9 @@ export default [
         'name_original' : 'Тимирязевская',
     },
     {
-        'id'    : 149,
-        'links' : [
+        'id'     : 149,
+        'lineId' : '9',
+        'links'  : [
             {
                 'node_id' : 148,
                 'time'    : 105,
@@ -2595,8 +2739,9 @@ export default [
         'lineId'        : '9',
     },
     {
-        'id'    : 151,
-        'links' : [
+        'id'     : 151,
+        'lineId' : '9',
+        'links'  : [
             {
                 'node_id' : 150,
                 'time'    : 155,
@@ -2614,8 +2759,9 @@ export default [
         'name_original' : 'Менделеевская',
     },
     {
-        'id'    : 152,
-        'links' : [
+        'id'     : 152,
+        'lineId' : '9',
+        'links'  : [
             {
                 'node_id' : 151,
                 'time'    : 155,
@@ -2633,8 +2779,9 @@ export default [
         'name_original' : 'Цветной бульвар',
     },
     {
-        'id'    : 153,
-        'links' : [
+        'id'     : 153,
+        'lineId' : '9',
+        'links'  : [
             {
                 'node_id' : 152,
                 'time'    : 110,
@@ -2656,8 +2803,9 @@ export default [
         'name_original' : 'Чеховская',
     },
     {
-        'id'    : 154,
-        'links' : [
+        'id'     : 154,
+        'lineId' : '9',
+        'links'  : [
             {
                 'node_id' : 153,
                 'time'    : 145,
@@ -2679,8 +2827,9 @@ export default [
         'name_original' : 'Боровицкая',
     },
     {
-        'id'    : 155,
-        'links' : [
+        'id'     : 155,
+        'lineId' : '9',
+        'links'  : [
             {
                 'node_id' : 154,
                 'time'    : 135,
@@ -2698,8 +2847,9 @@ export default [
         'name_original' : 'Полянка',
     },
     {
-        'id'    : 156,
-        'links' : [
+        'id'     : 156,
+        'lineId' : '9',
+        'links'  : [
             {
                 'node_id' : 155,
                 'time'    : 120,
@@ -2713,8 +2863,9 @@ export default [
         'name_original' : 'Серпуховская',
     },
     {
-        'id'    : 157,
-        'links' : [
+        'id'     : 157,
+        'lineId' : '9',
+        'links'  : [
             {
                 'node_id' : 156,
                 'time'    : 170,
@@ -2728,8 +2879,9 @@ export default [
         'name_original' : 'Тульская',
     },
     {
-        'id'    : 158,
-        'links' : [
+        'id'     : 158,
+        'lineId' : '9',
+        'links'  : [
             {
                 'node_id' : 157,
                 'time'    : 230,
@@ -2743,8 +2895,9 @@ export default [
         'name_original' : 'Нагатинская',
     },
     {
-        'id'    : 159,
-        'links' : [
+        'id'     : 159,
+        'lineId' : '9',
+        'links'  : [
             {
                 'node_id' : 158,
                 'time'    : 125,
@@ -2758,8 +2911,9 @@ export default [
         'name_original' : 'Нагорная',
     },
     {
-        'id'    : 160,
-        'links' : [
+        'id'     : 160,
+        'lineId' : '9',
+        'links'  : [
             {
                 'node_id' : 159,
                 'time'    : 110,
@@ -2773,8 +2927,9 @@ export default [
         'name_original' : 'Нахимовский проспект',
     },
     {
-        'id'    : 161,
-        'links' : [
+        'id'     : 161,
+        'lineId' : '9',
+        'links'  : [
             {
                 'node_id' : 160,
                 'time'    : 115,
@@ -2792,8 +2947,9 @@ export default [
         'name_original' : 'Севастопольская',
     },
     {
-        'id'    : 162,
-        'links' : [
+        'id'     : 162,
+        'lineId' : '9',
+        'links'  : [
             {
                 'node_id' : 161,
                 'time'    : 130,
@@ -2807,8 +2963,9 @@ export default [
         'name_original' : 'Чертановская',
     },
     {
-        'id'    : 163,
-        'links' : [
+        'id'     : 163,
+        'lineId' : '9',
+        'links'  : [
             {
                 'node_id' : 162,
                 'time'    : 160,
@@ -2822,8 +2979,9 @@ export default [
         'name_original' : 'Южная',
     },
     {
-        'id'    : 164,
-        'links' : [
+        'id'     : 164,
+        'lineId' : '9',
+        'links'  : [
             {
                 'node_id' : 163,
                 'time'    : 115,
@@ -2837,8 +2995,9 @@ export default [
         'name_original' : 'Пражская',
     },
     {
-        'id'    : 165,
-        'links' : [
+        'id'     : 165,
+        'lineId' : '9',
+        'links'  : [
             {
                 'node_id' : 164,
                 'time'    : 205,
@@ -2852,8 +3011,9 @@ export default [
         'name_original' : 'Улица Академика Янгеля',
     },
     {
-        'id'    : 166,
-        'links' : [
+        'id'     : 166,
+        'lineId' : '9',
+        'links'  : [
             {
                 'node_id' : 165,
                 'time'    : 145,
@@ -2867,8 +3027,9 @@ export default [
         'name_original' : 'Аннино',
     },
     {
-        'id'    : 167,
-        'links' : [
+        'id'     : 167,
+        'lineId' : '9',
+        'links'  : [
             {
                 'node_id' : 166,
                 'time'    : 205,
@@ -2882,8 +3043,9 @@ export default [
         'name_original' : 'Бульвар Дмитрия Донского',
     },
     {
-        'id'    : 168,
-        'links' : [
+        'id'     : 168,
+        'lineId' : '12',
+        'links'  : [
             {
                 'node_id' : 169,
                 'time'    : 205,
@@ -2897,8 +3059,9 @@ export default [
         'name_original' : 'Битцевский парк',
     },
     {
-        'id'    : 169,
-        'links' : [
+        'id'     : 169,
+        'lineId' : '12',
+        'links'  : [
             {
                 'node_id' : 168,
                 'time'    : 205,
@@ -2912,8 +3075,9 @@ export default [
         'name_original' : 'Лесопарковая',
     },
     {
-        'id'    : 170,
-        'links' : [
+        'id'     : 170,
+        'lineId' : '12',
+        'links'  : [
             {
                 'node_id' : 169,
                 'time'    : 205,
@@ -2931,8 +3095,9 @@ export default [
         'name_original' : 'Улица Старокачаловская',
     },
     {
-        'id'    : 171,
-        'links' : [
+        'id'     : 171,
+        'lineId' : '12',
+        'links'  : [
             {
                 'node_id' : 170,
                 'time'    : 325,
@@ -2946,8 +3111,9 @@ export default [
         'name_original' : 'Улица Скобелевская',
     },
     {
-        'id'    : 172,
-        'links' : [
+        'id'     : 172,
+        'lineId' : '12',
+        'links'  : [
             {
                 'node_id' : 171,
                 'time'    : 145,
@@ -2961,8 +3127,9 @@ export default [
         'name_original' : 'Бульвар адмирала Ушакова',
     },
     {
-        'id'    : 173,
-        'links' : [
+        'id'     : 173,
+        'lineId' : '12',
+        'links'  : [
             {
                 'node_id' : 172,
                 'time'    : 145,
@@ -2976,8 +3143,9 @@ export default [
         'name_original' : 'Улица Горчакова',
     },
     {
-        'id'    : 174,
-        'links' : [
+        'id'     : 174,
+        'lineId' : '12',
+        'links'  : [
             {
                 'node_id' : 173,
                 'time'    : 145,
@@ -2998,8 +3166,9 @@ export default [
         'name_original' : 'Марьина роща',
     },
     {
-        'id'    : 176,
-        'links' : [
+        'id'     : 176,
+        'lineId' : '10',
+        'links'  : [
             {
                 'node_id' : 175,
                 'time'    : 205,
@@ -3013,8 +3182,9 @@ export default [
         'name_original' : 'Достоевская',
     },
     {
-        'id'    : 177,
-        'links' : [
+        'id'     : 177,
+        'lineId' : '10',
+        'links'  : [
             {
                 'node_id' : 176,
                 'time'    : 205,
@@ -3032,8 +3202,9 @@ export default [
         'name_original' : 'Трубная',
     },
     {
-        'id'    : 178,
-        'links' : [
+        'id'     : 178,
+        'lineId' : '10',
+        'links'  : [
             {
                 'node_id' : 177,
                 'time'    : 205,
@@ -3055,8 +3226,9 @@ export default [
         'name_original' : 'Сретенский бульвар',
     },
     {
-        'id'    : 179,
-        'links' : [
+        'id'     : 179,
+        'lineId' : '10',
+        'links'  : [
             {
                 'node_id' : 178,
                 'time'    : 205,
@@ -3078,8 +3250,9 @@ export default [
         'name_original' : 'Чкаловская',
     },
     {
-        'id'    : 180,
-        'links' : [
+        'id'     : 180,
+        'lineId' : '10',
+        'links'  : [
             {
                 'node_id' : 179,
                 'time'    : 205,
@@ -3097,8 +3270,9 @@ export default [
         'name_original' : 'Римская',
     },
     {
-        'id'    : 181,
-        'links' : [
+        'id'     : 181,
+        'lineId' : '10',
+        'links'  : [
             {
                 'node_id' : 180,
                 'time'    : 205,
@@ -3116,8 +3290,9 @@ export default [
         'name_original' : 'Крестьянская застава',
     },
     {
-        'id'    : 182,
-        'links' : [
+        'id'     : 182,
+        'lineId' : '10',
+        'links'  : [
             {
                 'node_id' : 181,
                 'time'    : 205,
@@ -3131,8 +3306,9 @@ export default [
         'name_original' : 'Дубровка',
     },
     {
-        'id'    : 183,
-        'links' : [
+        'id'     : 183,
+        'lineId' : '10',
+        'links'  : [
             {
                 'node_id' : 182,
                 'time'    : 205,
@@ -3146,8 +3322,9 @@ export default [
         'name_original' : 'Кожуховская',
     },
     {
-        'id'    : 184,
-        'links' : [
+        'id'     : 184,
+        'lineId' : '10',
+        'links'  : [
             {
                 'node_id' : 183,
                 'time'    : 265,
@@ -3161,8 +3338,9 @@ export default [
         'name_original' : 'Печатники',
     },
     {
-        'id'    : 185,
-        'links' : [
+        'id'     : 185,
+        'lineId' : '10',
+        'links'  : [
             {
                 'node_id' : 184,
                 'time'    : 205,
@@ -3176,8 +3354,9 @@ export default [
         'name_original' : 'Волжская',
     },
     {
-        'id'    : 186,
-        'links' : [
+        'id'     : 186,
+        'lineId' : '10',
+        'links'  : [
             {
                 'node_id' : 185,
                 'time'    : 205,
@@ -3191,8 +3370,9 @@ export default [
         'name_original' : 'Люблино',
     },
     {
-        'id'    : 187,
-        'links' : [
+        'id'     : 187,
+        'lineId' : '10',
+        'links'  : [
             {
                 'node_id' : 186,
                 'time'    : 205,
@@ -3206,8 +3386,9 @@ export default [
         'name_original' : 'Братиславская',
     },
     {
-        'id'    : 188,
-        'links' : [
+        'id'     : 188,
+        'lineId' : '10',
+        'links'  : [
             {
                 'node_id' : 187,
                 'time'    : 205,
@@ -3221,8 +3402,9 @@ export default [
         'name_original' : 'Марьино',
     },
     {
-        'id'    : 189,
-        'links' : [
+        'id'     : 189,
+        'lineId' : '10',
+        'links'  : [
             {
                 'node_id' : 188,
                 'time'    : 205,
@@ -3236,8 +3418,9 @@ export default [
         'name_original' : 'Борисово',
     },
     {
-        'id'    : 190,
-        'links' : [
+        'id'     : 190,
+        'lineId' : '10',
+        'links'  : [
             {
                 'node_id' : 189,
                 'time'    : 205,
@@ -3251,8 +3434,9 @@ export default [
         'name_original' : 'Шипиловская',
     },
     {
-        'id'    : 191,
-        'links' : [
+        'id'     : 191,
+        'lineId' : '10',
+        'links'  : [
             {
                 'node_id' : 190,
                 'time'    : 145,
@@ -3266,8 +3450,9 @@ export default [
         'name_original' : 'Зябликово',
     },
     {
-        'id'    : 192,
-        'links' : [
+        'id'     : 192,
+        'lineId' : '11',
+        'links'  : [
             {
                 'node_id' : 193,
                 'time'    : 185,
@@ -3281,8 +3466,9 @@ export default [
         'name_original' : 'Каширская',
     },
     {
-        'id'    : 193,
-        'links' : [
+        'id'     : 193,
+        'lineId' : '11',
+        'links'  : [
             {
                 'node_id' : 192,
                 'time'    : 185,
@@ -3296,8 +3482,9 @@ export default [
         'name_original' : 'Варшавская',
     },
     {
-        'id'    : 194,
-        'links' : [
+        'id'     : 194,
+        'lineId' : '11',
+        'links'  : [
             {
                 'node_id' : 193,
                 'time'    : 135,
@@ -3311,8 +3498,9 @@ export default [
         'name_original' : 'Каховская',
     },
     {
-        'id'    : 195,
-        'links' : [
+        'id'     : 195,
+        'lineId' : '4',
+        'links'  : [
             {
                 'node_id' : 68,
                 'time'    : 180,
@@ -3326,8 +3514,9 @@ export default [
         'name_original' : 'Деловой центр',
     },
     {
-        'id'    : 196,
-        'links' : [
+        'id'     : 196,
+        'lineId' : '8a',
+        'links'  : [
             {
                 'node_id' : 54,
                 'time'    : 120,
@@ -3345,8 +3534,9 @@ export default [
         'name_original' : 'Парк Победы',
     },
     {
-        'id'    : 197,
-        'links' : [
+        'id'     : 197,
+        'lineId' : '7',
+        'links'  : [
             {
                 'node_id' : 134,
                 'time'    : 180,
@@ -3356,8 +3546,9 @@ export default [
         'name_original' : 'Котельники',
     },
     {
-        'id'    : 205,
-        'links' : [
+        'id'     : 205,
+        'lineId' : '10',
+        'links'  : [
             {
                 'node_id' : 175,
                 'time'    : 180,
@@ -3371,8 +3562,9 @@ export default [
         'name_original' : 'Бутырская',
     },
     {
-        'id'    : 206,
-        'links' : [
+        'id'     : 206,
+        'lineId' : '10',
+        'links'  : [
             {
                 'node_id' : 205,
                 'time'    : 180,
@@ -3386,8 +3578,9 @@ export default [
         'name_original' : 'Фонвизинская',
     },
     {
-        'id'    : 207,
-        'links' : [
+        'id'     : 207,
+        'lineId' : '10',
+        'links'  : [
             {
                 'node_id' : 206,
                 'time'    : 180,
@@ -3405,8 +3598,9 @@ export default [
         'name_original' : 'Петровско-Разумовская',
     },
     {
-        'id'    : 208,
-        'links' : [
+        'id'     : 208,
+        'lineId' : '10',
+        'links'  : [
             {
                 'node_id' : 207,
                 'time'    : 120,
@@ -3420,8 +3614,9 @@ export default [
         'name_original' : 'Окружная',
     },
     {
-        'id'    : 209,
-        'links' : [
+        'id'     : 209,
+        'lineId' : '10',
+        'links'  : [
             {
                 'node_id' : 208,
                 'time'    : 120,
@@ -3435,8 +3630,9 @@ export default [
         'name_original' : 'Верхние Лихоборы',
     },
     {
-        'id'    : 210,
-        'links' : [
+        'id'     : 210,
+        'lineId' : '10',
+        'links'  : [
             {
                 'node_id' : 209,
                 'time'    : 180,
@@ -3446,8 +3642,9 @@ export default [
         'name_original' : 'Селигерская',
     },
     {
-        'id'    : 211,
-        'links' : [
+        'id'     : 211,
+        'lineId' : '2',
+        'links'  : [
             {
                 'node_id' : 212,
                 'time'    : 120,
@@ -3461,8 +3658,9 @@ export default [
         'name_original' : 'Беломорская',
     },
     {
-        'id'    : 212,
-        'links' : [
+        'id'     : 212,
+        'lineId' : '2',
+        'links'  : [
             {
                 'node_id' : 211,
                 'time'    : 120,
