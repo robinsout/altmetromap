@@ -42,12 +42,6 @@ export default {
         isTransfer() {
             return this.coordinatesAndType.stationType === 'transfer';
         },
-
-        textCoordinates() {
-            const coordinates = {
-
-            };
-        },
     },
 
     methods : {
