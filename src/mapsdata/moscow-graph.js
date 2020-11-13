@@ -1081,6 +1081,7 @@ export default [
         ],
         'name_translit' : 'Slavyansky Bulvar',
         'name_original' : 'Славянский бульвар',
+        'lineId'        : '3',
     },
     {
         'id'    : 56,
@@ -3155,8 +3156,9 @@ export default [
         'name_original' : 'Бунинская аллея',
     },
     {
-        'id'    : 175,
-        'links' : [
+        'id'     : 175,
+        'lineId' : '10',
+        'links'  : [
             {
                 'node_id' : 176,
                 'time'    : 205,
