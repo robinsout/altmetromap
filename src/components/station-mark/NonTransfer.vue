@@ -5,7 +5,7 @@
       :y1="y1"
       :x2="x2"
       :y2="y2"
-      :stroke="'green'"
+      :stroke="color"
       class="cl-22"/>
     <text
       :x="x2 + 20"
@@ -34,6 +34,10 @@ export default {
             required : true,
         },
         name : {
+            type     : String,
+            required : true,
+        },
+        color : {
             type     : String,
             required : true,
         },

@@ -4,14 +4,16 @@
       v-if="stationData && isTransfer"
       :cx="coordinatesAndType.coordinates.cx"
       :cy="coordinatesAndType.coordinates.cy"
-      :name="stationData.name_translit"/>
+      :name="stationData.name_translit"
+      :color="color"/>
     <non-transfer-station
       v-if="stationData && !isTransfer"
       :x1="coordinatesAndType.coordinates.x1"
       :y1="coordinatesAndType.coordinates.y1"
       :x2="coordinatesAndType.coordinates.x2"
       :y2="coordinatesAndType.coordinates.y2"
-      :name="stationData.name_translit"/>
+      :name="stationData.name_translit"
+      :color="color"/>
   </g>
 </template>
 
@@ -42,12 +44,13 @@ export default {
         isTransfer() {
             return this.coordinatesAndType.stationType === 'transfer';
         },
+        color() {
+            return colorGetter(this.stationData.lineId);
+        },
     },
 
     methods : {
-        getColor( lineId ) {
-            return colorGetter(lineId);
-        },
+        colorGetter,
     },
 };
 </script>

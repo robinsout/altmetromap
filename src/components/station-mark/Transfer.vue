@@ -3,7 +3,7 @@
     <circle
       :cx="cx"
       :cy="cy"
-      :stroke="'green'"
+      :stroke="color"
       class="cl-2"
       r="8.3"/>
     <text
@@ -25,6 +25,10 @@ export default {
             required : true,
         },
         name : {
+            type     : String,
+            required : true,
+        },
+        color : {
             type     : String,
             required : true,
         },

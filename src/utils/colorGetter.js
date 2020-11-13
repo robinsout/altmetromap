@@ -1,4 +1,4 @@
-export default () => {
+export default ( lineId ) => {
     const getColor = {
         '1'  : '#da2128',
         '2'  : '#48b85e',
@@ -15,5 +15,5 @@ export default () => {
         '12' : '#acbfe3',
     };
 
-    return (lineId) => getColor[lineId];
+    return getColor[lineId];
 };
