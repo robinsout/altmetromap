@@ -53,21 +53,4 @@ export default {
 </script>
 
 <style>
-.station-name {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    font-size: 16px;
-}
-
-.cls-2 {
-    stroke: red;
-    stroke-miterlimit: 10;
-    stroke-width: 5px;
-    fill: #fff;
-}
-.cls-22 {
-    stroke: red;
-    stroke-miterlimit: 10;
-    stroke-width: 5px;
-    fill: none;
-}
 </style>
