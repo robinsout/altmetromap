@@ -1,5 +1,5 @@
 <template>
-  <g>
+  <g class="station-mark__wrapper">
     <transfer-station
       v-if="stationData && isTransfer"
       :cx="coordinatesAndType.coordinates.cx"
@@ -56,4 +56,7 @@ export default {
 </script>
 
 <style>
+.station-mark__wrapper {
+    cursor: pointer;
+}
 </style>

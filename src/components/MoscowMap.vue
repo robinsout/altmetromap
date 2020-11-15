@@ -308,7 +308,8 @@
             v-for="station in moscowRenderData"
             :coordinates-and-type="station"
             :stationData="getStationData(station.id)"
-            :key="station.id"/>
+            :key="station.id"
+            @click.native="handleClick(station.id)"/>
         </g>
     </g></svg>
   </div>
@@ -352,6 +353,10 @@ export default {
             }
 
             return station;
+        },
+
+        handleClick( stationId ) {
+            console.log(stationId);
         },
     },
 };
