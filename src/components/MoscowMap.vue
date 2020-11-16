@@ -10,7 +10,6 @@
       alt
       src="../assets/metromap_translated_msc.png"
     > -->
-    <button @click="increment">Click!</button>
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="-200 -50 1989.29 2104.19">
@@ -357,11 +356,6 @@ export default {
 
         handleClick( stationId ) {
             console.log(stationId);
-        },
-
-        increment() {
-            this.$store.commit('increment');
-            console.log(this.$store.state.count);
         },
     },
 };
