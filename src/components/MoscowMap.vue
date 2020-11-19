@@ -11,7 +11,6 @@
       src="../assets/metromap_translated_msc.png"
     > -->
     <svg
-      xmlns="http://www.w3.org/2000/svg"
       viewBox="-200 -50 1989.29 2104.19">
 
       <g
@@ -304,8 +303,7 @@
           id="stations"
           data-name="stations">
           <station-mark
-            v-for="station in moscowRenderData"
-            :coordinates-and-type="station"
+            v-for="station in stationsGraph"
             :stationData="getStationData(station.id)"
             :key="station.id"
             @click.native="handleClick(station.id)"/>
@@ -329,33 +327,75 @@ export default {
 
     data() {
         return {
-            msg              : 'Moscow Map',
-            moscowGraph      : moscowGraph,
-            moscowRenderData : moscowRenderData,
+            msg           : 'Moscow Map',
+            startId       : 0,
+            destinationId : 0,
+            route         : {},
+            stationsGraph : this.getStationsGraph(),
         };
     },
 
-    mounted() {
-        console.log(this.pathFinder(moscowGraph, 5, 50));
-    },
-
     methods : {
-
-        // Поиск кратчайшего маршрута в графе метро: (graph, startNode, destinationNode)
         pathFinder,
 
-        getStationData( stationId ) {
-            const station = moscowGraph.find( station => station.id === stationId);
+        getStationsGraph() {
+            const stationsDataMapper = (node) => {
+                const stationRenderData = moscowRenderData.find( point => point.id === node.id );
 
-            if (!station) {
-                console.log('Has no pair, exists only in graph:', stationId);
-            }
+                if (!stationRenderData) {
+                    console.log('Graph node has no render data, id:', node.id);
 
-            return station;
+                    return node;
+                }
+
+                node.renderData = stationRenderData;
+
+                return node;
+            };
+
+            return moscowGraph.map(stationsDataMapper);
+        },
+
+        getStationData( id ) {
+            return this.stationsGraph.find( station => station.id === id);
         },
 
         handleClick( stationId ) {
-            console.log(stationId);
+            if (!this.startId) {
+                this.startId = stationId;
+
+                return;
+            }
+            if (!this.destinationId) {
+                this.destinationId = stationId;
+                if (this.route.path) {
+                    this.renderRoute();
+                }
+                this.route = this.pathFinder(this.stationsGraph, this.startId, this.destinationId);
+                this.renderRoute('show');
+
+                return;
+            }
+            if (this.startId && this.destinationId) {
+                this.clearRoute();
+                this.startId = stationId;
+
+                return;
+            }
+        },
+
+        clearRoute() {
+            this.startId = 0;
+            this.destinationId = 0;
+            this.renderRoute();
+        },
+
+        renderRoute( action = '' ) {
+            const renderer = ( station ) => {
+                station.renderData.isOnRoute = action === 'show';
+            };
+
+            this.route.path.reverse().map(renderer);
         },
     },
 };

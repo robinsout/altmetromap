@@ -5,7 +5,7 @@
       :y1="y1"
       :x2="x2"
       :y2="y2"
-      :stroke="color"
+      :stroke="isOnRoute ? 'red' : color"
       class="cl-22"/>
     <text
       :x="x2 + 20"
@@ -40,6 +40,10 @@ export default {
         color : {
             type     : String,
             required : true,
+        },
+        isOnRoute : {
+            type    : Boolean,
+            default : false,
         },
     },
 };
