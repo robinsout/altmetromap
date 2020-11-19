@@ -322,7 +322,7 @@ export default {
     name : 'MoscowMap',
 
     components : {
-        stationMark : stationMark,
+        stationMark,
     },
 
     data() {
