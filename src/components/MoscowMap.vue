@@ -343,7 +343,7 @@ export default {
                 const stationRenderData = moscowRenderData.find( point => point.id === node.id );
 
                 if (!stationRenderData) {
-                    console.log('Graph node has no render data, id:', node.id);
+                    console.log('Node has no render data, id:', node.id);
 
                     return node;
                 }
