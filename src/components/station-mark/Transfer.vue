@@ -3,7 +3,7 @@
     <circle
       :cx="cx"
       :cy="cy"
-      :stroke="color"
+      :stroke="isOnRoute ? 'red' : color"
       class="cl-2"
       r="8.3"/>
     <text
@@ -31,6 +31,10 @@ export default {
         color : {
             type     : String,
             required : true,
+        },
+        isOnRoute : {
+            type    : Boolean,
+            default : false,
         },
     },
 };
