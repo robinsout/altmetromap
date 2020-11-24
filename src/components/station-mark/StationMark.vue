@@ -18,8 +18,10 @@
       :color="color"/>
     <text-elements
       :names="names"
-      :x="textCoordinates.x + textCoordinates.dx"
-      :y="textCoordinates.y + textCoordinates.dy" />
+      :x="textCoordinates.x"
+      :y="textCoordinates.y"
+      :dx="textCoordinates.dx"
+      :dy="textCoordinates.dy" />
   </g>
 </template>
 
@@ -98,7 +100,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .station-mark__wrapper {
     cursor: pointer;
 }
