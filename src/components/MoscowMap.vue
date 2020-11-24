@@ -316,13 +316,13 @@
 import moscowGraph from '../mapsdata/moscow-graph';
 import moscowRenderData from '../mapsdata/render/moscow-render-data';
 import pathFinder from '../utils/pathFinder';
-import stationMark from './station-mark/StationMark.vue';
+import StationMark from './station-mark/StationMark.vue';
 
 export default {
     name : 'MoscowMap',
 
     components : {
-        stationMark,
+        StationMark,
     },
 
     data() {

@@ -25,8 +25,8 @@
 
 <script>
 import colorGetter from '../../utils/colorGetter.js';
-import TransferStation from './TransferMark.vue';
-import NonTransferStation from './NonTransferMark.vue';
+import TransferStation from './elements/TransferStation.vue';
+import NonTransferStation from './elements/NonTransferStation.vue';
 
 export default {
 
