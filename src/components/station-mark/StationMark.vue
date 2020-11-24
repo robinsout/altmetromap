@@ -4,22 +4,22 @@
     class="station-mark__wrapper">
     <transfer-station-point
       v-if="isTransfer"
-      :cx="stationData.renderData.coordinates.cx"
-      :cy="stationData.renderData.coordinates.cy"
+      :cx="stationData.renderData.pointCoordinates.cx"
+      :cy="stationData.renderData.pointCoordinates.cy"
       :is-on-route="stationData.renderData.isOnRoute"
       :color="color"/>
     <non-transfer-station-point
       v-if="!isTransfer"
-      :x1="stationData.renderData.coordinates.x1"
-      :y1="stationData.renderData.coordinates.y1"
-      :x2="stationData.renderData.coordinates.x2"
-      :y2="stationData.renderData.coordinates.y2"
+      :x1="stationData.renderData.pointCoordinates.x1"
+      :y1="stationData.renderData.pointCoordinates.y1"
+      :x2="stationData.renderData.pointCoordinates.x2"
+      :y2="stationData.renderData.pointCoordinates.y2"
       :is-on-route="stationData.renderData.isOnRoute"
       :color="color"/>
     <text-elements
       :names="names"
-      :x="textCoordinates.x"
-      :y="textCoordinates.y" />
+      :x="textCoordinates.x + textCoordinates.dx"
+      :y="textCoordinates.y + textCoordinates.dy" />
   </g>
 </template>
 
@@ -55,15 +55,29 @@ export default {
         color() {
             return colorGetter(this.stationData.lineId);
         },
+
+        // refactor it!
         textCoordinates() {
-            return this.isTransfer
+            const deltaTextCoordinates = this.stationData.renderData.textCoordinates
                 ? {
-                    x : this.stationData.renderData.coordinates.cx,
-                    y : this.stationData.renderData.coordinates.cy,
+                    dx : this.stationData.renderData.textCoordinates.dx,
+                    dy : this.stationData.renderData.textCoordinates.dy,
                 }
                 : {
-                    x : this.stationData.renderData.coordinates.x1,
-                    y : this.stationData.renderData.coordinates.y1,
+                    dx : 0,
+                    dy : 0,
+                };
+
+            return this.isTransfer
+                ? {
+                    x : this.stationData.renderData.pointCoordinates.cx,
+                    y : this.stationData.renderData.pointCoordinates.cy,
+                    ...deltaTextCoordinates,
+                }
+                : {
+                    x : this.stationData.renderData.pointCoordinates.x1,
+                    y : this.stationData.renderData.pointCoordinates.y1,
+                    ...deltaTextCoordinates,
                 };
         },
         names() {
