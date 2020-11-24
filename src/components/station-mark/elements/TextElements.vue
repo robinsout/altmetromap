@@ -1,8 +1,8 @@
 <template>
   <g>
     <text
-      :x="x + 20"
-      :y="y + 18"
+      :x="x"
+      :y="y"
       class="station_name">{{ names.nameTranslit }}</text>
   </g>
 </template>
