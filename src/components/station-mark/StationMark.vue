@@ -16,10 +16,10 @@
       :y2="stationData.renderData.coordinates.y2"
       :is-on-route="stationData.renderData.isOnRoute"
       :color="color"/>
-    <text
-      :x="textCoordinates.x + 20"
-      :y="textCoordinates.y + 18"
-      class="station_name">{{ stationData.name_translit }}</text>
+    <text-elements
+      :names="names"
+      :x="textCoordinates.x"
+      :y="textCoordinates.y" />
   </g>
 </template>
 
@@ -27,12 +27,14 @@
 import colorGetter from '../../utils/colorGetter.js';
 import TransferStationPoint from './elements/TransferStationPoint.vue';
 import NonTransferStationPoint from './elements/NonTransferStationPoint.vue';
+import TextElements from './elements/TextElements.vue';
 
 export default {
 
     components : {
         TransferStationPoint,
         NonTransferStationPoint,
+        TextElements,
     },
 
     props : {
@@ -54,10 +56,6 @@ export default {
             return colorGetter(this.stationData.lineId);
         },
         textCoordinates() {
-            if (!this.stationData.renderData) {
-                return;
-            }
-
             return this.isTransfer
                 ? {
                     x : this.stationData.renderData.coordinates.cx,
@@ -68,6 +66,16 @@ export default {
                     y : this.stationData.renderData.coordinates.y1,
                 };
         },
+        names() {
+            if (!this.stationData) {
+                return 'Noname';
+            }
+
+            return {
+                nameTranslit : this.stationData.name_translit,
+                nameOriginal : this.stationData.name_original,
+            };
+        },
     },
 
     methods : {
@@ -77,11 +85,6 @@ export default {
 </script>
 
 <style>
-.station-name {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    font-size: 16px;
-}
-
 .station-mark__wrapper {
     cursor: pointer;
 }
