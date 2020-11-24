@@ -2,13 +2,13 @@
   <g
     v-if="stationData.renderData"
     class="station-mark__wrapper">
-    <transfer-station
+    <transfer-station-point
       v-if="isTransfer"
       :cx="stationData.renderData.coordinates.cx"
       :cy="stationData.renderData.coordinates.cy"
       :is-on-route="stationData.renderData.isOnRoute"
       :color="color"/>
-    <non-transfer-station
+    <non-transfer-station-point
       v-if="!isTransfer"
       :x1="stationData.renderData.coordinates.x1"
       :y1="stationData.renderData.coordinates.y1"
@@ -25,14 +25,14 @@
 
 <script>
 import colorGetter from '../../utils/colorGetter.js';
-import TransferStation from './elements/TransferStation.vue';
-import NonTransferStation from './elements/NonTransferStation.vue';
+import TransferStationPoint from './elements/TransferStationPoint.vue';
+import NonTransferStationPoint from './elements/NonTransferStationPoint.vue';
 
 export default {
 
     components : {
-        transferStation    : TransferStation,
-        nonTransferStation : NonTransferStation,
+        TransferStationPoint,
+        NonTransferStationPoint,
     },
 
     props : {
