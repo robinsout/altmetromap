@@ -17,6 +17,7 @@
       :is-on-route="stationData.renderData.isOnRoute"
       :color="color"/>
     <text-elements
+      v-if="!stationData.renderData.hideName"
       :names="names"
       :x="textCoordinates.x"
       :y="textCoordinates.y"
