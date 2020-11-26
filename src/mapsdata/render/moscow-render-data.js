@@ -689,6 +689,7 @@ export default [{
         'dx' : -30,
         'dy' : -14,
     },
+    'hideName'  : true,
     'isOnRoute' : false,
 },{
     'id'               : 54,
@@ -873,6 +874,7 @@ export default [{
         'dx' : -28,
         'dy' : -15,
     },
+    'hideName'  : true,
     'isOnRoute' : false,
 },{
     'id'               : 68,
@@ -998,6 +1000,10 @@ export default [{
         'cx' : 481.65,
         'cy' : 749.13,
     },
+    'textCoordinates' : {
+        'dx' : 15,
+        'dy' : 25,
+    },
     'isOnRoute' : false,
 },{
     'id'               : 78,
@@ -1005,6 +1011,10 @@ export default [{
     'pointCoordinates' : {
         'cx' : 567.77,
         'cy' : 572.74,
+    },
+    'textCoordinates' : {
+        'dx' : 14,
+        'dy' : 27,
     },
     'isOnRoute' : false,
 },{
@@ -1014,6 +1024,10 @@ export default [{
         'cx' : 754.93,
         'cy' : 457.58,
     },
+    'textCoordinates' : {
+        'dx' : 15,
+        'dy' : 22,
+    },
     'isOnRoute' : false,
 },{
     'id'               : 80,
@@ -1021,6 +1035,10 @@ export default [{
     'pointCoordinates' : {
         'cx' : 1004.11,
         'cy' : 477.99,
+    },
+    'textCoordinates' : {
+        'dx' : 18,
+        'dy' : -3,
     },
     'isOnRoute' : false,
 },{
@@ -1042,6 +1060,10 @@ export default [{
         'cx' : 1212.01,
         'cy' : 716.64,
     },
+    'textCoordinates' : {
+        'dx' : 20,
+        'dy' : 10,
+    },
     'isOnRoute' : false,
 },{
     'id'               : 83,
@@ -1049,6 +1071,10 @@ export default [{
     'pointCoordinates' : {
         'cx' : 1193,
         'cy' : 976.18,
+    },
+    'textCoordinates' : {
+        'dx' : -64,
+        'dy' : -17,
     },
     'isOnRoute' : false,
 },{
@@ -1058,6 +1084,10 @@ export default [{
         'cx' : 1105.4,
         'cy' : 1097.15,
     },
+    'textCoordinates' : {
+        'dx' : 5,
+        'dy' : 35,
+    },
     'isOnRoute' : false,
 },{
     'id'               : 85,
@@ -1065,6 +1095,10 @@ export default [{
     'pointCoordinates' : {
         'cx' : 870.88,
         'cy' : 1196,
+    },
+    'textCoordinates' : {
+        'dx' : -5,
+        'dy' : 37,
     },
     'isOnRoute' : false,
 },{
@@ -1074,6 +1108,10 @@ export default [{
         'cx' : 707.99,
         'cy' : 1168.12,
     },
+    'textCoordinates' : {
+        'dx' : -93,
+        'dy' : 24,
+    },
     'isOnRoute' : false,
 },{
     'id'               : 87,
@@ -1082,6 +1120,10 @@ export default [{
         'cx' : 538.24,
         'cy' : 1029.63,
     },
+    'textCoordinates' : {
+        'dx' : -103,
+        'dy' : 24,
+    },
     'isOnRoute' : false,
 },{
     'id'               : 88,
@@ -1089,6 +1131,10 @@ export default [{
     'pointCoordinates' : {
         'cx' : 479.84,
         'cy' : 880.27,
+    },
+    'textCoordinates' : {
+        'dx' : -63,
+        'dy' : 68,
     },
     'isOnRoute' : false,
 },{
@@ -1100,6 +1146,10 @@ export default [{
         'x2' : 1113.75,
         'y2' : 73.05,
     },
+    'textCoordinates' : {
+        'dx' : 28,
+        'dy' : 12,
+    },
     'isOnRoute' : false,
 },{
     'id'               : 90,
@@ -1109,6 +1159,10 @@ export default [{
         'y1' : 115.26,
         'x2' : 1113.33,
         'y2' : 115.26,
+    },
+    'textCoordinates' : {
+        'dx' : 18,
+        'dy' : 12,
     },
     'isOnRoute' : false,
 },{
@@ -1120,6 +1174,10 @@ export default [{
         'x2' : 1113.33,
         'y2' : 156.93,
     },
+    'textCoordinates' : {
+        'dx' : 18,
+        'dy' : 12,
+    },
     'isOnRoute' : false,
 },{
     'id'               : 92,
@@ -1128,6 +1186,10 @@ export default [{
         'cx' : 1102.76,
         'cy' : 197.01,
     },
+    'textCoordinates' : {
+        'dx' : 18,
+        'dy' : 12,
+    },
     'isOnRoute' : false,
 },{
     'id'               : 93,
@@ -1135,6 +1197,10 @@ export default [{
     'pointCoordinates' : {
         'cx' : 1102.76,
         'cy' : 272.89,
+    },
+    'textCoordinates' : {
+        'dx' : 18,
+        'dy' : 12,
     },
     'isOnRoute' : false,
 },{
@@ -1146,6 +1212,10 @@ export default [{
         'x2' : 1113.33,
         'y2' : 320.45,
     },
+    'textCoordinates' : {
+        'dx' : 18,
+        'dy' : 12,
+    },
     'isOnRoute' : false,
 },{
     'id'               : 95,
@@ -1153,6 +1223,10 @@ export default [{
     'pointCoordinates' : {
         'cx' : 1057.02,
         'cy' : 395.52,
+    },
+    'textCoordinates' : {
+        'dx' : 18,
+        'dy' : 12,
     },
     'isOnRoute' : false,
 },{
@@ -1162,6 +1236,11 @@ export default [{
         'cx' : 1004.16,
         'cy' : 447.99,
     },
+    'textCoordinates' : {
+        'dx' : 18,
+        'dy' : 12,
+    },
+    'hideName'  : true,
     'isOnRoute' : false,
 },{
     'id'               : 97,
@@ -1171,6 +1250,10 @@ export default [{
         'y1' : 553.56,
         'x2' : 971.08,
         'y2' : 553.56,
+    },
+    'textCoordinates' : {
+        'dx' : 18,
+        'dy' : 12,
     },
     'isOnRoute' : false,
 },{
@@ -1192,6 +1275,10 @@ export default [{
         'cx' : 1039.25,
         'cy' : 813.94,
     },
+    'textCoordinates' : {
+        'dx' : 15,
+        'dy' : -15,
+    },
     'isOnRoute' : false,
 },{
     'id'               : 100,
@@ -1199,6 +1286,10 @@ export default [{
     'pointCoordinates' : {
         'cx' : 989.24,
         'cy' : 1024.64,
+    },
+    'textCoordinates' : {
+        'dx' : -82,
+        'dy' : 38,
     },
     'isOnRoute' : false,
 },{
@@ -1208,6 +1299,11 @@ export default [{
         'cx' : 709.1,
         'cy' : 1198.55,
     },
+    'textCoordinates' : {
+        'dx' : 18,
+        'dy' : 12,
+    },
+    'hideName'  : true,
     'isOnRoute' : false,
 },{
     'id'               : 102,
@@ -1218,6 +1314,10 @@ export default [{
         'x2' : 660.48,
         'y2' : 1259.85,
     },
+    'textCoordinates' : {
+        'dx' : 18,
+        'dy' : 18,
+    },
     'isOnRoute' : false,
 },{
     'id'               : 103,
@@ -1225,6 +1325,10 @@ export default [{
     'pointCoordinates' : {
         'cx' : 607.86,
         'cy' : 1377.76,
+    },
+    'textCoordinates' : {
+        'dx' : 18,
+        'dy' : 12,
     },
     'isOnRoute' : false,
 },{
@@ -1236,6 +1340,10 @@ export default [{
         'x2' : 616.71,
         'y2' : 1460.48,
     },
+    'textCoordinates' : {
+        'dx' : 18,
+        'dy' : 12,
+    },
     'isOnRoute' : false,
 },{
     'id'               : 105,
@@ -1245,6 +1353,10 @@ export default [{
         'y1' : 1501.95,
         'x2' : 616.93,
         'y2' : 1501.95,
+    },
+    'textCoordinates' : {
+        'dx' : 18,
+        'dy' : 12,
     },
     'isOnRoute' : false,
 },{
@@ -1256,6 +1368,10 @@ export default [{
         'x2' : 616.71,
         'y2' : 1543.5,
     },
+    'textCoordinates' : {
+        'dx' : 18,
+        'dy' : 12,
+    },
     'isOnRoute' : false,
 },{
     'id'               : 107,
@@ -1263,6 +1379,10 @@ export default [{
     'pointCoordinates' : {
         'cx' : 607.86,
         'cy' : 1582.03,
+    },
+    'textCoordinates' : {
+        'dx' : 18,
+        'dy' : 12,
     },
     'isOnRoute' : false,
 },{
@@ -1274,6 +1394,10 @@ export default [{
         'x2' : 616.71,
         'y2' : 1630.25,
     },
+    'textCoordinates' : {
+        'dx' : 18,
+        'dy' : 12,
+    },
     'isOnRoute' : false,
 },{
     'id'               : 109,
@@ -1283,6 +1407,10 @@ export default [{
         'y1' : 1668.62,
         'x2' : 616.71,
         'y2' : 1668.62,
+    },
+    'textCoordinates' : {
+        'dx' : 18,
+        'dy' : 12,
     },
     'isOnRoute' : false,
 },{
@@ -1294,6 +1422,10 @@ export default [{
         'x2' : 616.71,
         'y2' : 1708.18,
     },
+    'textCoordinates' : {
+        'dx' : 18,
+        'dy' : 12,
+    },
     'isOnRoute' : false,
 },{
     'id'               : 111,
@@ -1304,6 +1436,10 @@ export default [{
         'x2' : 616.71,
         'y2' : 1746.61,
     },
+    'textCoordinates' : {
+        'dx' : 18,
+        'dy' : 12,
+    },
     'isOnRoute' : false,
 },{
     'id'               : 112,
@@ -1311,6 +1447,10 @@ export default [{
     'pointCoordinates' : {
         'cx' : 608.3,
         'cy' : 1797.81,
+    },
+    'textCoordinates' : {
+        'dx' : -122,
+        'dy' : 14,
     },
     'isOnRoute' : false,
 },{
@@ -1322,6 +1462,10 @@ export default [{
         'x2' : 234.87,
         'y2' : 177.36,
     },
+    'textCoordinates' : {
+        'dx' : 28,
+        'dy' : 12,
+    },
     'isOnRoute' : false,
 },{
     'id'               : 114,
@@ -1332,6 +1476,10 @@ export default [{
         'x2' : 234.87,
         'y2' : 216.74,
     },
+    'textCoordinates' : {
+        'dx' : 18,
+        'dy' : 12,
+    },
     'isOnRoute' : false,
 },{
     'id'               : 115,
@@ -1339,6 +1487,10 @@ export default [{
     'pointCoordinates' : {
         'cx' : 227.98,
         'cy' : 298.29,
+    },
+    'textCoordinates' : {
+        'dx' : 18,
+        'dy' : 12,
     },
     'isOnRoute' : false,
 },{
@@ -1350,6 +1502,10 @@ export default [{
         'x2' : 221.71,
         'y2' : 357.78,
     },
+    'textCoordinates' : {
+        'dx' : 18,
+        'dy' : 12,
+    },
     'isOnRoute' : false,
 },{
     'id'               : 117,
@@ -1357,6 +1513,10 @@ export default [{
     'pointCoordinates' : {
         'cx' : 228.31,
         'cy' : 412.73,
+    },
+    'textCoordinates' : {
+        'dx' : 18,
+        'dy' : 12,
     },
     'isOnRoute' : false,
 },{
@@ -1366,6 +1526,10 @@ export default [{
         'cx' : 227.98,
         'cy' : 469.79,
     },
+    'textCoordinates' : {
+        'dx' : 18,
+        'dy' : 12,
+    },
     'isOnRoute' : false,
 },{
     'id'               : 119,
@@ -1374,6 +1538,10 @@ export default [{
         'cx' : 313.93,
         'cy' : 589.03,
     },
+    'textCoordinates' : {
+        'dx' : 18,
+        'dy' : 12,
+    },
     'isOnRoute' : false,
 },{
     'id'               : 120,
@@ -1381,6 +1549,10 @@ export default [{
     'pointCoordinates' : {
         'cx' : 394.16,
         'cy' : 669.68,
+    },
+    'textCoordinates' : {
+        'dx' : 15,
+        'dy' : 3,
     },
     'isOnRoute' : false,
 },{
@@ -1392,6 +1564,10 @@ export default [{
         'x2' : 440.19,
         'y2' : 724.36,
     },
+    'textCoordinates' : {
+        'dx' : -98,
+        'dy' : 37,
+    },
     'isOnRoute' : false,
 },{
     'id'               : 122,
@@ -1400,6 +1576,10 @@ export default [{
         'cx' : 502.86,
         'cy' : 728.38,
     },
+    'textCoordinates' : {
+        'dx' : 8,
+        'dy' : -15,
+    },
     'isOnRoute' : false,
 },{
     'id'               : 123,
@@ -1407,6 +1587,10 @@ export default [{
     'pointCoordinates' : {
         'cx' : 742.97,
         'cy' : 729.28,
+    },
+    'textCoordinates' : {
+        'dx' : -28,
+        'dy' : -15,
     },
     'isOnRoute' : false,
 },{
@@ -1428,6 +1612,11 @@ export default [{
         'cx' : 1069.56,
         'cy' : 813.94,
     },
+    'textCoordinates' : {
+        'dx' : 18,
+        'dy' : 12,
+    },
+    'hideName'  : true,
     'isOnRoute' : false,
 },{
     'id'               : 126,
@@ -1436,6 +1625,11 @@ export default [{
         'cx' : 1211.64,
         'cy' : 956.57,
     },
+    'textCoordinates' : {
+        'dx' : 18,
+        'dy' : 12,
+    },
+    'hideName'  : true,
     'isOnRoute' : false,
 },{
     'id'               : 127,
@@ -1443,6 +1637,10 @@ export default [{
     'pointCoordinates' : {
         'cx' : 1325.82,
         'cy' : 1070.31,
+    },
+    'textCoordinates' : {
+        'dx' : -98,
+        'dy' : 8,
     },
     'isOnRoute' : false,
 },{
@@ -1452,6 +1650,10 @@ export default [{
         'cx' : 1416.74,
         'cy' : 1161.12,
     },
+    'textCoordinates' : {
+        'dx' : 18,
+        'dy' : -5,
+    },
     'isOnRoute' : false,
 },{
     'id'               : 129,
@@ -1459,6 +1661,10 @@ export default [{
     'pointCoordinates' : {
         'cx' : 1464.26,
         'cy' : 1208.41,
+    },
+    'textCoordinates' : {
+        'dx' : 18,
+        'dy' : -5,
     },
     'isOnRoute' : false,
 },{
@@ -1470,6 +1676,10 @@ export default [{
         'x2' : 1566.01,
         'y2' : 1300.72,
     },
+    'textCoordinates' : {
+        'dx' : 18,
+        'dy' : -5,
+    },
     'isOnRoute' : false,
 },{
     'id'               : 131,
@@ -1479,6 +1689,10 @@ export default [{
         'y1' : 1356.16,
         'x2' : 1584.85,
         'y2' : 1356.16,
+    },
+    'textCoordinates' : {
+        'dx' : 18,
+        'dy' : 12,
     },
     'isOnRoute' : false,
 },{
@@ -1490,6 +1704,10 @@ export default [{
         'x2' : 1584.85,
         'y2' : 1411.99,
     },
+    'textCoordinates' : {
+        'dx' : 18,
+        'dy' : 12,
+    },
     'isOnRoute' : false,
 },{
     'id'               : 133,
@@ -1497,6 +1715,10 @@ export default [{
     'pointCoordinates' : {
         'cx' : 1579.64,
         'cy' : 1452.24,
+    },
+    'textCoordinates' : {
+        'dx' : 18,
+        'dy' : 12,
     },
     'isOnRoute' : false,
 },{
@@ -1507,6 +1729,10 @@ export default [{
         'y1' : 1511.16,
         'x2' : 1584.85,
         'y2' : 1511.16,
+    },
+    'textCoordinates' : {
+        'dx' : 18,
+        'dy' : 12,
     },
     'isOnRoute' : false,
 },{
@@ -1578,6 +1804,11 @@ export default [{
         'cx' : 1009.4,
         'cy' : 1045.54,
     },
+    'textCoordinates' : {
+        'dx' : 18,
+        'dy' : 12,
+    },
+    'hideName'  : true,
     'isOnRoute' : false,
 },{
     'id'               : 143,
@@ -1655,6 +1886,10 @@ export default [{
     'pointCoordinates' : {
         'cx' : 744.05,
         'cy' : 486.13,
+    },
+    'textCoordinates' : {
+        'dx' : -78,
+        'dy' : 37,
     },
     'isOnRoute' : false,
 },{
@@ -1918,6 +2153,10 @@ export default [{
         'cx' : 1183.59,
         'cy' : 744.97,
     },
+    'textCoordinates' : {
+        'dx' : -88,
+        'dy' : 16,
+    },
     'isOnRoute' : false,
 },{
     'id'               : 180,
@@ -2051,6 +2290,10 @@ export default [{
         'y1' : 1569.42,
         'x2' : 1586.69,
         'y2' : 1569.42,
+    },
+    'textCoordinates' : {
+        'dx' : 28,
+        'dy' : 12,
     },
     'isOnRoute' : false,
 },{
