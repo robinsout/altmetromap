@@ -1337,7 +1337,7 @@ export default [
             },
         ],
         'name_translit' : 'Studencheskaya',
-        'name_original' : 'Стеденческая',
+        'name_original' : 'Студенческая',
     },
     {
         'id'     : 71,
