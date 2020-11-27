@@ -7,6 +7,7 @@
       :cx="stationData.renderData.pointCoordinates.cx"
       :cy="stationData.renderData.pointCoordinates.cy"
       :is-on-route="stationData.renderData.isOnRoute"
+      :radius="stationData.renderData.radius"
       :color="color"/>
     <non-transfer-station-point
       v-if="!isTransfer"

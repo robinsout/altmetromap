@@ -2762,8 +2762,8 @@ export default [{
     'pointCoordinates' : {
         'x1' : 377.86,
         'y1' : 489.96,
-        'x2' : 385.26,
-        'y2' : 497.36,
+        'x2' : 368.26,
+        'y2' : 480.36,
     },
     'textCoordinates' : {
         'dx' : 22,
@@ -2956,6 +2956,7 @@ export default [{
         'dx' : 18,
         'dy' : 12,
     },
+    'radius'    : 5.2,
     'hideName'  : true,
     'isOnRoute' : false,
 },
@@ -2966,6 +2967,7 @@ export default [{
         'cx' : 470.35,
         'cy' : 443.26,
     },
+    'radius'    : 5.2,
     'hideName'  : true,
     'isOnRoute' : false,
 },
@@ -2988,6 +2990,7 @@ export default [{
         'cx' : 313.7,
         'cy' : 558.3,
     },
+    'radius'    : 5.2,
     'hideName'  : true,
     'isOnRoute' : false,
 },
@@ -2998,6 +3001,7 @@ export default [{
         'cx' : 228.69,
         'cy' : 743.97,
     },
+    'radius'    : 5.2,
     'hideName'  : true,
     'isOnRoute' : false,
 }];
