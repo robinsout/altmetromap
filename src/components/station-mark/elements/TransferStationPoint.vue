@@ -4,12 +4,14 @@
       :cx="cx"
       :cy="cy"
       :stroke="isOnRoute ? 'red' : color"
-      class="cl-2"
-      r="8.3"/>
+      :r="radius"
+      class="cl-2"/>
   </g>
 </template>
 
 <script>
+const DEFAULT_POINT_RADIUS = 8.3;
+
 export default {
     props : {
         cx : {
@@ -27,6 +29,10 @@ export default {
         isOnRoute : {
             type    : Boolean,
             default : false,
+        },
+        radius : {
+            type    : Number,
+            default : DEFAULT_POINT_RADIUS,
         },
     },
 };
