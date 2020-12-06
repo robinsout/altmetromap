@@ -13,6 +13,7 @@ export default ( lineId ) => {
         '10' : '#b4d344',
         '11' : '#79cdcd',
         '12' : '#acbfe3',
+        '14' : '#da2228',
     };
 
     return getColor[lineId];

@@ -4043,4 +4043,592 @@ export default [
         'name_original' : 'Шелепиха',
         'lineId'        : '11',
     },
+    {
+        'id'    : 233,
+        'links' : [
+            {
+                'node_id' : 234,
+                'time'    : 360,
+            },
+            {
+                'node_id' : 263,
+                'time'    : 360,
+            },
+            {
+                'node_id' : 2,
+                'time'    : 360,
+            },
+        ],
+        'name_translit' : 'Logomotiv',
+        'name_original' : 'Локомотив',
+        'lineId'        : '14',
+    },
+    {
+        'id'    : 234,
+        'links' : [
+            {
+                'node_id' : 233,
+                'time'    : 360,
+            },
+            {
+                'node_id' : 235,
+                'time'    : 300,
+            },
+            {
+                'node_id' : 45,
+                'time'    : 600,
+            },
+        ],
+        'name_translit' : 'Izmaylovo',
+        'name_original' : 'Измайлово',
+        'lineId'        : '14',
+    },
+    {
+        'id'    : 235,
+        'links' : [
+            {
+                'node_id' : 234,
+                'time'    : 300,
+            },
+            {
+                'node_id' : 236,
+                'time'    : 300,
+            },
+        ],
+        'name_translit' : 'Sokolinaya Gora',
+        'name_original' : 'Соколиная гора',
+        'lineId'        : '14',
+    },
+    {
+        'id'    : 236,
+        'links' : [
+            {
+                'node_id' : 235,
+                'time'    : 300,
+            },
+            {
+                'node_id' : 237,
+                'time'    : 360,
+            },
+            {
+                'node_id' : 138,
+                'time'    : 660,
+            },
+        ],
+        'name_translit' : 'Shosse Entuziastov',
+        'name_original' : 'Шоссе Энтузиастов',
+        'lineId'        : '14',
+    },
+    {
+        'id'    : 237,
+        'links' : [
+            {
+                'node_id' : 236,
+                'time'    : 360,
+            },
+            {
+                'node_id' : 238,
+                'time'    : 480,
+            },
+        ],
+        'name_translit' : 'Andronovka',
+        'name_original' : 'Андроновка',
+        'lineId'        : '14',
+    },
+    {
+        'id'    : 238,
+        'links' : [
+            {
+                'node_id' : 237,
+                'time'    : 480,
+            },
+            {
+                'node_id' : 239,
+                'time'    : 360,
+            },
+        ],
+        'name_translit' : 'Nizhegorodskaya',
+        'name_original' : 'Нижегородская',
+        'lineId'        : '14',
+    },
+    {
+        'id'    : 239,
+        'links' : [
+            {
+                'node_id' : 238,
+                'time'    : 360,
+            },
+            {
+                'node_id' : 240,
+                'time'    : 300,
+            },
+        ],
+        'name_translit' : 'Novokhokhlovskaya',
+        'name_original' : 'Новохохловская',
+        'lineId'        : '14',
+    },
+    {
+        'id'    : 240,
+        'links' : [
+            {
+                'node_id' : 239,
+                'time'    : 300,
+            },
+            {
+                'node_id' : 241,
+                'time'    : 300,
+            },
+        ],
+        'name_translit' : 'Ugreshskaya',
+        'name_original' : 'Угрешская',
+        'lineId'        : '14',
+    },
+    {
+        'id'    : 241,
+        'links' : [
+            {
+                'node_id' : 240,
+                'time'    : 300,
+            },
+            {
+                'node_id' : 242,
+                'time'    : 300,
+            },
+            {
+                'node_id' : 182,
+                'time'    : 840,
+            },
+        ],
+        'name_translit' : 'Dubrovka',
+        'name_original' : 'Дубровка',
+        'lineId'        : '14',
+    },
+    {
+        'id'    : 242,
+        'links' : [
+            {
+                'node_id' : 241,
+                'time'    : 300,
+            },
+            {
+                'node_id' : 243,
+                'time'    : 360,
+            },
+            {
+                'node_id' : 33,
+                'time'    : 660,
+            },
+        ],
+        'name_translit' : 'Avtozavodskaya',
+        'name_original' : 'Автозаводская',
+        'lineId'        : '14',
+    },
+    {
+        'id'    : 243,
+        'links' : [
+            {
+                'node_id' : 242,
+                'time'    : 360,
+            },
+            {
+                'node_id' : 244,
+                'time'    : 360,
+            },
+        ],
+        'name_translit' : 'ZIL',
+        'name_original' : 'ЗИЛ',
+        'lineId'        : '14',
+    },
+    {
+        'id'    : 244,
+        'links' : [
+            {
+                'node_id' : 243,
+                'time'    : 360,
+            },
+            {
+                'node_id' : 245,
+                'time'    : 300,
+            },
+            {
+                'node_id' : 158,
+                'time'    : 900,
+            },
+        ],
+        'name_translit' : 'Verkhnie Kotly',
+        'name_original' : 'Верхние котлы',
+        'lineId'        : '14',
+    },
+    {
+        'id'    : 245,
+        'links' : [
+            {
+                'node_id' : 244,
+                'time'    : 300,
+            },
+            {
+                'node_id' : 246,
+                'time'    : 420,
+            },
+        ],
+        'name_translit' : 'Krymskaya',
+        'name_original' : 'Крымская',
+        'lineId'        : '14',
+    },
+    {
+        'id'    : 246,
+        'links' : [
+            {
+                'node_id' : 245,
+                'time'    : 420,
+            },
+            {
+                'node_id' : 247,
+                'time'    : 360,
+            },
+            {
+                'node_id' : 103,
+                'time'    : 300,
+            },
+        ],
+        'name_translit' : 'Ploschad Gagarina',
+        'name_original' : 'Площадь Гагарина',
+        'lineId'        : '14',
+    },
+    {
+        'id'    : 247,
+        'links' : [
+            {
+                'node_id' : 246,
+                'time'    : 360,
+            },
+            {
+                'node_id' : 248,
+                'time'    : 420,
+            },
+            {
+                'node_id' : 15,
+                'time'    : 480,
+            },
+        ],
+        'name_translit' : 'Luzhniki',
+        'name_original' : 'Лужники',
+        'lineId'        : '14',
+    },
+    {
+        'id'    : 248,
+        'links' : [
+            {
+                'node_id' : 247,
+                'time'    : 420,
+            },
+            {
+                'node_id' : 249,
+                'time'    : 300,
+            },
+            {
+                'node_id' : 71,
+                'time'    : 360,
+            },
+        ],
+        'name_translit' : 'Kutuzonskaya',
+        'name_original' : 'Кутузовская',
+        'lineId'        : '14',
+    },
+    {
+        'id'    : 249,
+        'links' : [
+            {
+                'node_id' : 248,
+                'time'    : 300,
+            },
+            {
+                'node_id' : 250,
+                'time'    : 300,
+            },
+            {
+                'node_id' : 69,
+                'time'    : 420,
+            },
+        ],
+        'name_translit' : 'Delovoy centr MCC',
+        'name_original' : 'Деловой центр МЦК',
+        'lineId'        : '14',
+    },
+    {
+        'id'    : 250,
+        'links' : [
+            {
+                'node_id' : 249,
+                'time'    : 300,
+            },
+            {
+                'node_id' : 251,
+                'time'    : 360,
+            },
+            {
+                'node_id' : 217,
+                'time'    : 300,
+            },
+            {
+                'node_id' : 232,
+                'time'    : 300,
+            },
+        ],
+        'name_translit' : 'Shelepikha',
+        'name_original' : 'Шелепиха',
+        'lineId'        : '14',
+    },
+    {
+        'id'    : 251,
+        'links' : [
+            {
+                'node_id' : 250,
+                'time'    : 360,
+            },
+            {
+                'node_id' : 252,
+                'time'    : 300,
+            },
+            {
+                'node_id' : 119,
+                'time'    : 720,
+            },
+            {
+                'node_id' : 216,
+                'time'    : 840,
+            },
+            {
+                'node_id' : 231,
+                'time'    : 840,
+            },
+        ],
+        'name_translit' : 'Khoroshyovo',
+        'name_original' : 'Хорошёво',
+        'lineId'        : '14',
+    },
+    {
+        'id'    : 252,
+        'links' : [
+            {
+                'node_id' : 251,
+                'time'    : 300,
+            },
+            {
+                'node_id' : 253,
+                'time'    : 300,
+            },
+            {
+                'node_id' : 118,
+                'time'    : 840,
+            },
+        ],
+        'name_translit' : 'Zorge',
+        'name_original' : 'Зорге',
+        'lineId'        : '14',
+    },
+    {
+        'id'    : 253,
+        'links' : [
+            {
+                'node_id' : 252,
+                'time'    : 300,
+            },
+            {
+                'node_id' : 254,
+                'time'    : 360,
+            },
+            {
+                'node_id' : 118,
+                'time'    : 780,
+            },
+        ],
+        'name_translit' : 'Panfilovskaya',
+        'name_original' : 'Панфиловская',
+        'lineId'        : '14',
+    },
+    {
+        'id'    : 254,
+        'links' : [
+            {
+                'node_id' : 253,
+                'time'    : 360,
+            },
+            {
+                'node_id' : 255,
+                'time'    : 360,
+            },
+            {
+                'node_id' : 23,
+                'time'    : 1080,
+            },
+        ],
+        'name_translit' : 'Streshnevo',
+        'name_original' : 'Стрешнево',
+        'lineId'        : '14',
+    },
+    {
+        'id'    : 255,
+        'links' : [
+            {
+                'node_id' : 254,
+                'time'    : 360,
+            },
+            {
+                'node_id' : 256,
+                'time'    : 360,
+            },
+            {
+                'node_id' : 23,
+                'time'    : 840,
+            },
+        ],
+        'name_translit' : 'Baltiyskaya',
+        'name_original' : 'Балтийская',
+        'lineId'        : '14',
+    },
+    {
+        'id'    : 256,
+        'links' : [
+            {
+                'node_id' : 255,
+                'time'    : 360,
+            },
+            {
+                'node_id' : 257,
+                'time'    : 420,
+            },
+        ],
+        'name_translit' : 'Koptevo',
+        'name_original' : 'Коптево',
+        'lineId'        : '14',
+    },
+    {
+        'id'    : 257,
+        'links' : [
+            {
+                'node_id' : 256,
+                'time'    : 420,
+            },
+            {
+                'node_id' : 258,
+                'time'    : 360,
+            },
+        ],
+        'name_translit' : 'Likhobory',
+        'name_original' : 'Лихоборы',
+        'lineId'        : '14',
+    },
+    {
+        'id'    : 258,
+        'links' : [
+            {
+                'node_id' : 257,
+                'time'    : 360,
+            },
+            {
+                'node_id' : 258,
+                'time'    : 360,
+            },
+            {
+                'node_id' : 208,
+                'time'    : 600,
+            },
+        ],
+        'name_translit' : 'Okruzhnaya',
+        'name_original' : 'Окружная',
+        'lineId'        : '14',
+    },
+    {
+        'id'    : 259,
+        'links' : [
+            {
+                'node_id' : 258,
+                'time'    : 360,
+            },
+            {
+                'node_id' : 260,
+                'time'    : 420,
+            },
+            {
+                'node_id' : 146,
+                'time'    : 360,
+            },
+        ],
+        'name_translit' : 'Vladykino',
+        'name_original' : 'Владыкино',
+        'lineId'        : '14',
+    },
+    {
+        'id'    : 260,
+        'links' : [
+            {
+                'node_id' : 259,
+                'time'    : 420,
+            },
+            {
+                'node_id' : 261,
+                'time'    : 360,
+            },
+            {
+                'node_id' : 92,
+                'time'    : 360,
+            },
+        ],
+        'name_translit' : 'Botanicheskiy sad',
+        'name_original' : 'Ботанический сад',
+        'lineId'        : '14',
+    },
+    {
+        'id'    : 261,
+        'links' : [
+            {
+                'node_id' : 260,
+                'time'    : 360,
+            },
+            {
+                'node_id' : 262,
+                'time'    : 360,
+            },
+        ],
+        'name_translit' : 'Rostokino',
+        'name_original' : 'Ростокино',
+        'lineId'        : '14',
+    },
+    {
+        'id'    : 262,
+        'links' : [
+            {
+                'node_id' : 261,
+                'time'    : 360,
+            },
+            {
+                'node_id' : 263,
+                'time'    : 360,
+            },
+        ],
+        'name_translit' : 'Belokamennaya',
+        'name_original' : 'Белокаменная',
+        'lineId'        : '14',
+    },
+    {
+        'id'    : 263,
+        'links' : [
+            {
+                'node_id' : 262,
+                'time'    : 360,
+            },
+            {
+                'node_id' : 233,
+                'time'    : 360,
+            },
+            {
+                'node_id' : 1,
+                'time'    : 600,
+            },
+        ],
+        'name_translit' : 'Bulvar Rokossovskogo',
+        'name_original' : 'Бульвар Рокоссовского',
+        'lineId'        : '14',
+    },
 ];

@@ -3004,4 +3004,301 @@ export default [{
     'radius'    : 5.2,
     'hideName'  : true,
     'isOnRoute' : false,
+},
+{
+    'id'               : 233,
+    'stationType'      : 'transfer',
+    'pointCoordinates' : {
+        'cx' : 1321.73,
+        'cy' : 373.16,
+    },
+    'isOnRoute' : false,
+
+},
+{
+    'id'               : 234,
+    'stationType'      : 'transfer',
+    'pointCoordinates' : {
+        'cx' : 1440.41,
+        'cy' : 558.87,
+    },
+    'isOnRoute' : false,
+
+},
+{
+    'id'               : 235,
+    'stationType'      : 'nonTransfer',
+    'pointCoordinates' : {
+        'x1' : 1459.27,
+        'y1' : 597.69,
+        'x2' : 1465.65,
+        'y2' : 595.54,
+    },
+    'isOnRoute' : false,
+
+},
+{
+    'id'               : 236,
+    'stationType'      : 'transfer',
+    'pointCoordinates' : {
+        'cx' : 1489.6,
+        'cy' : 776.01,
+    },
+    'isOnRoute' : false,
+},
+{
+    'id'               : 237,
+    'stationType'      : 'nonTransfer',
+    'pointCoordinates' : {
+        'x1' : 1493.18,
+        'y1' : 841.96,
+        'x2' : 1499.33,
+        'y2' : 842.22,
+    },
+    'isOnRoute' : false,
+},
+{
+    'id'               : 238,
+    'stationType'      : 'transfer',
+    'pointCoordinates' : {
+        'cx' : 1479.19,
+        'cy' : 921.05,
+    },
+    'isOnRoute' : false,
+},
+{
+    'id'               : 239,
+    'stationType'      : 'transfer',
+    'pointCoordinates' : {
+        'cx' : 1457.47,
+        'cy' : 1007.89,
+    },
+    'isOnRoute' : false,
+},
+{
+    'id'               : 240,
+    'stationType'      : 'transfer',
+    'pointCoordinates' : {
+        'cx' : 1416.11,
+        'cy' : 1105.22,
+    },
+    'isOnRoute' : false,
+},
+{
+    'id'               : 241,
+    'stationType'      : 'transfer',
+    'pointCoordinates' : {
+        'cx' : 1314.25,
+        'cy' : 1248.54,
+    },
+    'isOnRoute' : false,
+},
+{
+    'id'               : 242,
+    'stationType'      : 'transfer',
+    'pointCoordinates' : {
+        'cx' : 1153.76,
+        'cy' : 1370.72,
+    },
+    'isOnRoute' : false,
+},
+{
+    'id'               : 243,
+    'stationType'      : 'nonTransfer',
+    'pointCoordinates' : {
+        'x1' : 1075.42,
+        'y1' : 1405.58,
+        'x2' : 1072.36,
+        'y2' : 1397.96,
+    },
+    'isOnRoute' : false,
+},
+{
+    'id'               : 244,
+    'stationType'      : 'transfer',
+    'pointCoordinates' : {
+        'cx' : 956.44,
+        'cy' : 1439.67,
+    },
+    'isOnRoute' : false,
+},
+{
+    'id'               : 245,
+    'stationType'      : 'nonTransfer',
+    'pointCoordinates' : {
+        'x1' : 711.04,
+        'y1' : 1433.64,
+        'x2' : 712.69,
+        'y2' : 1425.91,
+    },
+    'isOnRoute' : false,
+},
+{
+    'id'               : 246,
+    'stationType'      : 'transfer',
+    'pointCoordinates' : {
+        'cx' : 587.83,
+        'cy' : 1396.02,
+    },
+    'isOnRoute' : false,
+},
+{
+    'id'               : 247,
+    'stationType'      : 'transfer',
+    'pointCoordinates' : {
+        'cx' : 379.77,
+        'cy' : 1252.24,
+    },
+    'isOnRoute' : false,
+},
+{
+    'id'               : 248,
+    'stationType'      : 'transfer',
+    'pointCoordinates' : {
+        'cx' : 219.74,
+        'cy' : 963.51,
+    },
+    'isOnRoute' : false,
+},
+{
+    'id'               : 249,
+    'stationType'      : 'transfer',
+    'pointCoordinates' : {
+        'cx' : 200.41,
+        'cy' : 833.41,
+    },
+    'isOnRoute' : false,
+},
+{
+    'id'               : 250,
+    'stationType'      : 'transfer',
+    'pointCoordinates' : {
+        'cx' : 203.08,
+        'cy' : 742.61,
+    },
+    'isOnRoute' : false,
+},
+{
+    'id'               : 251,
+    'stationType'      : 'transfer',
+    'pointCoordinates' : {
+        'cx' : 243.79,
+        'cy' : 572.57,
+    },
+    'isOnRoute' : false,
+},
+{
+    'id'               : 252,
+    'stationType'      : 'transfer',
+    'pointCoordinates' : {
+        'cx' : 271.54,
+        'cy' : 512.96,
+    },
+    'isOnRoute' : false,
+},
+{
+    'id'               : 253,
+    'stationType'      : 'transfer',
+    'pointCoordinates' : {
+        'cx' : 295.95,
+        'cy' : 469.43,
+    },
+    'isOnRoute' : false,
+},
+{
+    'id'               : 254,
+    'stationType'      : 'transfer',
+    'pointCoordinates' : {
+        'cx' : 392.95,
+        'cy' : 348.38,
+    },
+    'isOnRoute' : false,
+},
+{
+    'id'               : 255,
+    'stationType'      : 'transfer',
+    'pointCoordinates' : {
+        'cx' : 490.23,
+        'cy' : 269.99,
+    },
+    'isOnRoute' : false,
+},
+{
+    'id'               : 256,
+    'stationType'      : 'nonTransfer',
+    'pointCoordinates' : {
+        'x1' : 577.54,
+        'y1' : 211.97,
+        'x2' : 580.11,
+        'y2' : 217.85,
+    },
+    'isOnRoute' : false,
+},
+{
+    'id'               : 257,
+    'stationType'      : 'nonTransfer',
+    'pointCoordinates' : {
+        'x1' : 665.15,
+        'y1' : 179.56,
+        'x2' : 666.92,
+        'y2' : 186,
+    },
+    'isOnRoute' : false,
+},
+{
+    'id'               : 258,
+    'stationType'      : 'transfer',
+    'pointCoordinates' : {
+        'cx' : 791.24,
+        'cy' : 166.08,
+    },
+    'isOnRoute' : false,
+},
+{
+    'id'               : 259,
+    'stationType'      : 'transfer',
+    'pointCoordinates' : {
+        'cx' : 905.7,
+        'cy' : 167.62,
+    },
+    'isOnRoute' : false,
+},
+{
+    'id'               : 260,
+    'stationType'      : 'transfer',
+    'pointCoordinates' : {
+        'cx' : 1121.5,
+        'cy' : 225.94,
+    },
+    'isOnRoute' : false,
+},
+{
+    'id'               : 261,
+    'stationType'      : 'nonTransfer',
+    'pointCoordinates' : {
+        'x1' : 1173.34,
+        'y1' : 249.75,
+        'x2' : 1176.52,
+        'y2' : 244.29,
+    },
+    'isOnRoute' : false,
+},
+{
+    'id'               : 262,
+    'stationType'      : 'nonTransfer',
+    'pointCoordinates' : {
+        'x1' : 1218.75,
+        'y1' : 278.85,
+        'x2' : 1222.14,
+        'y2' : 273.84,
+    },
+    'isOnRoute' : false,
+},
+{
+    'id'               : 263,
+    'stationType'      : 'transfer',
+    'pointCoordinates' : {
+        'cx' : 1260.23,
+        'cy' : 314.91,
+    },
 }];
