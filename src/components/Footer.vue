@@ -1,7 +1,7 @@
 <template>
   <div class="footer-wrapper">
     <p
-      style="text-align: left; font-size: 85%;  line-height: 150%; margin-bottom:0px; margin-left:25px;"
+      style="text-align: left; line-height: 150%; margin-bottom:0px; margin-left:25px;"
     >
       Special thanks to
       <a

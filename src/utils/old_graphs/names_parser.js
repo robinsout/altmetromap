@@ -21,8 +21,6 @@ const reducer = (acc, node) => {
         return acc;
     }
 
-    // console.log(node.id);
-
     const id = node.id;
     const name_translit = node.name_translit;
 
