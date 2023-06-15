@@ -64,7 +64,6 @@
         ],
         "no-multi-str": "error",
         "no-new-wrappers": "error",
-        "no-new": "error",
         "no-param-reassign": ["error", { "props": false }],
         "no-return-assign": ["error", "always"],
         "no-self-compare": "error",
