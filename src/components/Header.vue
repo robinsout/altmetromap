@@ -25,7 +25,6 @@
       Try reading it&nbsp;out loud and there will be&nbsp;real russian names of&nbsp;the&nbsp;subway stations.
       <br>To&nbsp;read that map correctly you need to&nbsp;speak fast,
       but don&rsquo;t forget to stress letters with accents.
-      <br >Hover your mouse over the station to&nbsp;hear pronunciation.
       <br >Sorry, Moscow map is&nbsp;not&nbsp;up&nbsp;to&nbsp;date, but most&nbsp;of&nbsp;the stations are&nbsp;here.
     </p>
   </div>
