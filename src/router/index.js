@@ -1,12 +1,10 @@
-import Vue from 'vue';
-import Router from 'vue-router';
+import VueRouter from 'vue-router';
 import MoscowMap from '@/components/MoscowMap';
 import SpbMap from '@/components/SpbMap';
 import KyivMap from '@/components/KyivMap';
 
-Vue.use(Router);
-
-export default new Router({
+const router = new VueRouter({
+    mode   : 'history',
     routes : [
         {
             path      : '/',
@@ -25,3 +23,5 @@ export default new Router({
         },
     ],
 });
+
+export default router;
