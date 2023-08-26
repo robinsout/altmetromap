@@ -35,70 +35,70 @@ import TextElements from './elements/TextElements.vue';
 
 export default {
 
-    components : {
-        TransferStationPoint,
-        NonTransferStationPoint,
-        TextElements,
+  components : {
+    TransferStationPoint,
+    NonTransferStationPoint,
+    TextElements,
+  },
+
+  props : {
+    stationData : {
+      type     : Object,
+      required : true,
+    },
+  },
+
+  computed : {
+    isTransfer() {
+      if (!this.stationData.renderData) {
+        return;
+      }
+
+      return this.stationData.renderData.stationType === 'transfer';
+    },
+    color() {
+      return colorGetter(this.stationData.lineId);
     },
 
-    props : {
-        stationData : {
-            type     : Object,
-            required : true,
-        },
+    // refactor it!
+    textCoordinates() {
+      const deltaTextCoordinates = this.stationData.renderData.textCoordinates
+        ? {
+          dx : this.stationData.renderData.textCoordinates.dx,
+          dy : this.stationData.renderData.textCoordinates.dy,
+        }
+        : {
+          dx : 0,
+          dy : 0,
+        };
+
+      return this.isTransfer
+        ? {
+          x : this.stationData.renderData.pointCoordinates.cx,
+          y : this.stationData.renderData.pointCoordinates.cy,
+          ...deltaTextCoordinates,
+        }
+        : {
+          x : this.stationData.renderData.pointCoordinates.x1,
+          y : this.stationData.renderData.pointCoordinates.y1,
+          ...deltaTextCoordinates,
+        };
     },
+    names() {
+      if (!this.stationData) {
+        return 'Noname';
+      }
 
-    computed : {
-        isTransfer() {
-            if (!this.stationData.renderData) {
-                return;
-            }
-
-            return this.stationData.renderData.stationType === 'transfer';
-        },
-        color() {
-            return colorGetter(this.stationData.lineId);
-        },
-
-        // refactor it!
-        textCoordinates() {
-            const deltaTextCoordinates = this.stationData.renderData.textCoordinates
-                ? {
-                    dx : this.stationData.renderData.textCoordinates.dx,
-                    dy : this.stationData.renderData.textCoordinates.dy,
-                }
-                : {
-                    dx : 0,
-                    dy : 0,
-                };
-
-            return this.isTransfer
-                ? {
-                    x : this.stationData.renderData.pointCoordinates.cx,
-                    y : this.stationData.renderData.pointCoordinates.cy,
-                    ...deltaTextCoordinates,
-                }
-                : {
-                    x : this.stationData.renderData.pointCoordinates.x1,
-                    y : this.stationData.renderData.pointCoordinates.y1,
-                    ...deltaTextCoordinates,
-                };
-        },
-        names() {
-            if (!this.stationData) {
-                return 'Noname';
-            }
-
-            return {
-                nameTranslit : this.stationData.name_translit,
-                nameOriginal : this.stationData.name_original,
-            };
-        },
+      return {
+        nameTranslit : this.stationData.name_translit,
+        nameOriginal : this.stationData.name_original,
+      };
     },
+  },
 
-    methods : {
-        colorGetter,
-    },
+  methods : {
+    colorGetter,
+  },
 };
 </script>
 

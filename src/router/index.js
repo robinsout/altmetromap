@@ -4,24 +4,24 @@ import SpbMap from '@/components/SpbMap';
 import KyivMap from '@/components/KyivMap';
 
 const router = new VueRouter({
-    mode   : 'history',
-    routes : [
-        {
-            path      : '/',
-            name      : 'MoscowMap',
-            component : MoscowMap,
-        },
-        {
-            path      : '/spb',
-            name      : 'SpbMap',
-            component : SpbMap,
-        },
-        {
-            path      : '/kyiv',
-            name      : 'KyivMap',
-            component : KyivMap,
-        },
-    ],
+  mode   : 'history',
+  routes : [
+    {
+      path      : '/',
+      name      : 'MoscowMap',
+      component : MoscowMap,
+    },
+    {
+      path      : '/spb',
+      name      : 'SpbMap',
+      component : SpbMap,
+    },
+    {
+      path      : '/kyiv',
+      name      : 'KyivMap',
+      component : KyivMap,
+    },
+  ],
 });
 
 export default router;

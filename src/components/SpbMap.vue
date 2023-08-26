@@ -14,93 +14,93 @@
 
 <script>
 export default {
-    name : 'SpbMap',
+  name : 'SpbMap',
 
-    data() {
-        return {
-            msg : 'Saint Petersburg Map',
-        };
-    },
+  data() {
+    return {
+      msg : 'Saint Petersburg Map',
+    };
+  },
 
-    methods : {
+  methods : {
 
-        // getStations() {
-        //     const circles = [].filter.call(document.getElementsByTagName('circle'), circle => {
-        //         const takeIt = circle.r.baseVal.valueAsString === '8.3';
+    // getStations() {
+    //     const circles = [].filter.call(document.getElementsByTagName('circle'), circle => {
+    //         const takeIt = circle.r.baseVal.valueAsString === '8.3';
 
-        //         if (circle.r.baseVal.valueAsString === '8.3') {
-        //             circle.addEventListener('click', this.addStation);
+    //         if (circle.r.baseVal.valueAsString === '8.3') {
+    //             circle.addEventListener('click', this.addStation);
 
-        //             // circle.setAttribute('visibility', 'hidden');
-        //         }
+    //             // circle.setAttribute('visibility', 'hidden');
+    //         }
 
-        //         return takeIt;
-        //     });
+    //         return takeIt;
+    //     });
 
-        //     const lines = [].filter.call(document.getElementsByTagName('line'), line => {
-        //         const shortEnough = line.getTotalLength() < 25;
+    //     const lines = [].filter.call(document.getElementsByTagName('line'), line => {
+    //         const shortEnough = line.getTotalLength() < 25;
 
-        //         if (shortEnough) {
-        //             line.addEventListener('click', this.addStation);
+    //         if (shortEnough) {
+    //             line.addEventListener('click', this.addStation);
 
-        //             // line.setAttribute('visibility', 'hidden');
+    //             // line.setAttribute('visibility', 'hidden');
 
-        //             return true;
-        //         }
+    //             return true;
+    //         }
 
-        //         return false;
-        //     });
+    //         return false;
+    //     });
 
-        //     console.log('Circles : ', circles.length, 'Lines : ', lines.length);
-        // },
+    //     console.log('Circles : ', circles.length, 'Lines : ', lines.length);
+    // },
 
-        // addStation( event ) {
+    // addStation( event ) {
 
-        //     // event.srcElement.setAttribute('visibility', 'hidden');
-        //     event.srcElement.classList.add('added-station');
+    //     // event.srcElement.setAttribute('visibility', 'hidden');
+    //     event.srcElement.classList.add('added-station');
 
-        //     if (!localStorage.getItem('stations')) {
-        //         localStorage.setItem('stations', JSON.stringify([]));
-        //     }
+    //     if (!localStorage.getItem('stations')) {
+    //         localStorage.setItem('stations', JSON.stringify([]));
+    //     }
 
-        //     const getId = () => {
-        //         const stations = JSON.parse(localStorage.getItem('stations'));
+    //     const getId = () => {
+    //         const stations = JSON.parse(localStorage.getItem('stations'));
 
-        //         return stations.length > 0 ? stations[stations.length - 1].id + 1 : 1;
-        //     };
+    //         return stations.length > 0 ? stations[stations.length - 1].id + 1 : 1;
+    //     };
 
-        //     const addNewStation = ( newStation ) => {
-        //         const stations = JSON.parse(localStorage.getItem('stations'));
+    //     const addNewStation = ( newStation ) => {
+    //         const stations = JSON.parse(localStorage.getItem('stations'));
 
-        //         stations.push(newStation);
-        //         localStorage.setItem('stations', JSON.stringify(stations));
-        //     };
+    //         stations.push(newStation);
+    //         localStorage.setItem('stations', JSON.stringify(stations));
+    //     };
 
-        //     if (event.target.tagName === 'circle') {
-        //         addNewStation({
-        //             id          : getId(),
-        //             stationType : 'transfer',
-        //             coordinates : {
-        //                 cx : event.target.cx.baseVal.valueAsString,
-        //                 cy : event.target.cy.baseVal.valueAsString,
-        //             },
-        //         });
-        //     }
+    //     if (event.target.tagName === 'circle') {
+    //         addNewStation({
+    //             id          : getId(),
+    //             stationType : 'transfer',
+    //             coordinates : {
+    //                 cx : event.target.cx.baseVal.valueAsString,
+    //                 cy : event.target.cy.baseVal.valueAsString,
+    //             },
+    //         });
+    //     }
 
-        //     if (event.target.tagName === 'line') {
-        //         addNewStation({
-        //             id          : getId(),
-        //             stationType : 'nonTransfer',
-        //             coordinates : {
-        //                 x1 : event.target.x1.baseVal.valueAsString,
-        //                 y1 : event.target.y1.baseVal.valueAsString,
-        //                 x2 : event.target.x2.baseVal.valueAsString,
-        //                 y2 : event.target.y2.baseVal.valueAsString,
-        //             },
-        //         });
-        //     }
-        // },
-    },
+    //     if (event.target.tagName === 'line') {
+    //         addNewStation({
+    //             id          : getId(),
+    //             stationType : 'nonTransfer',
+    //             coordinates : {
+    //                 x1 : event.target.x1.baseVal.valueAsString,
+    //                 y1 : event.target.y1.baseVal.valueAsString,
+    //                 x2 : event.target.x2.baseVal.valueAsString,
+    //                 y2 : event.target.y2.baseVal.valueAsString,
+    //             },
+    //         });
+    //     }
+    // },
+  },
 };
 </script>
 

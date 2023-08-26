@@ -34,85 +34,85 @@ import StationMark from './station-mark/StationMark.vue';
 import MoscowLines from './lines/MoscowLines.vue';
 
 export default {
-    name : 'MoscowMap',
+  name : 'MoscowMap',
 
-    components : {
-        StationMark,
-        MoscowLines,
+  components : {
+    StationMark,
+    MoscowLines,
+  },
+
+  data() {
+    return {
+      msg           : 'Moscow Map',
+      startId       : 0,
+      destinationId : 0,
+      route         : {},
+      stationsGraph : this.getStationsGraph(),
+    };
+  },
+
+  methods : {
+    pathFinder,
+    getStationsGraph() {
+      const stationsDataMapper = (node) => {
+        const stationRenderData = moscowRenderData.find( point => point.id === node.id );
+
+        if (!stationRenderData) {
+          console.log('Node has no render data, id:', node.id);
+
+          return node;
+        }
+
+        node.renderData = stationRenderData;
+
+        return node;
+      };
+
+      return moscowGraph.map(stationsDataMapper);
     },
 
-    data() {
-        return {
-            msg           : 'Moscow Map',
-            startId       : 0,
-            destinationId : 0,
-            route         : {},
-            stationsGraph : this.getStationsGraph(),
-        };
+    getStationData( id ) {
+      return this.stationsGraph.find( station => station.id === id);
     },
 
-    methods : {
-        pathFinder,
-        getStationsGraph() {
-            const stationsDataMapper = (node) => {
-                const stationRenderData = moscowRenderData.find( point => point.id === node.id );
+    handleClick( stationId ) {
+      if (!this.startId) {
+        this.startId = stationId;
 
-                if (!stationRenderData) {
-                    console.log('Node has no render data, id:', node.id);
+        return;
+      }
+      if (!this.destinationId) {
+        this.destinationId = stationId;
+        if (this.route.path) {
+          this.renderRoute();
+        }
+        this.route = this.pathFinder(this.stationsGraph, this.startId, this.destinationId);
+        this.renderRoute('show');
 
-                    return node;
-                }
+        return;
+      }
+      if (this.startId && this.destinationId) {
+        this.clearRoute();
+        this.startId = stationId;
 
-                node.renderData = stationRenderData;
-
-                return node;
-            };
-
-            return moscowGraph.map(stationsDataMapper);
-        },
-
-        getStationData( id ) {
-            return this.stationsGraph.find( station => station.id === id);
-        },
-
-        handleClick( stationId ) {
-            if (!this.startId) {
-                this.startId = stationId;
-
-                return;
-            }
-            if (!this.destinationId) {
-                this.destinationId = stationId;
-                if (this.route.path) {
-                    this.renderRoute();
-                }
-                this.route = this.pathFinder(this.stationsGraph, this.startId, this.destinationId);
-                this.renderRoute('show');
-
-                return;
-            }
-            if (this.startId && this.destinationId) {
-                this.clearRoute();
-                this.startId = stationId;
-
-                return;
-            }
-        },
-
-        clearRoute() {
-            this.startId = 0;
-            this.destinationId = 0;
-            this.renderRoute();
-        },
-
-        renderRoute( action = '' ) {
-            const renderer = ( station ) => {
-                station.renderData.isOnRoute = action === 'show';
-            };
-
-            this.route.path.reverse().map(renderer);
-        },
+        return;
+      }
     },
+
+    clearRoute() {
+      this.startId = 0;
+      this.destinationId = 0;
+      this.renderRoute();
+    },
+
+    renderRoute( action = '' ) {
+      const renderer = ( station ) => {
+        station.renderData.isOnRoute = action === 'show';
+      };
+
+      this.route.path.reverse().map(renderer);
+    },
+  },
 };
 </script>
 

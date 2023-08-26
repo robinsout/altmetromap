@@ -22,12 +22,12 @@ import HeaderComponent from './components/Header.vue';
 import FooterComponent from './components/Footer.vue';
 
 export default {
-    name : 'App',
+  name : 'App',
 
-    components : {
-        HeaderComponent,
-        FooterComponent,
-    },
+  components : {
+    HeaderComponent,
+    FooterComponent,
+  },
 };
 </script>
 
