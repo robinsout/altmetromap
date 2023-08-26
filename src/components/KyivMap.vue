@@ -14,13 +14,13 @@
 
 <script>
 export default {
-    name : 'HelloWorld',
+  name : 'HelloWorld',
 
-    data() {
-        return {
-            msg : 'Kyiv Map',
-        };
-    },
+  data() {
+    return {
+      msg : 'Kyiv Map',
+    };
+  },
 };
 </script>
 

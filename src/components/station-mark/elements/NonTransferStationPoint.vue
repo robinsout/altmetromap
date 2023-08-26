@@ -12,32 +12,32 @@
 
 <script>
 export default {
-    props : {
-        x1 : {
-            type     : Number,
-            required : true,
-        },
-        y1 : {
-            type     : Number,
-            required : true,
-        },
-        x2 : {
-            type     : Number,
-            required : true,
-        },
-        y2 : {
-            type     : Number,
-            required : true,
-        },
-        color : {
-            type     : String,
-            required : true,
-        },
-        isOnRoute : {
-            type    : Boolean,
-            default : false,
-        },
+  props : {
+    x1 : {
+      type     : Number,
+      required : true,
     },
+    y1 : {
+      type     : Number,
+      required : true,
+    },
+    x2 : {
+      type     : Number,
+      required : true,
+    },
+    y2 : {
+      type     : Number,
+      required : true,
+    },
+    color : {
+      type     : String,
+      required : true,
+    },
+    isOnRoute : {
+      type    : Boolean,
+      default : false,
+    },
+  },
 };
 </script>
 

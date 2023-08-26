@@ -13,28 +13,28 @@
 const DEFAULT_POINT_RADIUS = 8.3;
 
 export default {
-    props : {
-        cx : {
-            type     : Number,
-            required : true,
-        },
-        cy : {
-            type     : Number,
-            required : true,
-        },
-        color : {
-            type     : String,
-            required : true,
-        },
-        isOnRoute : {
-            type    : Boolean,
-            default : false,
-        },
-        radius : {
-            type    : Number,
-            default : DEFAULT_POINT_RADIUS,
-        },
+  props : {
+    cx : {
+      type     : Number,
+      required : true,
     },
+    cy : {
+      type     : Number,
+      required : true,
+    },
+    color : {
+      type     : String,
+      required : true,
+    },
+    isOnRoute : {
+      type    : Boolean,
+      default : false,
+    },
+    radius : {
+      type    : Number,
+      default : DEFAULT_POINT_RADIUS,
+    },
+  },
 };
 </script>
 
