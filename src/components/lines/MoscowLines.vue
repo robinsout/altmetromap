@@ -310,7 +310,9 @@
 
 <!-- eslint-disable max-len -->
 <style scoped>
-.cls-1, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+.cls-1,
+.cls-10,
+.cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
         fill: none;
       }
 
@@ -318,7 +320,8 @@
         stroke: #8a4f35;
       }
 
-      .cls-1, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+      .cls-1,
+      .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
         stroke-miterlimit: 10;
       }
 
