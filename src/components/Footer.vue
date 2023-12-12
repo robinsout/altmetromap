@@ -30,7 +30,7 @@
         title="Studio site"
         target="_blank"
       >Art. Lebedev Studio</a>
-      <br >&copy; 2013-2020 Idea, translation and realisation by
+      <br >&copy; 2013 Idea, translation and realisation by
       <a
         style="color: #5b4f44"
         href="http://v-key.ru"
@@ -42,12 +42,3 @@
     </p>
   </div>
 </template>
-
-<script>
-</script>
-
-<style>
-.footer-wrapper {
-  /* border: 1px solid black; */
-}
-</style>
