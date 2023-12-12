@@ -2,15 +2,15 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <!-- <img
+    <img
       id="moscow"
       class="img"
       usemap="#moscow"
       style="max-width: 100%; width: auto; height: auto;  "
       alt
       src="../assets/metromap_translated_msc.png"
-    > -->
-    <svg
+    >
+    <!-- <svg
       viewBox="-200 -50 1989.29 2104.19">
       <moscow-lines/>
       <g
@@ -22,7 +22,7 @@
           :key="station.id"
           @click.native="handleClick(station.id)"/>
       </g>
-    </svg>
+    </svg> -->
   </div>
 </template>
 
